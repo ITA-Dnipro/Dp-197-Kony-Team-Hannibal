@@ -9,8 +9,16 @@
                     "formName": "Form1",
                     "isStartupForm": true,
                     "key": "heb94cfe9be247969d071132d930129c",
-                    "loc": "8 24.845263671875003",
+                    "loc": "-76 6.845263671875017",
                     "thumbnailURL": null
+                },
+                {
+                    "formKUID": "c89afa6b0cb447e69ed2dc195a6edd83",
+                    "formName": "Form2",
+                    "isStartupForm": false,
+                    "key": "c89afa6b0cb447e69ed2dc195a6edd83",
+                    "loc": "295 6.845263671875017",
+                    "thumbnailURL": "/assets/HannibalProj/forms/mobile/Form2.sm/.thumbs/default.jpeg?"
                 }
             ]
         }

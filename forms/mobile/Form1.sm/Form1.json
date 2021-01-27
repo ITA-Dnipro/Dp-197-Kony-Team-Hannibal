@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "Btn1"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -37,9 +39,11 @@
             "name": "Form1Controller"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Form1",
@@ -93,9 +97,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone11",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneXR",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

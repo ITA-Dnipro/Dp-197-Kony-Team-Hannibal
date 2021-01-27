@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexContainer"
+        "FlexContainer",
+        "btn2"
     ],
     "containerweight": 100,
     "controllerInfo": {
