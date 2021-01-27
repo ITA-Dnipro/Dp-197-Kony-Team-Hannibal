@@ -1,19 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
-        "value": "58dp"
+        "value": "160dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,31 +22,31 @@
         0,
         0
     ],
-    "_skin_": "s1cd7581ae6a49719ea89ba4ae080457",
-    "_text_": "newBtn",
+    "_skin_": "s1f3ce5440e840f4b39dc8d847489500",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "285dp"
+        "value": "365dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "150dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "Button0d0d3be94e02b49",
+    "id": "Image0b29b5a96f6df45",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fe2c5ae200e443efbcef112f2c9cdff7",
-    "name": "kony.ui.Button",
+    "kuid": "a8953d1e29f648d89b213e27e9815449",
+    "name": "kony.ui.Image2",
     "parent": "Form2",
     "pf": "Form2",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }
