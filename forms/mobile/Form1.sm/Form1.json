@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "Btn1"
+        "Btn1",
+        "PaddedButtonRound"
     ],
     "containerweight": 100,
     "controllerInfo": {
