@@ -32,7 +32,8 @@
     "children": [
         "FlexContainer",
         "btn2",
-        "Button0d0d3be94e02b49"
+        "Button0d0d3be94e02b49",
+        "CheckBoxGroup0f6205d34f11140"
     ],
     "containerweight": 100,
     "controllerInfo": {

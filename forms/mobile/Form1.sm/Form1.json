@@ -31,7 +31,9 @@
     "canUpdateUI": true,
     "children": [
         "Btn1",
-        "PaddedButtonRound"
+        "PaddedButtonRound",
+        "RoundFloatingButton",
+        "FlexScrollContainer0edd55d5474574a"
     ],
     "containerweight": 100,
     "controllerInfo": {
