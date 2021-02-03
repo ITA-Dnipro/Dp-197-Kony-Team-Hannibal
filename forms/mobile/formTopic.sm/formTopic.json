@@ -29,29 +29,22 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [
-        "FlexContainer",
-        "btn2",
-        "Button0d0d3be94e02b49",
-        "CheckBoxGroup0f6205d34f11140",
-        "Phone0e120991ddd9a46",
-        "Image0b29b5a96f6df45"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form2Controller"
+            "name": "formTopicController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone11",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form2",
+    "id": "formTopic",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -69,7 +62,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "bb9119a6e2f143b7ac75747d0865ac78",
+                "kuid": "b3b4f71830c34875980938d8522683d0",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -80,7 +73,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "c4658b5fd6024d208c8420d25d1b023e",
+                        "kuid": "e3219eef388c45d1873b9c577e574402",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -97,18 +90,18 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "c89afa6b0cb447e69ed2dc195a6edd83",
+    "kuid": "jcb2857643b640d39b590c1df15db799",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone11",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXR",
+    "shellCSS": "and_Pixel3",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

@@ -29,30 +29,22 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [
-        "Btn1",
-        "PaddedButtonRound",
-        "RoundFloatingButton",
-        "FlexScrollContainer0edd55d5474574a",
-        "Calendar0gfd1d418df934d",
-        "ListBox0j98a50ffcb104c",
-        "Button0f5a906843e7d4c"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form1Controller"
+            "name": "formResourceController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone11",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
+    "id": "formResource",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -103,13 +95,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone11",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXR",
+    "shellCSS": "and_Pixel3",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
