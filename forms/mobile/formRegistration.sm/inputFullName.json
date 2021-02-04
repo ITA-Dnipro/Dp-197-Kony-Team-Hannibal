@@ -22,11 +22,11 @@
         0
     ],
     "_placeholder_": "Placeholder",
-    "_skin_": "s41e04ba652b40a3baed847c27734213",
-    "_text_": "*****",
+    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_text_": "Full name",
     "_top_": {
         "type": "string",
-        "value": "350dp"
+        "value": "300dp"
     },
     "_width_": {
         "type": "string",
@@ -42,16 +42,16 @@
     "containerweight": 100,
     "contentalignment": 4,
     "focusskin": "s511e67c46a4481c9902025f0e05659e",
-    "id": "inputPassword",
+    "id": "inputFullName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "e3348f620cd04ad4bba3b2e0400c8523",
+    "kuid": "ca570fd3a5244ee9a567c68100bc5bf5",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "formAuthentication",
-    "pf": "formAuthentication",
+    "parent": "formRegistration",
+    "pf": "formRegistration",
     "placeholderskin": "sa4b6d38cd224028bd9ba3b529089221",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

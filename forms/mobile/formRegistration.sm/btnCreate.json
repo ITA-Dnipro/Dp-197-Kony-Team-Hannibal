@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "208dp"
+        "value": "55dp"
     },
     "_margin_": [
         6,
@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "s3d32bf404d14da19a537fc57f445785",
-    "_text_": "Registration",
+    "_text_": "Create",
     "_top_": {
         "type": "string",
-        "value": "400dp"
+        "value": "550dp"
     },
     "_width_": {
         "type": "string",
@@ -36,14 +36,14 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnRegistration",
+    "id": "btnCreate",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jb8fbd5046cf406e9c688cfcaff5e8c7",
+    "kuid": "a561646f19804a57a53fd663e8a81a55",
     "name": "kony.ui.Button",
-    "parent": "formAuthentication",
-    "pf": "formAuthentication",
+    "parent": "formRegistration",
+    "pf": "formRegistration",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

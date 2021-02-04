@@ -1,19 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
-        "value": "208dp"
+        "value": "135dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s3d32bf404d14da19a537fc57f445785",
-    "_text_": "Registration",
+    "_skin_": "s1f3ce5440e840f4b39dc8d847489500",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "400dp"
+        "value": "70dp"
     },
     "_width_": {
         "type": "string",
@@ -33,19 +34,19 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnRegistration",
+    "id": "logo",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jb8fbd5046cf406e9c688cfcaff5e8c7",
-    "name": "kony.ui.Button",
+    "kuid": "g0b9f29d5f4e45f899e9bedef57c415c",
+    "name": "kony.ui.Image2",
     "parent": "formAuthentication",
     "pf": "formAuthentication",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }
