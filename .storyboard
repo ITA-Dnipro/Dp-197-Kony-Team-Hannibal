@@ -5,20 +5,36 @@
             "linkDataArray": [],
             "nodeDataArray": [
                 {
+                    "formKUID": "d31fb1683ef44dfc81761267f347e6e8",
+                    "formName": "formNews",
+                    "isStartupForm": false,
+                    "key": "d31fb1683ef44dfc81761267f347e6e8",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
                     "formKUID": "heb94cfe9be247969d071132d930129c",
-                    "formName": "Form1",
+                    "formName": "formResource",
                     "isStartupForm": true,
                     "key": "heb94cfe9be247969d071132d930129c",
                     "loc": "-65 109.84526367187502",
-                    "thumbnailURL": "/assets/HannibalNews/forms/mobile/Form1.sm/.thumbs/default.jpeg?"
+                    "thumbnailURL": null
                 },
                 {
-                    "formKUID": "c89afa6b0cb447e69ed2dc195a6edd83",
-                    "formName": "Form2",
+                    "formKUID": "c60aba4bacdf47eeb6a8f1e812df7029",
+                    "formName": "formResult",
                     "isStartupForm": false,
-                    "key": "c89afa6b0cb447e69ed2dc195a6edd83",
-                    "loc": "295 6.845263671875017",
-                    "thumbnailURL": "/assets/HannibalNews/forms/mobile/Form2.sm/.thumbs/default.jpeg?"
+                    "key": "c60aba4bacdf47eeb6a8f1e812df7029",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "jcb2857643b640d39b590c1df15db799",
+                    "formName": "formTopic",
+                    "isStartupForm": false,
+                    "key": "jcb2857643b640d39b590c1df15db799",
+                    "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
                 }
             ]
         }
