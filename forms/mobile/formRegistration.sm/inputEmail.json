@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "55dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Placeholder",
+    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_text_": "E-mail",
+    "_top_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "305dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s511e67c46a4481c9902025f0e05659e",
+    "id": "inputEmail",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "d0210d29708e4775acdaeb0094eb7b24",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "formRegistration",
+    "pf": "formRegistration",
+    "placeholderskin": "sa4b6d38cd224028bd9ba3b529089221",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}
