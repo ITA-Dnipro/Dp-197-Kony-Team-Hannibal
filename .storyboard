@@ -9,7 +9,7 @@
                     "formName": "formNews",
                     "isStartupForm": false,
                     "key": "d31fb1683ef44dfc81761267f347e6e8",
-                    "loc": "-316.4 24.845263671875017",
+                    "loc": "8 24.845263671875003",
                     "thumbnailURL": null
                 },
                 {
@@ -17,7 +17,7 @@
                     "formName": "formResource",
                     "isStartupForm": true,
                     "key": "heb94cfe9be247969d071132d930129c",
-                    "loc": "-486 24.845263671874875",
+                    "loc": "-65 109.84526367187502",
                     "thumbnailURL": null
                 },
                 {
@@ -25,7 +25,7 @@
                     "formName": "formResult",
                     "isStartupForm": false,
                     "key": "c60aba4bacdf47eeb6a8f1e812df7029",
-                    "loc": "-146.79999999999998 24.84526367187503",
+                    "loc": "8 624.845263671875",
                     "thumbnailURL": null
                 },
                 {
@@ -33,7 +33,7 @@
                     "formName": "formTopic",
                     "isStartupForm": false,
                     "key": "jcb2857643b640d39b590c1df15db799",
-                    "loc": "22.80000000000001 24.845263671875287",
+                    "loc": "8 1224.845263671875",
                     "thumbnailURL": null
                 }
             ]
