@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "210dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3d32bf404d14da19a537fc57f445785",
+    "_text_": "Registration",
+    "_top_": {
+        "type": "string",
+        "value": "404dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "id": "btnRegistration",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jb8fbd5046cf406e9c688cfcaff5e8c7",
+    "name": "kony.ui.Button",
+    "parent": "formAuthentication",
+    "pf": "formAuthentication",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

@@ -34,17 +34,17 @@
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "formResourceController"
+            "name": "formRegistrationController"
         }
     },
-    "currentLocale": "default",
+    "currentLocale": "none",
     "desktopweb": {
         "needAppMenu": false
     },
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "formResource",
+    "id": "formRegistration",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

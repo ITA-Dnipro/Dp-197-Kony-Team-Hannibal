@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s344054023bc4c23a81d48173eed77cb",
+    "_skin_": "s9aa598de7f14c259fad23a619c4bad5",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,22 +29,27 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "inputLogin",
+        "inputPassword",
+        "btnLogIn",
+        "btnRegistration"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "formNewsController"
+            "name": "formAuthenticationController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "Pixel2",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "formNews",
+    "id": "formAuthentication",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -96,12 +101,12 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhone11",
+    "prevDevice": "GalaxyS8",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel3",
+    "shellCSS": "and_Pixel2",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
