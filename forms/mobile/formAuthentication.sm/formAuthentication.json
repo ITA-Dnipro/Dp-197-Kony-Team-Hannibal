@@ -32,8 +32,11 @@
     "children": [
         "inputLogin",
         "inputPassword",
-        "btnLogIn",
-        "btnRegistration"
+        "btnLogin",
+        "btnRegistration",
+        "logo",
+        "logSymbol",
+        "passSymbol"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -46,7 +49,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel2",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "formAuthentication",
@@ -101,12 +104,12 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "GalaxyS8",
+    "prevDevice": "Pixel3XL",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel2",
+    "shellCSS": "and_Pixel3",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

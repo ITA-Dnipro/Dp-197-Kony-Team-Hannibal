@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s344054023bc4c23a81d48173eed77cb",
+    "_skin_": "s9aa598de7f14c259fad23a619c4bad5",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,7 +29,16 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "inputFullName",
+        "inputEmail",
+        "inputLogin",
+        "inputPassword",
+        "btnCreate",
+        "inputConfirmPassword",
+        "btnCancel",
+        "logo"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -44,6 +53,7 @@
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "",
     "id": "formRegistration",
     "info": null,
     "initdone": false,
