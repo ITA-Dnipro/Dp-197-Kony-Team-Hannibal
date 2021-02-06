@@ -8,9 +8,9 @@ define(["AuthService"], function(service) {
     
       
       showUser: function() {
-       this.view.nameLbl.text = "Full name: " + this.userData.fullName;
-       this.view.mailLbl.text = "E-mail: " + this.userData.email;
-       this.view.loginLbl.text = "Login: " + this.userData.login;
+       this.view.nameField.text = "Full name: " + this.userData.fullName;
+       this.view.emailField.text = "E-mail: " + this.userData.email;
+       this.view.loginField.text = "Login: " + this.userData.login;
       },
     };
  });
