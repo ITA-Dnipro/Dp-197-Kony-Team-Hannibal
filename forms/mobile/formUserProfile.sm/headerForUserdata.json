@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "320dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,38 +22,34 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "55dp"
-    },
-    "_skin_": "s034f3ca7f474cb1bdcac539699ae37e",
+    "_skin_": "sb397050519241278127660c35986b13",
     "_top_": {
         "type": "string",
-        "value": "23dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "loginField",
-        "emailField",
-        "nameField"
+        "btnBackToPrevious",
+        "imgLogoUserProfile",
+        "userProfileTitle"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "containerForDataFields",
+    "id": "headerForUserdata",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a23a3df876d64a27b7a6bc3187e4bc10",
+    "kuid": "b206626f4f184dfabf58923ca527a9f0",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainWrapper",
+    "parent": "formUserProfile",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s9aa598de7f14c259fad23a619c4bad5",
+    "_skin_": "s344054023bc4c23a81d48173eed77cb",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -30,14 +30,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerForUserdata",
-        "mainWrapper"
+        "ButtonTest"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "formUserProfileController"
+            "name": "formTestController"
         }
     },
     "currentLocale": "default",
@@ -47,8 +46,8 @@
     "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "formUserProfile",
-    "ide_init": "AS_Form_dc63b126b0954559bdff725047090b6f",
+    "id": "formTest",
+    "ide_init": "AS_Form_a99be8885f914931b3e1f39e8319c586",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -66,7 +65,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "g30c47edd8dd4c07bd784fd9ee04d3a4",
+                "kuid": "d1403555af054cfd957bd72532143e3d",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -77,7 +76,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "a17a465b12bf4e1ca2aa33fd93babacd",
+                        "kuid": "f71d4f7cd60f4c99a8d7c1a6d7ad74ed",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -94,7 +93,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "j28c1a26aff1434d812166989de81cb1",
+    "kuid": "g2c851053fec4bddb94859bc656a3742",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
