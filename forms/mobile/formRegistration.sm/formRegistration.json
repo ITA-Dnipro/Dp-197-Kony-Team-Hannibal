@@ -55,6 +55,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "",
     "id": "formRegistration",
+    "ide_init": "AS_Form_d6fb6adf975c4be09775d05fdd821f39",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

@@ -21,9 +21,9 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "Login",
     "_skin_": "s6634e10048745119ebf0cb34a37694f",
-    "_text_": "Login",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "400dp"

@@ -1,5 +1,7 @@
 define({ 
 
- //Type your controller code here 
+ initForm: function () {
+   
+ }
 
  });
