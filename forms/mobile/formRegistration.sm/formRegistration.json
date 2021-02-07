@@ -30,14 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "inputFullName",
-        "inputEmail",
-        "inputLogin",
-        "inputPassword",
-        "btnCreate",
-        "inputConfirmPassword",
-        "btnCancel",
-        "logo"
+        "inputContainer",
+        "infoLabel"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,16 +22,21 @@
         0
     ],
     "_placeholder_": "Full name",
-    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s67bd16df3a54b52840d59814b71f8a6",
     "_text_": "",
     "_top_": {
-        "type": "string",
-        "value": "300dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "305dp"
+        "value": "100%"
     },
+    "android": {},
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
@@ -40,19 +45,19 @@
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 4,
-    "focusskin": "s511e67c46a4481c9902025f0e05659e",
+    "contentalignment": 5,
+    "focusskin": "sf91d7833c5f4cf39ae70a3f1ce12fb1",
     "id": "inputFullName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "ca570fd3a5244ee9a567c68100bc5bf5",
+    "kuid": "i03f374e93dc442d8047c9de3475d28f",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "formRegistration",
+    "parent": "inputContainer",
     "pf": "formRegistration",
-    "placeholderskin": "sa4b6d38cd224028bd9ba3b529089221",
+    "placeholderskin": "s67bd16df3a54b52840d59814b71f8a6",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,
