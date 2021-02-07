@@ -27,6 +27,10 @@
     ],
     "_skin_": "s17e0f980dc547768ceee48b9c216b92",
     "_text_": "Label",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -56,6 +60,10 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "d0dfa03058f34cceaa9cb307aabad157",
+    "minheight": {
+        "type": "string",
+        "value": "50dp"
+    },
     "name": "kony.ui.Label",
     "paddinginpixel": false,
     "parent": "containerForDataFields",

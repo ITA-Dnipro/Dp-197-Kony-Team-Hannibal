@@ -1,7 +1,7 @@
 var UserProfile = {
   id: 28,
-  fullName: "Sergey Grifers",
-  email: "blabla@gmail.com",
-  login: "Motley Crew",
+  fullName: "Sergey Grifershhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+  email: "blabla@gmail.comvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv",
+  login: "Motley Crewmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
   password: "bc1348"
 };

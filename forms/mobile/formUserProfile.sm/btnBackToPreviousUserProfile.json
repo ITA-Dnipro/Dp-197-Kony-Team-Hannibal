@@ -1,13 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
         "type": "string",
         "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
     },
     "_margin_": [
         6,
@@ -21,32 +21,28 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
-    "_skin_": "sc2e3ad17fb24d09ab7d1c169373f440",
-    "_text_": "Favorites",
+    "_skin_": "sa1806b2fe3544aa81cd9578d5e29625",
+    "_text_": "❮",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "BtnShowfavorites",
+    "id": "btnBackToPreviousUserProfile",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b46dbd269b984340af722454730748de",
+    "kuid": "d05277fdcafb426b8af0560fd99e3a4d",
     "name": "kony.ui.Button",
-    "parent": "containerForDataButtons",
+    "parent": "headerForUserdata",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

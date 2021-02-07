@@ -11,7 +11,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -28,8 +28,8 @@
     "_skin_": "sc2e3ad17fb24d09ab7d1c169373f440",
     "_text_": "Edit Profile",
     "_top_": {
-        "type": "string",
-        "value": "400dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -46,7 +46,7 @@
     "isvisible": true,
     "kuid": "fbab39fa049649f9ab7dd32624b9c259",
     "name": "kony.ui.Button",
-    "parent": "mainWrapper",
+    "parent": "containerForDataButtons",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

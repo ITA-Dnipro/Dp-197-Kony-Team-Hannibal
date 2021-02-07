@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "320dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -33,15 +33,15 @@
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "310dp"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "loginField",
+        "nameField",
         "emailField",
-        "nameField"
+        "loginField"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -51,7 +51,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "a23a3df876d64a27b7a6bc3187e4bc10",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "mainWrapper",
     "pf": "formUserProfile",

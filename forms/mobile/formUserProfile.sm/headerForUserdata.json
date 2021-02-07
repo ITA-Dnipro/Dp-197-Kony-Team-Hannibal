@@ -35,9 +35,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnBackToPrevious",
-        "imgLogoUserProfile",
-        "userProfileTitle"
+        "btnBackToPreviousUserProfile",
+        "userProfileTitle",
+        "imgLogoUserProfile"
     ],
     "clipbounds": true,
     "containerweight": 100,
