@@ -22,14 +22,14 @@
         "value": "0dp"
     },
     "_skin_": "s8731eea496445ef972bb8b6db6f9c51",
-    "_text_": "Cancel",
+    "_text_": "Clear",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "45%"
     },
     "activeNativeBorderCornerRadiusControl": "topRightControl",
     "canUpdateUI": true,
@@ -37,7 +37,7 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnCancel",
+    "id": "btnClear",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

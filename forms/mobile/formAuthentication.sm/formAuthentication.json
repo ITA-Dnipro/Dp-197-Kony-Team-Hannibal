@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "loginContainer"
+        "loginContainer",
+        "enterCredentialsRequest"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -47,6 +48,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "formAuthentication",
+    "ide_init": "AS_Form_e60c93e93e8c4b9d84c207e23ad7f836",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -98,7 +100,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhone11",
+    "prevDevice": "GalaxyNote",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
