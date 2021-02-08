@@ -6,7 +6,7 @@
     if (currentUser) {
       successCb(currentUser);
     } else {
-      errorCb();
+      errorCb('User not found');
     }
   }
 
