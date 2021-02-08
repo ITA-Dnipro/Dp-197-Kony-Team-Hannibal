@@ -6,7 +6,7 @@ function validateUserData(userData) {
   var err;
   switch (true) {
     case (!/[a-zA-Z]+ [a-zA-Z]+/.test(userData.fullName)): {
-      err = 'User name must include only letters';
+      err = 'User full name must include only letters and only one space between words';
       break;
     }
     case (!/\S+@[a-z]+\.[a-z]{2,3}/.test(userData.email)): {
@@ -41,7 +41,7 @@ define(['authenticationService'], function(authService) {
        this.view.inputLogin.text = '';
        this.view.inputPassword.text = '';
        this.view.inputConfirmPassword.text = '';
-     };
+     }.bind(this);
    },
 
    showErr: function(err) {
