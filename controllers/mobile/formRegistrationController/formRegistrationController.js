@@ -17,7 +17,7 @@ function validateUserData(userData) {
       err = 'User login must not include spaces and contain at least 5 symbols';
       break;
     }
-    case (userData.password.length < 6): {
+    case (!/\S{6,}/.test(userData.password)): {
       err = 'Password must include at least 6 symbols';
       break;
     }
