@@ -26,7 +26,7 @@
         "type": "string",
         "value": "0dp"
     },
-    "_skin_": "s67bd16df3a54b52840d59814b71f8a6",
+    "_skin_": "s6634e10048745119ebf0cb34a37694f",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -57,7 +57,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "loginContainer",
     "pf": "formAuthentication",
-    "placeholderskin": "s67bd16df3a54b52840d59814b71f8a6",
+    "placeholderskin": "s6634e10048745119ebf0cb34a37694f",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,
