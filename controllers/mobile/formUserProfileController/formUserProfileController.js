@@ -2,9 +2,13 @@ define(["AuthService"], function(service) {
   
 	return {
       onInit: function() {
-        this.view.postShow = this.showUser.bind(this);
+        this.view.postShow = this.onFormShow.bind(this);
         this.view.btnBackToPreviousUserProfile.onClick = this.onBackBtn.bind(this);
         this.view.editBtn.onClick = this.onEditBtnClick.bind(this);
+      },
+      
+      onFormShow: function() {
+        this.showUser(); 
       },
     
       showUser: function() {

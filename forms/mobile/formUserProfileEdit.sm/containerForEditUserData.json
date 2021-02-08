@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "50dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -23,37 +23,40 @@
     ],
     "_percent_": true,
     "_right_": {
-        "type": "string",
-        "value": "55dp"
+        "type": "number",
+        "value": "55"
     },
     "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "55dp"
     },
     "_width_": {
         "type": "string",
         "value": "305dp"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "editBtn",
-        "BtnShowfavorites"
+        "containerForNameEdit",
+        "containerForMailEdit",
+        "containerForLoginEdit",
+        "containerForPassword",
+        "containerForConfirmPassword"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "containerForDataButtons",
+    "id": "containerForEditUserData",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i02f309a2f2b4252b586d2e934926787",
-    "layouttype": 2,
+    "kuid": "d326d18592ca46708c16ee88d3210746",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

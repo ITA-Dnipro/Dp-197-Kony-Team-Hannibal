@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerForEditUser"
+        "headerForEditUser",
+        "mainWrapper"
     ],
     "containerweight": 100,
     "controllerInfo": {

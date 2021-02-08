@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,36 +24,32 @@
     "_percent_": true,
     "_right_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
     "_top_": {
         "type": "string",
-        "value": "10dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "305dp"
+        "value": "20dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "editBtn",
-        "BtnShowfavorites"
+        "labelForMailEdit",
+        "textFieldForMailEdit"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "containerForDataButtons",
+    "id": "containerForMailEdit",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i02f309a2f2b4252b586d2e934926787",
+    "kuid": "hbdc2ce780b84939b7681d2c7c5112f7",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "parent": "containerForEditUserData",
+    "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
