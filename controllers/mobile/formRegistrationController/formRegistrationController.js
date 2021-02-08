@@ -35,8 +35,12 @@ define(['authenticationService'], function(authService) {
   return {
    initForm: function() {
      this.view.btnSuccess.onClick = this.createNewUser.bind(this);
-     this.view.btnCancel.onClick = function() {
-       navigateToForm('formResult');
+     this.view.btnClear.onClick = function() {
+       this.view.inputFullName.text = '';
+       this.view.inputEmail.text = '';
+       this.view.inputLogin.text = '';
+       this.view.inputPassword.text = '';
+       this.view.inputConfirmPassword.text = '';
      };
    },
 
