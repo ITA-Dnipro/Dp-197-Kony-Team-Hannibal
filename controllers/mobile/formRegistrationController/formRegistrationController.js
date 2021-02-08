@@ -31,17 +31,20 @@ function validateUserData(userData) {
   return err;
 }
 
-define(['authenticationService'], function(authService) { 
+define(['authenticationService'], function(authService) {
+  function clearFields() {
+    this.view.inputFullName.text = '';
+    this.view.inputEmail.text = '';
+    this.view.inputLogin.text = '';
+    this.view.inputPassword.text = '';
+    this.view.inputConfirmPassword.text = '';
+  }
+  
   return {
    initForm: function() {
+     this.view.onHide = clearFields.bind(this);
      this.view.btnSuccess.onClick = this.createNewUser.bind(this);
-     this.view.btnClear.onClick = function() {
-       this.view.inputFullName.text = '';
-       this.view.inputEmail.text = '';
-       this.view.inputLogin.text = '';
-       this.view.inputPassword.text = '';
-       this.view.inputConfirmPassword.text = '';
-     }.bind(this);
+     this.view.btnClear.onClick = clearFields.bind(this);
    },
 
    showErr: function(err) {

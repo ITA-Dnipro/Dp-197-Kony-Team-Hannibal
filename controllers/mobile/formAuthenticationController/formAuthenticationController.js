@@ -16,7 +16,12 @@ define(['authenticationService'], function (authService) {
     return err;
   }
   
-  return {
+  function clearFields() {
+    this.view.inputLogin.text = '';
+    this.view.inputPassword.text = '';
+  }
+  
+  return {   
     successCb: function(user) {
       alert('Authorization completed successfully. user: ' + user);
     },
@@ -37,6 +42,7 @@ define(['authenticationService'], function (authService) {
    },
 
    initForm: function () {
+     this.view.onHide = clearFields.bind(this);
      this.view.btnLogin.onClick = this.loginUser.bind(this);
      this.view.btnReg.onClick = function () {
        navigateToForm('formRegistration');
