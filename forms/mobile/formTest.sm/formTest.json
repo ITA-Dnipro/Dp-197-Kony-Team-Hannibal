@@ -30,7 +30,10 @@
     },
     "canUpdateUI": true,
     "children": [
-        "ButtonTest"
+        "ButtonTest",
+        "addArr",
+        "showarr",
+        "dellArr"
     ],
     "containerweight": 100,
     "controllerInfo": {

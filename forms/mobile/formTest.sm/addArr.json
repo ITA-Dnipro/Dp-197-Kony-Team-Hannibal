@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "60dp"
+        "value": "59dp"
     },
     "_margin_": [
         6,
@@ -21,29 +21,29 @@
         0,
         0
     ],
-    "_skin_": "s355f5fca0354b52a2efdf2b92e766bd",
-    "_text_": "Save",
+    "_skin_": "s1cd7581ae6a49719ea89ba4ae080457",
+    "_text_": "add arr",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "427dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "300dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "saveEditBtn",
+    "id": "addArr",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bac34f25db014f3ca226a180f087b5be",
+    "kuid": "b9b8fd39df794615acd565a44cd92e99",
     "name": "kony.ui.Button",
-    "parent": "mainWrapper",
-    "pf": "formUserProfileEdit",
+    "parent": "formTest",
+    "pf": "formTest",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",
