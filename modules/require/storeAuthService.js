@@ -6,13 +6,13 @@
     if (currentUser) {
       successCb(currentUser);
     } else {
-      errorCb();
+      errorCb('User not found');
     }
   }
 
   function validateNewUser(users, newUser) {
     function checkId(user) {
-      return user.id === newUserId;
+      return user.id === newUser.Id;
     }
 
     function checkLogin(user) {
@@ -26,31 +26,31 @@
     var error;
     switch (true) {
       case (users.some(checkId)): {
-        error: 'User with such id already exist';
+        error = 'User with such id already exist';
         break;
       }
       case (users.some(checkLogin)): {
-        error: 'User with such login already exist';
+        error = 'User with such login already exist';
         break;
       }
       case (users.some(checkEmail)): {
-        error: 'User with such email alreay exist';
+        error = 'User with such email alreay exist';
         break;
       }
       default:
-        error: null;
+        error = null;
     }
     return error;
   }
 
   function registerUser(newUser, successCb, errorCb) {
-    var users = kony.store.getItem("users") || [];
+    var users = kony.store.getItem('users') || [];
     var validationMistake = validateNewUser(users, newUser);
     if (validationMistake) {
       errorCb(validationMistake);
     } else {
-      users.push();
-      kony.store.setItem(users);
+      users.push(newUser);
+      kony.store.setItem('users', users);
       successCb(newUser);
     }
   }

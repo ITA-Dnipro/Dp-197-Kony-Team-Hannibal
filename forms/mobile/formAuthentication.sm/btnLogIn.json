@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sc2e3ad17fb24d09ab7d1c169373f440",
-    "_text_": "Log In",
+    "_skin_": "s3d32bf404d14da19a537fc57f445785",
+    "_text_": "Login",
     "_top_": {
         "type": "string",
-        "value": "400dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "45%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -40,9 +40,9 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "id547d1147e4413a9424d88bcb3eee79",
+    "kuid": "af74369e5e0a46559b3aac506a16a4cf",
     "name": "kony.ui.Button",
-    "parent": "formAuthentication",
+    "parent": "btnContainer",
     "pf": "formAuthentication",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
