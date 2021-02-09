@@ -44,7 +44,7 @@
     "canUpdateUI": true,
     "children": [
         "btnSuccess",
-        "btnClear"
+        "btnCancel"
     ],
     "clipbounds": true,
     "containerweight": 100,
