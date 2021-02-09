@@ -3,7 +3,7 @@ define(['authenticationService'], function (authService) {
     var err;
     switch (true) {
       case (!/\S{5,}/.test(login)): {
-        err = 'User login must not include spaces and contain at least 5 symbols';
+        err = 'User login mustn\'t include spaces and consists of at least 5 symbols';
         break;
       }
       case (!/\S{6,}/.test(password)): {
@@ -22,11 +22,14 @@ define(['authenticationService'], function (authService) {
   }
   
   return {   
-    successCb: function(user) {
-      alert('Authorization completed successfully. user: ' + user);
+    onSuccess: function(user) {
+      alert('Authorization completed successfully.');
+      UserProfile = user;
+      //alert(UserProfile);
+      //navigateToForm('formNewsProviders');
     },
     
-    showErr: function(err) {
+    onErr: function(err) {
       alert(err);
     },
     
@@ -35,9 +38,9 @@ define(['authenticationService'], function (authService) {
      var password = this.view.inputPassword.text || '';
      var err = validateUserCredentials(login, password);
      if (err) {
-       this.showErr(err);
+       this.onErr(err);
      } else {
-       authService.findUser(login, password, this.successCb.bind(this), this.showErr.bind(this));
+       authService.findUser(login, password, this.onSuccess.bind(this), this.onErr.bind(this));
      }
    },
 

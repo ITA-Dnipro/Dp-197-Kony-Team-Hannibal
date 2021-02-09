@@ -44,15 +44,17 @@ define(['authenticationService'], function(authService) {
    initForm: function() {
      this.view.onHide = clearFields.bind(this);
      this.view.btnSuccess.onClick = this.createNewUser.bind(this);
-     this.view.btnClear.onClick = clearFields.bind(this);
+     this.view.btnCancel.onClick = navigateToForm.bind(null, 'formAuthentication');
    },
 
-   showErr: function(err) {
+   onErr: function(err) {
      alert(err);
    },
     
-   showSuccess: function(user) {
-     alert(user);
+   onSuccess: function(user) {
+     UserProfile = user;
+     alert(UserProfile);
+     //navigateToForm('formNewsProviders');
    },
 
    createNewUser: function createNewUser() {
@@ -65,11 +67,11 @@ define(['authenticationService'], function(authService) {
      };
      var err = validateUserData(userData);
      if (err) {
-       this.showErr(err);
+       this.onErr(err);
      } else {
        delete userData.passwordConfirm;
        userData.id = getUniqId();
-       authService.registerUser(userData, this.showSuccess.bind(this), this.showErr.bind(this));
+       authService.registerUser(userData, this.onSuccess.bind(this), this.onErr.bind(this));
      }
    }
  };

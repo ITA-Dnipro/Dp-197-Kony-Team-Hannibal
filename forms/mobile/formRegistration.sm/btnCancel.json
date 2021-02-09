@@ -22,7 +22,7 @@
         "value": "0dp"
     },
     "_skin_": "s1838ad57fde41dba77931b70c557667",
-    "_text_": "Clear",
+    "_text_": "Cancel",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -37,7 +37,7 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnClear",
+    "id": "btnCancel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
