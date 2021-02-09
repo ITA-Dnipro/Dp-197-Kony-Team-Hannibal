@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "325dp"
+        "value": "40dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s20773cac5d14a8f98094704365ebd06",
-    "_text_": "👤",
+    "_right_": {
+        "type": "number",
+        "value": "40"
+    },
+    "_skin_": "s7c7ac5a39024f9d8a21ffb705b437bc",
+    "_text_": "Please, enter your data into following fields",
     "_top_": {
         "type": "string",
-        "value": "303dp"
+        "value": "105dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,8 +44,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "logSymbol",
+    "contentalignment": 5,
+    "id": "infoLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b1fc42d37765442f9a92bd45bbb99137",
+    "kuid": "g07e03a74bcc474b9a7789fb424d572e",
     "name": "kony.ui.Label",
-    "parent": "formAuthentication",
-    "pf": "formAuthentication",
+    "parent": "formRegistration",
+    "pf": "formRegistration",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
