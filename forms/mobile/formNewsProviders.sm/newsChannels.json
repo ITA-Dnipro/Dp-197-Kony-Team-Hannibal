@@ -1,0 +1,242 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bbc.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BBC"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "bbc.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "nyt.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NYT"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "nytimes.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "deutsche_welle.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Deutsche welle"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "dw.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "wall_street_journal_.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Wall street journal\t"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "wsj.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "reuters.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Reuters"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "reuters.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "al_jazeera.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Al Jazeera"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "aljazeera.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "e_international.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "E-International Relations"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "e-ir.info"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "the_guardian.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The Guardian"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " theguardian.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "cnbc.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CNBC"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "cnbc.com"
+            }
+        },
+        {
+            "imgChannel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rt.jpg"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RT"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " rt.com"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "680dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "newsChannels",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i35e7c23531041f895b0f9465f326482",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "formNewsProviders",
+    "pf": "formNewsProviders",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "bc0bdf776eff434fb188e26a84f562aa",
+    "rowcounter": 9,
+    "rowfocusskin": "s222f8a823a44587953a9ae30ac437af",
+    "rowskin": "sc418a9bb81d4bfc971eea689b69bcbe",
+    "rowtemplate": "flxChannel",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s9f1d0d0678c44908aef608fcb954976",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "00000000",
+    "separatorrequired": true,
+    "separatorthickness": 2,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxChannel": "flxChannel",
+        "imgChannel": "imgChannel",
+        "lblTitle": "lblTitle",
+        "url": "url"
+    },
+    "zindex": 1
+}
