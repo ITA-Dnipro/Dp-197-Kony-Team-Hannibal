@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "12dp"
+        "value": "10dp"
     },
     "_margin_": [
         6,
@@ -21,29 +21,29 @@
         0,
         0
     ],
-    "_skin_": "s1cd7581ae6a49719ea89ba4ae080457",
-    "_text_": "Button",
+    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
+    "_text_": "❮",
     "_top_": {
         "type": "string",
-        "value": "407dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "Button0j34fa34f4cfc4e",
+    "id": "btnBackToPreviousEditUser",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fbab39fa049649f9ab7dd32624b9c259",
+    "kuid": "f84bbba1e1d74740a5fae1de758f7751",
     "name": "kony.ui.Button",
-    "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "parent": "headerForEditUser",
+    "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

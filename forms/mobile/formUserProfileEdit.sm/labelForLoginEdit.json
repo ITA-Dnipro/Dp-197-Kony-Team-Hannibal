@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "39dp"
+        "value": "5dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s31ca99a79154509bed5147506ea4a94",
-    "_text_": "Label",
+    "_skin_": "s17e0f980dc547768ceee48b9c216b92",
+    "_text_": "Login:",
     "_top_": {
         "type": "string",
-        "value": "126dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "ref",
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "mailLbl",
+    "id": "labelForLoginEdit",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ef46c2d1dee74db2888252d526deebe3",
+    "kuid": "e9a7e3e4ee9f4b73b92ef1aade72f785",
     "name": "kony.ui.Label",
-    "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "parent": "containerForLoginEdit",
+    "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

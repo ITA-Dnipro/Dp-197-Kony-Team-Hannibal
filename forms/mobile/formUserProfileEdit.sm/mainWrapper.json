@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "containerForDataFields",
-        "containerForDataButtons"
+        "containerForEditUserData",
+        "saveEditBtn"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -45,11 +45,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ebf626eb4952447eaac007167fe5543b",
+    "kuid": "fc2992411d1649839f757b689b082b43",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "formUserProfile",
-    "pf": "formUserProfile",
+    "parent": "formUserProfileEdit",
+    "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

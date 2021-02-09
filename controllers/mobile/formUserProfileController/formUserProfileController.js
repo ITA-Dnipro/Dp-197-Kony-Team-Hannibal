@@ -2,15 +2,37 @@ define(["AuthService"], function(service) {
   
 	return {
       onInit: function() {
-        this.userData = UserProfile;
-        this.view.postShow = this.showUser.bind(this); 
+        this.view.postShow = this.onFormShow.bind(this);
+        this.view.btnBackToPreviousUserProfile.onClick = this.onBackBtn.bind(this);
+        this.view.editBtn.onClick = this.onEditBtnClick.bind(this);
+      },
+      
+      onFormShow: function() {
+        this.showUser(); 
       },
     
-      
       showUser: function() {
-       this.view.nameLbl.text = "Full name: " + this.userData.fullName;
-       this.view.mailLbl.text = "E-mail: " + this.userData.email;
-       this.view.loginLbl.text = "Login: " + this.userData.login;
+        this.userData = UserProfile;
+        this.view.loginField.text = "Login: " + this.userData.login;
+        this.view.emailField.text = "E-mail: " + this.userData.email;
+        this.view.nameField.text = "Full name: " + this.userData.fullName;
       },
+      
+      onNavigate: function(form) {
+        if(form) {
+          this.formForBackBtn = form;
+        }
+      },
+      
+      onBackBtn: function() {
+        var navigation = new kony.mvc.Navigation(this.formForBackBtn);
+        navigation.navigate();
+      },
+      
+      onEditBtnClick: function() {
+        var navigation = new kony.mvc.Navigation("formUserProfileEdit");
+        navigation.navigate();
+      }
+      
     };
  });
