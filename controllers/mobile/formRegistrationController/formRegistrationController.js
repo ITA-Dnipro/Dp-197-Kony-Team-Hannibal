@@ -53,8 +53,7 @@ define(['authenticationService'], function(authService) {
     
    onSuccess: function(user) {
      UserProfile = user;
-     alert(UserProfile);
-     //navigateToForm('formNewsProviders');
+     navigateToForm('formNewsProviders');
    },
 
    createNewUser: function createNewUser() {
