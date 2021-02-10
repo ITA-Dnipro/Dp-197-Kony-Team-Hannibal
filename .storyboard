@@ -6,7 +6,7 @@
             "nodeDataArray": [
                 {
                     "formKUID": "d31fb1683ef44dfc81761267f347e6e8",
-                    "formName": "formNews",
+                    "formName": "formAuthentication",
                     "isStartupForm": false,
                     "key": "d31fb1683ef44dfc81761267f347e6e8",
                     "loc": "8 24.845263671875003",
@@ -14,11 +14,11 @@
                 },
                 {
                     "formKUID": "heb94cfe9be247969d071132d930129c",
-                    "formName": "formResource",
-                    "isStartupForm": true,
+                    "formName": "formRegistration",
+                    "isStartupForm": false,
                     "key": "heb94cfe9be247969d071132d930129c",
                     "loc": "-65 109.84526367187502",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/Hannibal/forms/mobile/formRegistration.sm/.thumbs/default.jpeg?"
                 },
                 {
                     "formKUID": "c60aba4bacdf47eeb6a8f1e812df7029",
@@ -34,6 +34,14 @@
                     "isStartupForm": false,
                     "key": "jcb2857643b640d39b590c1df15db799",
                     "loc": "8 1224.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "j28c1a26aff1434d812166989de81cb1",
+                    "formName": "formUserProfile",
+                    "isStartupForm": true,
+                    "key": "j28c1a26aff1434d812166989de81cb1",
+                    "loc": "188 184.845263671875",
                     "thumbnailURL": null
                 }
             ]

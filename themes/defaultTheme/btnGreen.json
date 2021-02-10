@@ -2,12 +2,14 @@
   "android": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "default",
     "isForked": true
   },
   "androidwearos": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "default",
     "isForked": true
   },
@@ -43,12 +45,14 @@
   "ipad": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "System",
     "isForked": true
   },
   "iphone": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "System",
     "isForked": true
   },
@@ -56,6 +60,7 @@
   "kiosk": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "None",
     "isForked": true
   },
@@ -171,6 +176,7 @@
   "tabrcandroid": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "default",
     "isForked": true
   },
@@ -184,12 +190,14 @@
   "windows8": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "None",
     "isForked": true
   },
   "winphone8": {
     "background_color": "2cc731ff",
     "bg_type": "one",
+    "border_style": "rc",
     "font_name": "None",
     "isForked": true
   }

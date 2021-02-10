@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter new e-mail",
+    "_right_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_width_": {
+        "type": "number",
+        "value": "190"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s511e67c46a4481c9902025f0e05659e",
+    "id": "textFieldForMailEdit",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "ae281d486f7e48d0b2cbb75f59e8f934",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "containerForMailEdit",
+    "pf": "formUserProfileEdit",
+    "placeholderskin": "sa4b6d38cd224028bd9ba3b529089221",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}
