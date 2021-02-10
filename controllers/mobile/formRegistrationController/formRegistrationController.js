@@ -13,7 +13,7 @@ function validateUserData(userData) {
       err = 'Email must be valid';
       break;
     }
-    case (!/\S{5,}/.test(userData.login)): {
+    case (!/\S{3,8}/.test(userData.login)): {
       err = 'User login must not include spaces and contain at least 5 symbols';
       break;
     }

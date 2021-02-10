@@ -14,7 +14,7 @@ define(function () {
         err = 'Email must be valid';
         break;
       }
-      case (!/\S{5,}/.test(userData.login)): {
+      case (!/\S{3,8}/.test(userData.login)): {
         err = 'User login must not include spaces and contain at least 5 symbols';
         break;
       }
@@ -42,7 +42,7 @@ define(function () {
   }
   
     function editUser(newUser, successCb, errorCb) {
-    var users = kony.store.getItem("usersArray");
+    var users = kony.store.getItem("users");
     var validationMistake = validateUserData(newUser, users);
     if (validationMistake) {
       errorCb(validationMistake);
@@ -52,7 +52,7 @@ define(function () {
         return item.id === newUser.id;
       });
       users.splice(userIdx, 1, newUser);
-      kony.store.setItem("usersArray", users);
+      kony.store.setItem("users", users);
       successCb(newUser);
 
     }

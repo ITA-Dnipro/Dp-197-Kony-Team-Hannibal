@@ -10,7 +10,9 @@ define(['feedService', 'constants'], function(service, constants) {
   
   return {
     onNavigate: function(data) {
-      this.feeds = data.feeds;
+      if (data) {
+        this.feeds = data.feeds;
+      }
     },
     
     onBtnTest: function() {
@@ -20,13 +22,14 @@ define(['feedService', 'constants'], function(service, constants) {
     },
     
     onBack: function () {
-      var navigation = new kony.mvc.Navigation(kony.application.getPreviousForm().id);
+      var navigation = new kony.mvc.Navigation('formNewsProviders');
       navigation.navigate();
     },
   
     onFormShowed: function() {
       var feeds = this.feeds;
       this.view.newsFeeds.setData(feeds);
+      this.view.userName.text = UserProfile.login;
     },
     
     onRowCick: function(widget, section, index) {
