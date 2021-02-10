@@ -11,8 +11,13 @@ define(['constants', 'topicsService'], function(constants, service) {
   
   return {
     onInit: function() {
+      this.view.postShow = this.onPostShow.bind(this);
       this.view.newsChannels.onRowClick = this.onRowClick.bind(this);
       this.view.userName.onTouchStart = this.onBtnTest.bind(this);
+    },
+    
+    onPostShow: function() {
+      this.view.userName.text = UserProfile.login;
     },
     
     onBtnTest: function() {

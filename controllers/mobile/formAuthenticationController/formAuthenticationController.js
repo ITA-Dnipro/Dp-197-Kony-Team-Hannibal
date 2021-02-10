@@ -2,7 +2,7 @@ define(['authenticationService'], function (authService) {
   function validateUserCredentials(login, password) {
     var err;
     switch (true) {
-      case (!/\S{5,}/.test(login)): {
+      case (!/\S{3,8}/.test(login)): {
         err = 'User login mustn\'t include spaces and consists of at least 5 symbols';
         break;
       }
@@ -26,7 +26,7 @@ define(['authenticationService'], function (authService) {
       alert('Authorization completed successfully.');
       UserProfile = user;
       //alert(UserProfile);
-      //navigateToForm('formNewsProviders');
+      navigateToForm('formNewsProviders');
     },
     
     onErr: function(err) {
