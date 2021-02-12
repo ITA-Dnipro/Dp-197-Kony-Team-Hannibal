@@ -1,4 +1,4 @@
-define(["AuthService"], function(service) {
+define(["AuthService", 'utils'], function(service, utils) {
   
 	return {
       onInit: function() {
@@ -12,26 +12,24 @@ define(["AuthService"], function(service) {
       },
     
       showUser: function() {
-        this.userData = UserProfile;
+        this.userData = appStorage.userProfile;
         this.view.loginField.text = "Login: " + this.userData.login;
         this.view.emailField.text = "E-mail: " + this.userData.email;
         this.view.nameField.text = "Full name: " + this.userData.fullName;
       },
       
       onNavigate: function(form) {
-        if(form) {
+        if (form) {
           this.formForBackBtn = form;
         }
       },
       
       onBackBtn: function() {
-        var navigation = new kony.mvc.Navigation(this.formForBackBtn);
-        navigation.navigate();
+        utils.navigateToForm(this.formForBackBtn);
       },
       
       onEditBtnClick: function() {
-        var navigation = new kony.mvc.Navigation("formUserProfileEdit");
-        navigation.navigate();
+        utils.navigateToForm("formUserProfileEdit");
       }
       
     };

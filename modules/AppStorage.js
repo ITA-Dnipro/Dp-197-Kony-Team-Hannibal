@@ -1,1 +1,5 @@
-var UserProfile = {};
+var appStorage = {
+  userProfile: {},
+  feeds: [],
+  news: [],
+};

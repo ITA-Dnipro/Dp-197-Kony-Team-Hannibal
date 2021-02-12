@@ -1,4 +1,4 @@
-define(["editUsersService"], function(service) {
+define(["editUsersService", 'utils'], function(service, utils) {
   
 	return {
       onInit: function() {
@@ -14,7 +14,7 @@ define(["editUsersService"], function(service) {
       },
       
       showUser: function() {
-        this.userData = UserProfile;
+        this.userData = appStorage.userProfile;
 		this.view.textFieldForNameEdit.text = this.userData.fullName;
         this.view.textFieldForMailEdit.text = this.userData.email;
         this.view.textFieldForLoginEdit.text = this.userData.login;
@@ -23,8 +23,7 @@ define(["editUsersService"], function(service) {
       },
       
       onBackBtn: function() {
-        var navigation = new kony.mvc.Navigation(kony.application.getPreviousForm().id);
-        navigation.navigate();
+        utils.navigateToForm('formUserProfile');
       },
       
       onSaveEditBtnClick: function() {
@@ -37,14 +36,12 @@ define(["editUsersService"], function(service) {
           passwordConfirm: this.view.textFieldForConfirmPswEdit.text.trim(),
         };
         service.editUser(newUserData, this.succesCB, this.errorCB);
-        
       },
       
       succesCB: function(newUser) {
-        UserProfile = newUser;
+        appStorage.userProfile = newUser;
         alert("Your changes have saved successfully");
-        var navigation = new kony.mvc.Navigation(kony.application.getPreviousForm().id);
-        navigation.navigate();
+        utils.navigateToForm('formUserProfile');
       },
       
       errorCB: function(err) {
