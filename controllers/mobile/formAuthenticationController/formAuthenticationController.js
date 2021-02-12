@@ -1,4 +1,4 @@
-define(['authenticationService'], function (authService) { 
+define(['authenticationService', 'utils'], function (authService, utils) { 
   function validateUserCredentials(login, password) {
     var err;
     switch (true) {
@@ -22,11 +22,10 @@ define(['authenticationService'], function (authService) {
   }
   
   return {   
-    onSuccess: function(user) {
+    showResources: function(user) {
       alert('Authorization completed successfully.');
-      UserProfile = user;
-      //alert(UserProfile);
-      navigateToForm('formNewsProviders');
+      appStorage.userProfile = user;
+      utils.navigateToForm('formNewsProviders');
     },
     
     onErr: function(err) {
@@ -40,7 +39,7 @@ define(['authenticationService'], function (authService) {
      if (err) {
        this.onErr(err);
      } else {
-       authService.findUser(login, password, this.onSuccess.bind(this), this.onErr.bind(this));
+       authService.findUser(login, password, this.showResources.bind(this), this.onErr.bind(this));
      }
    },
 
@@ -48,7 +47,7 @@ define(['authenticationService'], function (authService) {
      this.view.onHide = clearFields.bind(this);
      this.view.btnLogin.onClick = this.loginUser.bind(this);
      this.view.btnReg.onClick = function () {
-       navigateToForm('formRegistration');
+       utils.navigateToForm('formRegistration');
      };
    }
   }

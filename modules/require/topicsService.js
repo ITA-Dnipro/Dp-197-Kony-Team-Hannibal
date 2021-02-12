@@ -1,5 +1,5 @@
 define(["httpTopicsService"], function (service) {
     return {
-        getResourceTopics: service.getResourceTopics,
+      getResourceTopics: service.getResourceTopics,
     };
 });

@@ -1,37 +1,4 @@
-function getUniqId() {
-  return new Date().getTime();
-}
-
-function validateUserData(userData) {
-  var err;
-  switch (true) {
-    case (!/[a-zA-Z]+ [a-zA-Z]+/.test(userData.fullName)): {
-      err = 'User full name must include only letters and only one space between words';
-      break;
-    }
-    case (!/\S+@[a-z]+\.[a-z]{2,3}/.test(userData.email)): {
-      err = 'Email must be valid';
-      break;
-    }
-    case (!/\S{3,8}/.test(userData.login)): {
-      err = 'User login must not include spaces and contain at least 5 symbols';
-      break;
-    }
-    case (!/\S{6,}/.test(userData.password)): {
-      err = 'Password must include at least 6 symbols';
-      break;
-    }
-    case (userData.password !== userData.passwordConfirm): {
-      err = 'Password and password confirmation must match';
-      break;
-    }
-    default:
-      err = null;
-  }
-  return err;
-}
-
-define(['authenticationService'], function(authService) {
+define(['authenticationService', 'utils'], function(authService, utils) {
   function clearFields() {
     this.view.inputFullName.text = '';
     this.view.inputEmail.text = '';
@@ -44,16 +11,16 @@ define(['authenticationService'], function(authService) {
    initForm: function() {
      this.view.onHide = clearFields.bind(this);
      this.view.btnSuccess.onClick = this.createNewUser.bind(this);
-     this.view.btnCancel.onClick = navigateToForm.bind(null, 'formAuthentication');
+     this.view.btnCancel.onClick = utils.navigateToForm.bind(null, 'formAuthentication');
    },
 
    onErr: function(err) {
      alert(err);
    },
     
-   onSuccess: function(user) {
-     UserProfile = user;
-     navigateToForm('formNewsProviders');
+   showResources: function(user) {
+     appStorage.userProfile = user;
+     utils.navigateToForm('formNewsProviders');
    },
 
    createNewUser: function createNewUser() {
@@ -64,13 +31,18 @@ define(['authenticationService'], function(authService) {
        password: this.view.inputPassword.text || '',
        passwordConfirm: this.view.inputConfirmPassword.text || '',
      };
-     var err = validateUserData(userData);
+     var err = utils.validateUserData(userData);
      if (err) {
        this.onErr(err);
      } else {
-       delete userData.passwordConfirm;
-       userData.id = getUniqId();
-       authService.registerUser(userData, this.onSuccess.bind(this), this.onErr.bind(this));
+       var newUser = new UserDataModel(
+         utils.getUniqId(),
+         userData.fullName,
+         userData.email,
+         userData.login,
+         userData.password,
+       );
+       authService.registerUser(newUser, this.showResources, this.onErr);
      }
    }
  };

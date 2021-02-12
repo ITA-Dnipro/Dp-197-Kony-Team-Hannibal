@@ -1,31 +1,23 @@
-define({ 
-   onNavigate: function(data) {
-      if (data) {
-        this.data = data.data;
-      }
-    }, 
- 
-   onBtnTest: function() {
+define(['utils'], function(utils) {
+  return { 
+    moveToProfile: function() {
       var formId = kony.application.getCurrentForm().id;
-      var navigation = new kony.mvc.Navigation("formUserProfile");
-      navigation.navigate(formId);
+      utils.navigateToForm('formUserProfile', formId);
     },
   
-   onBack: function () {
-      var navigation = new kony.mvc.Navigation('formNewsFeeds');
-      navigation.navigate();
+    onBack: function () {
+      utils.navigateToForm('formNewsFeeds');
     },
   
     onFormShowed: function() {
-      var data = this.data;
-      this.view.newsList.setData(data);
-      this.view.userName.text = UserProfile.login;
+      this.view.newsList.setData(appStorage.news);
+      this.view.userName.text = appStorage.userProfile.login;
     },
   
     init: function() {
       this.view.postShow = this.onFormShowed.bind(this);
       this.view.btnBack.onClick = this.onBack.bind(this);
-      this.view.userName.onTouchStart = this.onBtnTest.bind(this);
+      this.view.userName.onTouchStart = this.moveToProfile.bind(this);
     }
-  
- });
+ };
+});

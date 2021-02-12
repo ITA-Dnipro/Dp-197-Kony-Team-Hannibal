@@ -1,4 +1,4 @@
-define(['httpFeedService'], function (service) {
+define(['httpNewsService'], function (service) {
     return {
       getFeedData: service.getFeedData,
     };
