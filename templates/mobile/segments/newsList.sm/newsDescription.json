@@ -5,12 +5,12 @@
         "contentAlignment": 2
     },
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "53dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "5dp"
     },
     "_margin_": [
         1,
@@ -24,15 +24,15 @@
         0,
         0
     ],
-    "_skin_": "s20773cac5d14a8f98094704365ebd06",
-    "_text_": "Description",
+    "_right_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_skin_": "s5ecd064052844709130fb358e93206c",
+    "_text_": "You can go to this news for review",
     "_top_": {
         "type": "string",
-        "value": "100dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "395dp"
+        "value": "30dp"
     },
     "_wrapping_": 2,
     "android": {

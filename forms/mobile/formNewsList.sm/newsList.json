@@ -10,6 +10,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -20,6 +24,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -30,6 +38,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -40,6 +52,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -50,6 +66,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -60,6 +80,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -70,6 +94,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -80,6 +108,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -90,6 +122,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         },
         {
@@ -100,6 +136,10 @@
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Title"
+            },
+            "pubDate": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
             }
         }
     ],
@@ -195,7 +235,8 @@
     "widgetdatamap": {
         "news": "news",
         "newsDescription": "newsDescription",
-        "newsTitle": "newsTitle"
+        "newsTitle": "newsTitle",
+        "pubDate": "pubDate"
     },
     "zindex": 1
 }

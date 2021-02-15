@@ -89,29 +89,29 @@
         {
             "imgChannel": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "e_international.jpg"
+                "src": "wsj.jpg"
             },
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "E-International Relations"
+                "text": "WSJ"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "e-ir.info"
+                "text": "wsj.com"
             }
         },
         {
             "imgChannel": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "the_guardian.jpg"
+                "src": "cbs.jpg"
             },
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "The Guardian"
+                "text": "CBS News"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": " theguardian.com"
+                "text": "cbsnews.com"
             }
         },
         {
@@ -131,26 +131,26 @@
         {
             "imgChannel": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "rt.jpg"
+                "src": "mirror.png"
             },
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "RT"
+                "text": "Mirror"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": " rt.com"
+                "text": "mirror.co.uk"
             }
         }
     ],
     "_height_": {
         "type": "string",
-        "value": "680dp"
+        "value": "685dp"
     },
     "_indicator_": "none",
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -166,8 +166,8 @@
         0
     ],
     "_top_": {
-        "type": "string",
-        "value": "70dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -195,7 +195,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i35e7c23531041f895b0f9465f326482",
+    "kuid": "f82ac9c6e70e438c99b51df0aa62fb81",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -204,7 +204,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "formNewsProviders",
+    "parent": "containerForChannels",
     "pf": "formNewsProviders",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
