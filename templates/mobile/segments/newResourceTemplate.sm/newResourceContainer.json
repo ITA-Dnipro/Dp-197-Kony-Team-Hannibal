@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "120dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -32,12 +32,11 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "newResourceSwitch",
-        "newResourceTitle",
-        "newResourceUrl"
+        "resourceInfoContainer"
     ],
     "clipbounds": true,
     "containerId": true,

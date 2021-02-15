@@ -1,4 +1,4 @@
-define(["AuthService", 'utils'], function(service, utils) {
+define(["editUsersService", 'utils'], function(service, utils) {
   
 	return {
       onInit: function() {

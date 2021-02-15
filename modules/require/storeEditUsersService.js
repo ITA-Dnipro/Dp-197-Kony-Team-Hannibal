@@ -35,6 +35,6 @@ define(['utils'], function (utils) {
   }
    
     return {
-        editUser: editUser
+        editUser: editUser,
     };
 });

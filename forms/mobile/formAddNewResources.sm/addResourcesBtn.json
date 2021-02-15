@@ -43,7 +43,7 @@
     "id": "addResourcesBtn",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ac01bc44f5ed494b8a6e18f7939f8da7",
     "name": "kony.ui.Button",
     "parent": "formAddNewResources",

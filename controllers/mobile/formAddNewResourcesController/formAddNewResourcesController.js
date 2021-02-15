@@ -1,4 +1,4 @@
-define(['newResourcesConfigs'], function (configs) {
+define(['topicsService'], function (service) {
   return {
     resources: [
       { newResourceTitle: 'BBC', newResourceUrl: 'bbc.com' },
@@ -8,19 +8,37 @@ define(['newResourcesConfigs'], function (configs) {
       { newResourceTitle: 'The Daily Telegraph', newResourceUrl: 'telegraf.co.uk' },
     ],
 
+    showNewResources: function(resources) {
+      this.view.noNewResources.isVisible = false;
+      this.view.newResourcesSegment.widgetDataMap = {
+        newResourceTitle: 'site_name',
+        newResourceUrl: 'site_url',
+        newResourceSwitch: 'switch',
+      };
+      this.view.newResourcesSegment.setData(resources);
+      this.view.newResourcesSegment.isVisible = true;
+      this.view.addResourcesBtn.isVisible = true;
+    },
+    
+    showSearchErr: function() {
+      alert('there is no resources at this domain');
+      this.view.noNewResources.isVisible = true;
+      this.view.newResourcesSegment.isVisible = false;
+      this.view.addResourcesBtn.isVisible = false;
+    },
+    
     findNewResources: function() {
-      alert('alert');
-      var segment = new kony.ui.SegmentedUI2(configs.segmentBasicConf, configs.segmentLayoutConf, configs.pspConf);
-      segment.setData(this.resources);
-      this.view.newResourcesContainer.add(segment);
+      service.getResources(this.view.resourcesSearchInput.text, this.showNewResources, this.showSearchErr);
     },
 
     addNewResources: function() {
-    
+      var resources = this.view.newResourcesSegment.data.filter(function(rowData) {
+        return !rowData.switch || rowData.switch === '0.0';
+      });
+      alert(resources);
     },
 
     init: function() {
-      alert('i am initted ');
       this.view.addResourcesBtn.onClick = this.addNewResources.bind(this);
       this.view.searchResourcesBtn.onClick = this.findNewResources.bind(this);
     }
