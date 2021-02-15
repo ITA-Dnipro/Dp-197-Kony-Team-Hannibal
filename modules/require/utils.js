@@ -54,10 +54,31 @@ define(function () {
       return err;
     }
   
+    function confirmAlert(message, actionCb) {
+    var basicConf = {
+    message: message,
+    alertType: constants.ALERT_TYPE_CONFIRMATION,
+    alertHandler:alertHandlerCallBck,
+    };
+    
+    var pspConfig = {
+    contentAlignment: constants.ALERT_CONTENT_ALIGN_CENTER
+  };
+    
+    var alert = new kony.ui.Alert(basicConf, pspConfig);
+    
+    function alertHandlerCallBck(alertAnswer) {
+      if(alertAnswer){
+        actionCb();
+      }		
+	}
+  }
+  
     return {
        httpRequest: httpRequest,
        navigateToForm: navigateToForm,
        getUniqId: getUniqId,
        validateUserData: validateUserData,
+       confirmAlert: confirmAlert,
     };
 });
