@@ -1,18 +1,32 @@
-define(['topicsService'], function (service) {
+define(['topicsService', 'utils'], function (service, utils) {
   return {
-    resources: [
-      { newResourceTitle: 'BBC', newResourceUrl: 'bbc.com' },
-      { newResourceTitle: 'DW', newResourceUrl: 'dw.com' },
-      { newResourceTitle: 'Reuters', newResourceUrl: 'reuters.com' },
-      { newResourceTitle: 'NYTimes', newResourceUrl: 'nytimes.com' },
-      { newResourceTitle: 'The Daily Telegraph', newResourceUrl: 'telegraf.co.uk' },
-    ],
-
+    clearFormState: function() {
+      this.view.resourcesSearchInput.text = '';
+      this.view.noNewResources.isVisible = false;
+      this.view.newResourcesSegment.isVisible = false;
+      this.view.addResourcesBtn.isVisible = false;
+    },
+    
+    showResults: function(results) {
+      if (results.length > 0) {
+        this.showNewResources(results);
+      } else {
+        this.showNullResult();
+      }
+    },
+    
+    showNullResult: function() {
+      alert('there is no resources at this domain');
+      this.view.noNewResources.isVisible = true;
+      this.view.newResourcesSegment.isVisible = false;
+      this.view.addResourcesBtn.isVisible = false;
+    },
+    
     showNewResources: function(resources) {
       this.view.noNewResources.isVisible = false;
       this.view.newResourcesSegment.widgetDataMap = {
-        newResourceTitle: 'site_name',
-        newResourceUrl: 'site_url',
+        newResourceTitle: 'name',
+        newResourceUrl: 'url',
         newResourceSwitch: 'switch',
       };
       this.view.newResourcesSegment.setData(resources);
@@ -20,27 +34,36 @@ define(['topicsService'], function (service) {
       this.view.addResourcesBtn.isVisible = true;
     },
     
-    showSearchErr: function() {
-      alert('there is no resources at this domain');
-      this.view.noNewResources.isVisible = true;
-      this.view.newResourcesSegment.isVisible = false;
-      this.view.addResourcesBtn.isVisible = false;
+    showErr: function (err) {
+      alert(err);
     },
     
     findNewResources: function() {
-      service.getResources(this.view.resourcesSearchInput.text, this.showNewResources, this.showSearchErr);
+      service.getResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
     },
 
     addNewResources: function() {
-      var resources = this.view.newResourcesSegment.data.filter(function(rowData) {
+      var selectedResources = this.view.newResourcesSegment.data.filter(function(rowData) {
         return !rowData.switch || rowData.switch === '0.0';
+      }).map(function(resource) {
+        return new NewsResourceModel(resource.name,resource.url, resource.logo);
       });
-      alert(resources);
+      var uniqResources = selectedResources.filter(function(newRes) {
+        return !appStorage.resources.some(function(oldRes) {
+          return oldRes.url === newRes.url;
+        });
+      });
+      appStorage.resources = appStorage.resources.concat(uniqResources);
+      utils.navigateToForm('formNewsProviders');
     },
 
     init: function() {
       this.view.addResourcesBtn.onClick = this.addNewResources.bind(this);
       this.view.searchResourcesBtn.onClick = this.findNewResources.bind(this);
+      this.view.btnBack.onClick = function() {
+        utils.navigateToForm('formNewsProviders');
+      };
+      this.view.onHide = this.clearFormState.bind(this);
     }
  };
 });
