@@ -26,7 +26,7 @@ define(['constants', 'topicsService', 'utils'], function(constants, service, uti
       this.view.userName.onTouchStart = this.moveToProfile.bind(this);
       this.view.btnAddProvider.onClick = function() {
         utils.navigateToForm('formAddNewResources');
-      }
+      };
     },
     
     onPostShow: function() {

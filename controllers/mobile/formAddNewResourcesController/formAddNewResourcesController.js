@@ -16,13 +16,14 @@ define(['topicsService', 'utils'], function (service, utils) {
     },
     
     showNullResult: function() {
-      alert('there is no resources at this domain');
+      kony.application.dismissLoadingScreen();
       this.view.noNewResources.isVisible = true;
       this.view.newResourcesSegment.isVisible = false;
       this.view.addResourcesBtn.isVisible = false;
     },
     
     showNewResources: function(resources) {
+      kony.application.dismissLoadingScreen();
       this.view.noNewResources.isVisible = false;
       this.view.newResourcesSegment.widgetDataMap = {
         newResourceTitle: 'name',
@@ -35,10 +36,12 @@ define(['topicsService', 'utils'], function (service, utils) {
     },
     
     showErr: function (err) {
-      alert(err);
+      kony.application.dismissLoadingScreen();
+      alert(err.message);
     },
     
     findNewResources: function() {
+      kony.application.showLoadingScreen('slWatchForm', 'Please wait', constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, constants.APPLICATION_MODE_NATIVE);
       service.getResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
     },
 
