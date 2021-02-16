@@ -1,17 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_height_": {
         "type": "string",
         "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "150dp"
+        "value": "10dp"
     },
     "_margin_": [
         6,
@@ -25,28 +21,28 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "150"
+    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
+    "_text_": "❮",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
     },
-    "_skin_": "s3d32bf404d14da19a537fc57f445785",
-    "_text_": "Add",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "addResourcesBtn",
+    "id": "btnBack",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "ac01bc44f5ed494b8a6e18f7939f8da7",
+    "isvisible": true,
+    "kuid": "eed9dfa8c9ba4129acfa37d103de9278",
     "name": "kony.ui.Button",
-    "parent": "formAddNewResources",
+    "parent": "headerBlock",
     "pf": "formAddNewResources",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

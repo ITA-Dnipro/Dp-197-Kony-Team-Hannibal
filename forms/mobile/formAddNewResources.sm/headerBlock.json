@@ -1,16 +1,12 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "90dp"
-    },
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "70dp"
     },
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -26,53 +22,41 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
-    "_skin_": "sb1b0e04f3e7469599bb40f05cc02d78",
+    "_skin_": "sb397050519241278127660c35986b13",
     "_top_": {
-        "type": "string",
-        "value": "280dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "noNewResources",
-        "newResourcesSegment"
+        "btnBack",
+        "userName",
+        "logo"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "newResourcesContainer",
+    "id": "headerBlock",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf1b0335e0b24c5297b42699df645698",
+    "kuid": "f4872f91884b402fbefb33d20cd3f8af",
     "layouttype": 2,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
+    "name": "kony.ui.FlexContainer",
     "parent": "formAddNewResources",
     "pf": "formAddNewResources",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }
