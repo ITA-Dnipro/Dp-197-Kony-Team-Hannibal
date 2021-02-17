@@ -1,12 +1,12 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -23,41 +23,41 @@
     ],
     "_percent_": true,
     "_right_": {
-        "type": "string",
-        "value": "55dp"
+        "type": "number",
+        "value": "40"
     },
     "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "190dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "305dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "editBtn",
-        "BtnShowfavorites",
-        "logOutBtn"
+        "searchResourcesBtn",
+        "resourcesSearchInput"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "containerForDataButtons",
+    "id": "searchBox",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i02f309a2f2b4252b586d2e934926787",
+    "kuid": "a9c72c72e3f642fcb35cbb55d65a7c62",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "parent": "formAddNewResources",
+    "pf": "formAddNewResources",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

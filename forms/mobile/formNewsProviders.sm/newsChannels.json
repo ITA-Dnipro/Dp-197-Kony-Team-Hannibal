@@ -5,141 +5,15 @@
         {
             "imgChannel": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "bbc.jpg"
+                "src": ""
             },
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "BBC"
+                "text": ""
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "bbc.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "nyt.jpg"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "NYT"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "nytimes.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "deutsche_welle.png"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Deutsche welle"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "dw.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "wall_street_journal_.png"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Wall street journal\t"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "wsj.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "reuters.png"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Reuters"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "reuters.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "al_jazeera.jpg"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Al Jazeera"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "aljazeera.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "wsj.jpg"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "WSJ"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "wsj.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "cbs.jpg"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "CBS News"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "cbsnews.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "cnbc.jpg"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "CNBC"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "cnbc.com"
-            }
-        },
-        {
-            "imgChannel": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "mirror.png"
-            },
-            "lblTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Mirror"
-            },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "mirror.co.uk"
+                "text": ""
             }
         }
     ],
@@ -176,7 +50,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "00",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -210,7 +84,7 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "bc0bdf776eff434fb188e26a84f562aa",
-    "rowcounter": 9,
+    "rowcounter": 0,
     "rowfocusskin": "s222f8a823a44587953a9ae30ac437af",
     "rowskin": "sc418a9bb81d4bfc971eea689b69bcbe",
     "rowtemplate": "flxChannel",
@@ -222,7 +96,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorcolor": "00000000",
     "separatorrequired": true,

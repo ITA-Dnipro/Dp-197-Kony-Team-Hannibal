@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "55dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,45 +22,47 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "55dp"
-    },
-    "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
+    "_skin_": "sa985589b985438bba0a1c07e6f12e6c",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "305dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "editBtn",
-        "BtnShowfavorites",
-        "logOutBtn"
+        "newResourceSwitch",
+        "resourceInfoContainer"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "newResourceContainerController"
+        }
+    },
     "enablescrolling": true,
-    "id": "containerForDataButtons",
+    "id": "newResourceContainer",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i02f309a2f2b4252b586d2e934926787",
+    "kuid": "hf0400e4b08f410dab2e1a25ae2f5415",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "mainWrapper",
-    "pf": "formUserProfile",
+    "parent": "newResourceTemplate",
+    "pf": "newResourceTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
