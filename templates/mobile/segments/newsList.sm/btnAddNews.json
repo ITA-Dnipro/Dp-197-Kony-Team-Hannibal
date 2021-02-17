@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "35dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "105dp"
     },
     "_margin_": [
         6,
@@ -21,29 +21,30 @@
         0,
         0
     ],
-    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
-    "_text_": "Add new provider",
+    "_skin_": "sd63a7e227054b0baf6bf656f302cd20",
+    "_text_": "Add",
     "_top_": {
         "type": "string",
-        "value": "754dp"
+        "value": "60dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "85dp"
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnAddProvider",
+    "id": "btnAddNews",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "id3658e9d8e84458aadb0c42378544ad",
+    "kuid": "db1746837a4d40858acfb113a83b969b",
     "name": "kony.ui.Button",
-    "parent": "formNewsProviders",
-    "pf": "formNewsProviders",
+    "parent": "news",
+    "pf": "newsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

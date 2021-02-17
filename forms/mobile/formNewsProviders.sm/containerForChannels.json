@@ -1,51 +1,60 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "685dp"
     },
     "_left_": {
         "type": "string",
         "value": "0dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
-    "_text_": "Add new provider",
+    "_percent_": true,
+    "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
     "_top_": {
         "type": "string",
-        "value": "754dp"
+        "value": "70dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "newsChannels"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
-    "id": "btnAddProvider",
+    "enablescrolling": true,
+    "id": "containerForChannels",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "id3658e9d8e84458aadb0c42378544ad",
-    "name": "kony.ui.Button",
+    "kuid": "f06987303b544afdb8ba38307e5031b7",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
     "parent": "formNewsProviders",
     "pf": "formNewsProviders",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

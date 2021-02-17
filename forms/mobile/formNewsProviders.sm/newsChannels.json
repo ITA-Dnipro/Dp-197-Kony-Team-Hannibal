@@ -19,12 +19,12 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "680dp"
+        "value": "685dp"
     },
     "_indicator_": "none",
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -40,8 +40,8 @@
         0
     ],
     "_top_": {
-        "type": "string",
-        "value": "70dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -69,7 +69,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i35e7c23531041f895b0f9465f326482",
+    "kuid": "f82ac9c6e70e438c99b51df0aa62fb81",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -78,7 +78,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "formNewsProviders",
+    "parent": "containerForChannels",
     "pf": "formNewsProviders",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "23dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "105dp"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s20773cac5d14a8f98094704365ebd06",
-    "_text_": "Title",
-    "_top_": {
+    "_right_": {
         "type": "string",
         "value": "10dp"
     },
-    "_width_": {
+    "_skin_": "sede0df762a44573b87aaace1f7f098b",
+    "_text_": "Title",
+    "_top_": {
         "type": "string",
-        "value": "395dp"
+        "value": "15dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 5,
+    "contentalignment": 1,
     "id": "newsTitle",
     "info": null,
     "ipad": {

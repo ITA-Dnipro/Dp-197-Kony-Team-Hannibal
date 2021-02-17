@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "270dp"
+        "value": "100dp"
     },
     "_left_": {
         "type": "string",
@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
+    "_skin_": "s46639dc1cb94746a59645dd4835692d",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,7 +36,9 @@
     "canUpdateUI": true,
     "children": [
         "newsTitle",
-        "newsDescription"
+        "pubDate",
+        "logo",
+        "btnAddNews"
     ],
     "clipbounds": true,
     "containerId": true,

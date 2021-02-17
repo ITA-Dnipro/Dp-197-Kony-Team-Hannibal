@@ -35,7 +35,8 @@
     "canUpdateUI": true,
     "children": [
         "description",
-        "url"
+        "url",
+        "logo"
     ],
     "clipbounds": true,
     "containerId": true,

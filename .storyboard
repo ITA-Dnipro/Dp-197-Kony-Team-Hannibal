@@ -7,9 +7,41 @@
                 {
                     "formKUID": "d31fb1683ef44dfc81761267f347e6e8",
                     "formName": "formAuthentication",
-                    "isStartupForm": false,
+                    "isStartupForm": true,
                     "key": "d31fb1683ef44dfc81761267f347e6e8",
                     "loc": "8 24.845263671875003",
+                    "thumbnailURL": "/assets/Kony/forms/mobile/formAuthentication.sm/.thumbs/default.jpeg?"
+                },
+                {
+                    "formKUID": "c26c20da4f1f48348543e2acd98db85c",
+                    "formName": "formNewsFeeds",
+                    "isStartupForm": false,
+                    "key": "c26c20da4f1f48348543e2acd98db85c",
+                    "loc": "368 354.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d127829e624146f1b54ba5cd03474c1a",
+                    "formName": "formNewsList",
+                    "isStartupForm": false,
+                    "key": "d127829e624146f1b54ba5cd03474c1a",
+                    "loc": "188 784.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g048af32fe5047e383b2093cc1514a3f",
+                    "formName": "formNewsPage",
+                    "isStartupForm": false,
+                    "key": "g048af32fe5047e383b2093cc1514a3f",
+                    "loc": "188 1384.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "aa95691864e84533a307ef9bad3421a0",
+                    "formName": "formNewsProviders",
+                    "isStartupForm": false,
+                    "key": "aa95691864e84533a307ef9bad3421a0",
+                    "loc": "8 1824.845263671875",
                     "thumbnailURL": null
                 },
                 {
@@ -18,7 +50,7 @@
                     "isStartupForm": false,
                     "key": "heb94cfe9be247969d071132d930129c",
                     "loc": "-65 109.84526367187502",
-                    "thumbnailURL": "/assets/Hannibal/forms/mobile/formRegistration.sm/.thumbs/default.jpeg?"
+                    "thumbnailURL": "/assets/Kony/forms/mobile/formRegistration.sm/.thumbs/default.jpeg?"
                 },
                 {
                     "formKUID": "c60aba4bacdf47eeb6a8f1e812df7029",
@@ -26,6 +58,14 @@
                     "isStartupForm": false,
                     "key": "c60aba4bacdf47eeb6a8f1e812df7029",
                     "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g2c851053fec4bddb94859bc656a3742",
+                    "formName": "formTest",
+                    "isStartupForm": false,
+                    "key": "g2c851053fec4bddb94859bc656a3742",
+                    "loc": "8 2424.845263671875",
                     "thumbnailURL": null
                 },
                 {
@@ -39,9 +79,17 @@
                 {
                     "formKUID": "j28c1a26aff1434d812166989de81cb1",
                     "formName": "formUserProfile",
-                    "isStartupForm": true,
+                    "isStartupForm": false,
                     "key": "j28c1a26aff1434d812166989de81cb1",
                     "loc": "188 184.845263671875",
+                    "thumbnailURL": "/assets/Kony/forms/mobile/formUserProfile.sm/.thumbs/default.jpeg?"
+                },
+                {
+                    "formKUID": "d83c5c5633e5453eb8120707c3185b88",
+                    "formName": "formUserProfileEdit",
+                    "isStartupForm": false,
+                    "key": "d83c5c5633e5453eb8120707c3185b88",
+                    "loc": "8 3024.845263671875",
                     "thumbnailURL": null
                 }
             ]

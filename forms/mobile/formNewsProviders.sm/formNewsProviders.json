@@ -31,8 +31,8 @@
     "canUpdateUI": true,
     "children": [
         "headerBlock",
-        "newsChannels",
-        "btnAddProvider"
+        "btnAddProvider",
+        "containerForChannels"
     ],
     "containerweight": 100,
     "controllerInfo": {

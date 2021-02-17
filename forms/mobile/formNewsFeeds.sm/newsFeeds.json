@@ -7,15 +7,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
             },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "url"
-            }
-        },
-        {
-            "description": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "description"
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -27,15 +21,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
             },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "url"
-            }
-        },
-        {
-            "description": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "description"
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -47,15 +35,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
             },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "url"
-            }
-        },
-        {
-            "description": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "description"
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -67,15 +49,9 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
             },
-            "url": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "url"
-            }
-        },
-        {
-            "description": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "description"
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -87,6 +63,10 @@
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
             },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "url"
@@ -96,6 +76,66 @@
             "description": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "description"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "url"
+            }
+        },
+        {
+            "description": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "description"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "url"
+            }
+        },
+        {
+            "description": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "description"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "url"
+            }
+        },
+        {
+            "description": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "description"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "url": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "url"
+            }
+        },
+        {
+            "description": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "description"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "url": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -194,6 +234,7 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "description": "description",
+        "logo": "logo",
         "newsFeed": "newsFeed",
         "url": "url"
     },
