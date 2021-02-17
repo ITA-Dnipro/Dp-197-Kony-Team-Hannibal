@@ -40,7 +40,8 @@ define(["userProfileService", 'utils'], function(service, utils) {
       
       onBtnLogOutClick: function() {
         utils.confirmAlert("Are you sure to log out?", this.logOut);
-      }
+      },
+      
       
     };
  });

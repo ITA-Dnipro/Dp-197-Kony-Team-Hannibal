@@ -7,6 +7,12 @@ function UserDataModel(id, fullName, email, login, password) {
   this.password = password || '';
 }
 
+function NewsResourceModel(name, url, logo) {
+  this.name = name;
+  this.url = url;
+  this.logo = logo;
+}
+
 function RssFeedModel(description, url, logo) {
   this.description = description;
   this.url = url;

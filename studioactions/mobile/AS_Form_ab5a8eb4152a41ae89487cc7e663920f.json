@@ -1,0 +1,28 @@
+{
+    "AS_Form_ab5a8eb4152a41ae89487cc7e663920f": {
+        "id": "AS_Form_ab5a8eb4152a41ae89487cc7e663920f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "formAddNewResources",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i72b1f4b07da419d9163dd1493370adb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c425b382548d4be0a15c6fb8df9ffaea",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
