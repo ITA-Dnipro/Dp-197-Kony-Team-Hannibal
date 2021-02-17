@@ -13,9 +13,9 @@ function RssFeedModel(description, url, logo) {
   this.logo = logo;
 }
 
-function NewsModel(title, description, link, pubDate) {
+function NewsModel(title, logo, link, pubDate) {
   this.newsTitle = title;
-  this.newsDescription = description;
+  this.logo = logo;
   this.link = link;
   this.pubDate = pubDate;
 }

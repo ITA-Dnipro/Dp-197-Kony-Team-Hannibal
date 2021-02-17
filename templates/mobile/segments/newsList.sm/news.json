@@ -36,8 +36,9 @@
     "canUpdateUI": true,
     "children": [
         "newsTitle",
-        "newsDescription",
-        "pubDate"
+        "pubDate",
+        "logo",
+        "btnAddNews"
     ],
     "clipbounds": true,
     "containerId": true,

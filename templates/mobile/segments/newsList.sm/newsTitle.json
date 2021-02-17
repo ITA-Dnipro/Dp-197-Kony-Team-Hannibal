@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "30dp"
+        "value": "105dp"
     },
     "_margin_": [
         1,
@@ -23,13 +23,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "30dp"
+        "value": "10dp"
     },
     "_skin_": "sede0df762a44573b87aaace1f7f098b",
     "_text_": "Title",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "15dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
-    "contentalignment": 2,
+    "contentalignment": 1,
     "id": "newsTitle",
     "info": null,
     "ipad": {

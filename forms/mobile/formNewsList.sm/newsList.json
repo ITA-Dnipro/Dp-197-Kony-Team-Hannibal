@@ -3,9 +3,13 @@
     "DNDConfig": null,
     "_data_": [
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -17,9 +21,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -31,9 +39,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -45,9 +57,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -59,9 +75,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -73,9 +93,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -87,9 +111,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -101,9 +129,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -115,9 +147,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -129,9 +165,13 @@
             }
         },
         {
-            "newsDescription": {
+            "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Description"
+                "text": "Button"
+            },
+            "logo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -233,8 +273,9 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
+        "btnAddNews": "btnAddNews",
+        "logo": "logo",
         "news": "news",
-        "newsDescription": "newsDescription",
         "newsTitle": "newsTitle",
         "pubDate": "pubDate"
     },
