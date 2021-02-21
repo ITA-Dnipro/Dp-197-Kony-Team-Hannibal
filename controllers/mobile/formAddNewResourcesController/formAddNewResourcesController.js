@@ -1,4 +1,4 @@
-define(['topicsService', 'utils'], function (service, utils) {
+define(['resourcesService', 'utils'], function (service, utils) {
   return {
     clearFormState: function() {
       this.view.resourcesSearchInput.text = '';
