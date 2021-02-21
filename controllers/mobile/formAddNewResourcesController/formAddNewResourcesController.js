@@ -42,7 +42,7 @@ define(['resourcesService', 'utils'], function (service, utils) {
     
     findNewResources: function() {
       kony.application.showLoadingScreen('slWatchForm', 'Please wait', constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, constants.APPLICATION_MODE_NATIVE);
-      service.getResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
+      service.findResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
     },
 
     addNewResources: function() {

@@ -1,6 +1,6 @@
 define(['utils', 'constants'], function (utils, appConstants) {
    
-  function getResources(url, successCb, errorCb) {
+  function findResources(url, successCb, errorCb) {
      var resourcesUrl = appConstants.FEEDS_API + url;
      function extractResources(data) {
        var resources = data.filter(function(res) {
@@ -18,6 +18,6 @@ define(['utils', 'constants'], function (utils, appConstants) {
    }
   
     return {
-       getResources: getResources,
+       findResources: findResources,
     };
 });
