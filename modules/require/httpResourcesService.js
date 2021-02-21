@@ -17,7 +17,21 @@ define(['utils', 'constants'], function (utils, appConstants) {
      utils.httpRequest(constants.HTTP_METHOD_GET, resourcesUrl, extractResources, errorCb);
    }
   
+  function addResources(userId, newResources, successCb, errorCb) {
+    try {
+      var resourcesStorage = kony.store.getItem('resourcesStorage') || {};
+      var userResources = resourcesStorage.userId || [];
+      userResources = userResources.concat(newResources);
+      resourcesStorage.userId = userResources;
+      kony.store.setItem('resourcesStorage', resourcesStorage);
+      successCb(userResources);
+    } catch(e) {
+      errorCb(e.message);
+    }
+  }
+  
     return {
-       findResources: findResources,
+      findResources: findResources,
+      addResources: addResources,
     };
 });

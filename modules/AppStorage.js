@@ -1,6 +1,6 @@
 var appStorage = {
   userProfile: {},
-  resources: [
+  startResources: [
     { name: 'BBC', url: 'bbc.com', logo: 'bbc.jpg' },
     { name: 'NYT', url: 'nytimes.com', logo: 'nyt.jpg' },
     { name: 'Deutsche welle', url: 'dw.com', logo: 'deutsche_welle.png' },
@@ -11,6 +11,7 @@ var appStorage = {
     { name: 'CBS News', url: 'cbsnews.com', logo: 'cbs.jpg' },
     { name: 'CNBC', url: 'cnbc.com', logo: 'cnbc.jpg' },
   ],
+  userResources: [],
   feeds: [],
   news: [],
 };

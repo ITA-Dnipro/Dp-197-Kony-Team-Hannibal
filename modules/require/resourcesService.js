@@ -1,5 +1,7 @@
 define(['httpResourcesService'], function (httpImpl) {
-    return {
-      findResources: httpImpl.findResources,
-    };
+  var concreteImpl = httpImpl;
+  return {
+    addResources: concreteImpl.addResources,
+    findResources: concreteImpl.findResources,
+  };
 });

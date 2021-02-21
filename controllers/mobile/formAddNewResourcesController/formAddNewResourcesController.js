@@ -56,8 +56,10 @@ define(['resourcesService', 'utils'], function (service, utils) {
           return oldRes.url === newRes.url;
         });
       });
-      appStorage.resources = appStorage.resources.concat(uniqResources);
-      utils.navigateToForm('formNewsProviders');
+      resourcesService.addResources(appStorage.userProfile.id, uniqResources, function(newResources) {
+        appStorage.resources = newResources;
+        utils.navigateToForm('formNewsProviders');
+      }, alert);
     },
 
     init: function() {
