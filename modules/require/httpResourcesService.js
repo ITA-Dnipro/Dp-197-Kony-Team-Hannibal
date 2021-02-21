@@ -20,9 +20,9 @@ define(['utils', 'constants'], function (utils, appConstants) {
   function addResources(userId, newResources, successCb, errorCb) {
     try {
       var resourcesStorage = kony.store.getItem('resourcesStorage') || {};
-      var userResources = resourcesStorage.userId || [];
+      var userResources = resourcesStorage[userId] || [];
       userResources = userResources.concat(newResources);
-      resourcesStorage.userId = userResources;
+      resourcesStorage[userId] = userResources;
       kony.store.setItem('resourcesStorage', resourcesStorage);
       successCb(userResources);
     } catch(e) {
@@ -30,8 +30,19 @@ define(['utils', 'constants'], function (utils, appConstants) {
     }
   }
   
+  function getResources(userId, successCb, errorCb) {
+    try {
+      var resourcesStorage = kony.store.getItem('resourcesStorage') || {};
+      var userResources = resourcesStorage[userId] || [];
+      successCb(userResources);
+    } catch (e) {
+      errorCb(e.message);
+    }
+  }
+  
     return {
       findResources: findResources,
       addResources: addResources,
+      getResources: getResources,
     };
 });

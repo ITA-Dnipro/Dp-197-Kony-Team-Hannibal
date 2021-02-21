@@ -1,4 +1,4 @@
-define(['authenticationService', 'utils'], function (authService, utils) { 
+define(['authenticationService', 'resourcesService', 'utils'], function (authService, resourcesService, utils) { 
   function validateUserCredentials(login, password) {
     var err;
     switch (true) {
@@ -22,10 +22,12 @@ define(['authenticationService', 'utils'], function (authService, utils) {
   }
   
   return {   
-    showResources: function(user) {
-      alert('Authorization completed successfully.');
-      appStorage.userProfile = user;
-      utils.navigateToForm('formNewsProviders');
+    initUser: function(user) {
+      resourcesService.getResources(user.id, function (userResources) {
+        appStorage.userProfile = user;
+        appStorage.userResources = userResources;
+        utils.navigateToForm('formNewsProviders');
+      }, this.onErr);
     },
     
     onErr: function(err) {
@@ -39,7 +41,7 @@ define(['authenticationService', 'utils'], function (authService, utils) {
      if (err) {
        this.onErr(err);
      } else {
-       authService.findUser(login, password, this.showResources.bind(this), this.onErr.bind(this));
+       authService.findUser(login, password, this.initUser, this.onErr);
      }
    },
 
@@ -50,5 +52,5 @@ define(['authenticationService', 'utils'], function (authService, utils) {
        utils.navigateToForm('formRegistration');
      };
    }
-  }
+  };
  });

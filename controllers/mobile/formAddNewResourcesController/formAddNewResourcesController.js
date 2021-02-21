@@ -1,4 +1,4 @@
-define(['resourcesService', 'utils'], function (service, utils) {
+define(['resourcesService', 'utils'], function (resourcesService, utils) {
   return {
     clearFormState: function() {
       this.view.resourcesSearchInput.text = '';
@@ -42,22 +42,22 @@ define(['resourcesService', 'utils'], function (service, utils) {
     
     findNewResources: function() {
       kony.application.showLoadingScreen('slWatchForm', 'Please wait', constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, constants.APPLICATION_MODE_NATIVE);
-      service.findResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
+      resourcesService.findResources(this.view.resourcesSearchInput.text, this.showResults, this.showErr);
     },
 
     addNewResources: function() {
       var selectedResources = this.view.newResourcesSegment.data.filter(function(rowData) {
         return !rowData.switch || rowData.switch === '0.0';
       }).map(function(resource) {
-        return new NewsResourceModel(resource.name,resource.url, resource.logo);
+        return new NewsResourceModel(resource.name, resource.url, resource.logo);
       });
       var uniqResources = selectedResources.filter(function(newRes) {
-        return !appStorage.resources.some(function(oldRes) {
+        return !appStorage.userResources.some(function(oldRes) {
           return oldRes.url === newRes.url;
         });
       });
       resourcesService.addResources(appStorage.userProfile.id, uniqResources, function(newResources) {
-        appStorage.resources = newResources;
+        appStorage.userResources = newResources;
         utils.navigateToForm('formNewsProviders');
       }, alert);
     },

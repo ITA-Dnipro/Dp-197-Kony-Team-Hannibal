@@ -3,5 +3,6 @@ define(['httpResourcesService'], function (httpImpl) {
   return {
     addResources: concreteImpl.addResources,
     findResources: concreteImpl.findResources,
+    getResources: concreteImpl.getResources,
   };
 });

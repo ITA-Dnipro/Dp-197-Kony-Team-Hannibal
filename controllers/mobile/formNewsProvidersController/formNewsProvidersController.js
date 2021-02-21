@@ -16,7 +16,7 @@ define(['constants', 'topicsService', 'utils'], function(constants, service, uti
         imgChannel: 'logo',
         url: 'url',
       };
-      this.view.newsChannels.setData(appStorage.resources);
+      this.view.newsChannels.setData(appStorage.userResources);
     },
     
     onInit: function() {
