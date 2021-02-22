@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
@@ -32,11 +32,13 @@
         "value": "100%"
     },
     "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "lblTitle",
         "imgChannel",
-        "url"
+        "url",
+        "btnDelete"
     ],
     "clipbounds": true,
     "containerId": true,
