@@ -44,7 +44,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
     try {
       var storage = kony.store.getItem('resourcesStorage');
       var oldResources = storage[userId];
-      var newResources = old.resources.filter(function(res) {
+      var newResources = oldResources.filter(function(res) {
         return res.url !== deleteUrl;
       });
       storage[userId] = newResources;
