@@ -40,9 +40,25 @@ define(['utils', 'constants'], function (utils, appConstants) {
     }
   }
   
+  function deleteResource(userId, deleteUrl, successCb, errorCb) {
+    try {
+      var storage = kony.store.getItem('resourcesStorage');
+      var oldResources = storage[userId];
+      var newResources = old.resources.filter(function(res) {
+        return res.url !== deleteUrl;
+      });
+      storage[userId] = newResources;
+      kony.store.setItem('resourcesStorage', storage);
+      successCb(newResources);
+    } catch (e) {
+      errorCb(e.message);
+    }
+  }
+  
     return {
       findResources: findResources,
       addResources: addResources,
       getResources: getResources,
+      deleteResource: deleteResource,
     };
 });

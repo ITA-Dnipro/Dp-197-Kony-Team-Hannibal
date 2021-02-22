@@ -4,5 +4,6 @@ define(['httpResourcesService'], function (httpImpl) {
     addResources: concreteImpl.addResources,
     findResources: concreteImpl.findResources,
     getResources: concreteImpl.getResources,
+    deleteResource: concreteImpl.deleteResource,
   };
 });
