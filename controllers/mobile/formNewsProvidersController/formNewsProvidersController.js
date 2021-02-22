@@ -1,4 +1,4 @@
-define(['constants', 'topicsService', 'resourcesService', 'utils'], function(constants, service, resourcesService, utils) { 
+define(['constants', 'topicsService', 'resourcesService', 'utils'], function(constants, topicsService, resourcesService, utils) { 
   
   function showFeeds(feeds) {
     appStorage.feeds = feeds;
@@ -55,7 +55,7 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
     onRowClick: function(widget, section, index) {
       var resourceUrl = widget.data[index].url;
       var topicsApiUrl = constants.FEEDS_API + resourceUrl;
-      service.getResourceTopics(topicsApiUrl, showFeeds, renderErr);
+      topicsService.getResourceTopics(topicsApiUrl, showFeeds, renderErr);
     }
   };
  });

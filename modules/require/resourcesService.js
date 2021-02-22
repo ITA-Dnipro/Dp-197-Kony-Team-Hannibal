@@ -1,4 +1,4 @@
-define(['httpResourcesService'], function (httpImpl) {
+define(['storeResourcesService'], function (httpImpl) {
   var concreteImpl = httpImpl;
   return {
     addResources: concreteImpl.addResources,

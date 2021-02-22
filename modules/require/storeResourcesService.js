@@ -19,11 +19,11 @@ define(['utils', 'constants'], function (utils, appConstants) {
   
   function addResources(userId, newResources, successCb, errorCb) {
     try {
-      var resourcesStorage = kony.store.getItem('resourcesStorage') || {};
-      var userResources = resourcesStorage[userId] || [];
+      var userData = kony.store.getItem(userId) || {};
+      var userResources = userData.resources || [];
       userResources = userResources.concat(newResources);
-      resourcesStorage[userId] = userResources;
-      kony.store.setItem('resourcesStorage', resourcesStorage);
+      userData.resources = userResources;
+      kony.store.setItem(userId, userData);
       successCb(userResources);
     } catch(e) {
       errorCb(e.message);
@@ -32,8 +32,8 @@ define(['utils', 'constants'], function (utils, appConstants) {
   
   function getResources(userId, successCb, errorCb) {
     try {
-      var resourcesStorage = kony.store.getItem('resourcesStorage') || {};
-      var userResources = resourcesStorage[userId] || [];
+      var userData = kony.store.getItem(userId) || {};
+      var userResources = userData.resources || [];
       successCb(userResources);
     } catch (e) {
       errorCb(e.message);
@@ -42,13 +42,13 @@ define(['utils', 'constants'], function (utils, appConstants) {
   
   function deleteResource(userId, deleteUrl, successCb, errorCb) {
     try {
-      var storage = kony.store.getItem('resourcesStorage');
-      var oldResources = storage[userId];
+      var userData = kony.store.getItem(userId) || {};
+      var oldResources = userData.resources || [];
       var newResources = oldResources.filter(function(res) {
         return res.url !== deleteUrl;
       });
-      storage[userId] = newResources;
-      kony.store.setItem('resourcesStorage', storage);
+      userData.resources = newResources;
+      kony.store.setItem(userId, userData);
       successCb(newResources);
     } catch (e) {
       errorCb(e.message);
