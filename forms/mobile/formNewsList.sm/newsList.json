@@ -5,181 +5,19 @@
         {
             "btnAddNews": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
+                "text": ""
             },
             "logo": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": ""
             },
             "newsTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
+                "text": ""
             },
             "pubDate": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            }
-        },
-        {
-            "btnAddNews": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Button"
-            },
-            "logo": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "newsTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            },
-            "pubDate": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
+                "text": ""
             }
         }
     ],
@@ -216,7 +54,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "00",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -250,12 +88,13 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "j5d565a798a1481eaaf00ec9bcd56840",
-    "rowcounter": 9,
+    "rowcounter": 0,
     "rowfocusskin": "s222f8a823a44587953a9ae30ac437af",
     "rowskin": "sc418a9bb81d4bfc971eea689b69bcbe",
     "rowtemplate": "news",
     "screenlevelwidget": false,
     "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s9f1d0d0678c44908aef608fcb954976",
     "selectedRows": null,
     "selectedState": false,
