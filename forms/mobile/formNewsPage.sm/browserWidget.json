@@ -1,9 +1,9 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizBrowser",
     "DNDConfig": null,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "680dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "containerweight": 69,
     "detecttelnumber": true,
-    "htmlstring": "Browser",
+    "htmlstring": "",
     "id": "browserWidget",
     "info": null,
     "iscustomlayout": false,
