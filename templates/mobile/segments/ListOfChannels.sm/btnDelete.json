@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "105dp"
+        "value": "100dp"
     },
     "_margin_": [
         6,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s2b2da1ef6af48ad9b3aa2049c9acefb",
-    "_text_": "delete",
+    "_skin_": "sb75b505d3dd46eb8b230be95f925695",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "60dp"
     },
     "_width_": {
         "type": "string",
-        "value": "85dp"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerId": true,

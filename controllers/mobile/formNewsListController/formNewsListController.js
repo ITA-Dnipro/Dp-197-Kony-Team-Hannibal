@@ -26,7 +26,6 @@ define(['utils'], function(utils) {
     onFormShowed: function() {
       var dataNews = appStorage.news.map(function(item) {
         item.btnAddNews = {
-          "text": "Add",
           "onClick": onBtnAddClicked.bind(this)
         };
         return item;
