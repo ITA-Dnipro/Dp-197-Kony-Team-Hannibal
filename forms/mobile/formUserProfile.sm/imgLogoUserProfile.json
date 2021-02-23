@@ -4,7 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_margin_": [
         0,
@@ -20,17 +20,17 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "15dp"
     },
     "_skin_": "s1f3ce5440e840f4b39dc8d847489500",
     "_src_": "logo_60.png",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,

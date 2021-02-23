@@ -1,15 +1,15 @@
 {
   "android": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "androidwearos": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
-  "background_color": "fa0202ff",
+  "background_color": "fc0000ff",
   "bg_type": "one",
   "border_color": "ffffffff",
   "border_style": "rc",
@@ -17,81 +17,81 @@
   "border_width": 1,
   "desktopweb": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "fontSizeInPx": false,
   "font_color": "ffffffff",
   "font_name": "iphoneSystem",
-  "font_size": 100,
+  "font_size": 200,
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "iphone": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
-  "kuid": "s2b2da1ef6af48ad9b3aa2049c9acefb",
+  "kuid": "sb75b505d3dd46eb8b230be95f925695",
   "spaan": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "spaandroidtablet": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "spaip": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "spaipad": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "spawindowstablet": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "spawinphone8": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "tabrcandroid": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "wType": "Button",
   "watchos": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "windows8": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   },
   "winphone8": {
     "font_name": "FontAwesome",
-    "font_size": 100,
+    "font_size": 200,
     "isForked": false
   }
 }
