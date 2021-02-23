@@ -7,7 +7,7 @@ define(['utils'], function(utils){
       },
      
       onFormShowed: function() {
-        var urlConf = { URL: appStorage.linkOnShowBrowser };
+        var urlConf = { URL: appStorage.linkOnShowBrowser.link };
         this.view.userName.text = appStorage.userProfile.login;
         this.view.browserWidget.requestURLConfig = urlConf;
       },
