@@ -26,7 +26,8 @@ define(['newsService', 'constants', 'utils'], function(service, constants, utils
     onRowCick: function(widget, section, index) {
       var topicUrl = widget.data[index].url;
       var feedUrl = constants.XML_CONVERTER_API + topicUrl;
-      service.getFeedData(feedUrl, showNews, renderErr);
+      var logo = appStorage.feeds[1].logo;
+      service.getFeedData(feedUrl, showNews, renderErr, logo);
     },
   
     init: function() {
