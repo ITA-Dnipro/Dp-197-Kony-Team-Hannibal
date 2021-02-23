@@ -8,20 +8,20 @@ function UserDataModel(id, fullName, email, login, password) {
 }
 
 function NewsResourceModel(name, url, logo) {
-  this.name = name;
-  this.url = url;
-  this.logo = logo;
+  this.name = name || '';
+  this.url = url || '';
+  this.logo = logo || '';
 }
 
 function RssFeedModel(description, url, logo) {
-  this.description = description;
-  this.url = url;
-  this.logo = logo;
+  this.description = description || '';
+  this.url = url || '';
+  this.logo = logo || '';
 }
 
 function NewsModel(title, logo, link, pubDate) {
-  this.newsTitle = title;
-  this.logo = logo;
-  this.link = link;
-  this.pubDate = pubDate;
+  this.newsTitle = title || '';
+  this.logo = logo || '';
+  this.link = link || '';
+  this.pubDate = pubDate || '';
 }

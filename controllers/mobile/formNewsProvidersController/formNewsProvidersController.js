@@ -1,4 +1,4 @@
-define(['constants', 'topicsService', 'utils'], function(constants, service, utils) { 
+define(['constants', 'topicsService', 'resourcesService', 'utils'], function(constants, topicsService, resourcesService, utils) { 
   
   function showFeeds(feeds) {
     appStorage.feeds = feeds;
@@ -10,13 +10,27 @@ define(['constants', 'topicsService', 'utils'], function(constants, service, uti
   }
   
   return {
+    deleteResource: function(url) {
+      var self = this;
+      resourcesService.deleteResource(appStorage.userProfile.id, url, function(newResources) {
+        appStorage.userResources = newResources;
+        self.renderResources();
+      }, renderErr);
+    },
+    
     renderResources: function() {
-      this.view.newsChannels.widgetDataMap = {
-        lblTitle: 'name',
-        imgChannel: 'logo',
-        url: 'url',
-      };
-      this.view.newsChannels.setData(appStorage.resources);
+      var self = this;
+      var resources = appStorage.userResources.map(function(res) {
+        return {
+          lblTitle: res.name,
+          imgChannel: res.logo,
+          url: res.url,
+          btnDelete: {
+            onClick: self.deleteResource.bind(self, res.url),
+          },
+        };
+      });
+      this.view.newsChannels.setData(resources);
     },
     
     onInit: function() {
@@ -41,7 +55,7 @@ define(['constants', 'topicsService', 'utils'], function(constants, service, uti
     onRowClick: function(widget, section, index) {
       var resourceUrl = widget.data[index].url;
       var topicsApiUrl = constants.FEEDS_API + resourceUrl;
-      service.getResourceTopics(topicsApiUrl, showFeeds, renderErr);
+      topicsService.getResourceTopics(topicsApiUrl, showFeeds, renderErr);
     }
   };
  });

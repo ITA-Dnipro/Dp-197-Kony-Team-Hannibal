@@ -22,7 +22,7 @@ define(function () {
     }
   
     function getUniqId() {
-      return new Date().getTime();
+      return '' + new Date().getTime();
     }
 
     function validateUserData(userData) {

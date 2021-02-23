@@ -3,6 +3,10 @@
     "DNDConfig": null,
     "_data_": [
         {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Button"
+            },
             "imgChannel": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": ""
@@ -107,6 +111,7 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
+        "btnDelete": "btnDelete",
         "flxChannel": "flxChannel",
         "imgChannel": "imgChannel",
         "lblTitle": "lblTitle",
