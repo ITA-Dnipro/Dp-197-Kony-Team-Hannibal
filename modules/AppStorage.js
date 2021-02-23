@@ -1,5 +1,6 @@
 var appStorage = {
   userProfile: {},
+  newsToShow: {},
   resources: [
     { name: 'BBC', url: 'bbc.com', logo: 'bbc.jpg' },
     { name: 'Deutsche welle', url: 'dw.com', logo: 'deutsche_welle.png' },

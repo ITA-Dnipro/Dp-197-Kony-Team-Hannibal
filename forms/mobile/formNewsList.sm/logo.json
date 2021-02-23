@@ -10,10 +10,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "350dp"
-    },
     "_margin_": [
         0,
         0,
@@ -26,6 +22,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_skin_": "s6a49ae2d13944d9a3e297a28107d2ff",
     "_src_": "logo_60.png",
     "_top_": {
