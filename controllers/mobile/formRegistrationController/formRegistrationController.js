@@ -1,4 +1,4 @@
-define(['authenticationService', 'utils'], function(authService, utils) {
+define(['authenticationService', 'resourcesService', 'utils'], function(authService, resourcesService, utils) {
   function clearFields() {
     this.view.inputFullName.text = '';
     this.view.inputEmail.text = '';
@@ -18,9 +18,13 @@ define(['authenticationService', 'utils'], function(authService, utils) {
      alert(err);
    },
     
-   showResources: function(user) {
-     appStorage.userProfile = user;
-     utils.navigateToForm('formNewsProviders');
+   initializeUser: function(user) {
+     var startResources = appStorage.startResources;
+     resourcesService.addResources(user.id, startResources, function(resources) {
+       appStorage.userProfile = user;
+       appStorage.userResources = resources;
+       utils.navigateToForm('formNewsProviders');
+     }, this.onErr);
    },
 
    createNewUser: function createNewUser() {
@@ -42,7 +46,7 @@ define(['authenticationService', 'utils'], function(authService, utils) {
          userData.login,
          userData.password,
        );
-       authService.registerUser(newUser, this.showResources, this.onErr);
+       authService.registerUser(newUser, this.initializeUser, this.onErr);
      }
    }
  };

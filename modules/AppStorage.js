@@ -1,16 +1,16 @@
 var appStorage = {
   userProfile: {},
-  newsToShow: {},
-  resources: [
-    { name: 'BBC', url: 'bbc.com', logo: 'bbc.jpg' },
-    { name: 'Deutsche welle', url: 'dw.com', logo: 'deutsche_welle.png' },
-    { name: 'Wall Street Journal', url: 'wsj.com', logo: 'wall_street_journal_.jpg' },
-    { name: 'Reuters', url: 'reuters.com', logo: 'reuters.png' },
-    { name: 'Al Jazeera', url: 'aljazeera.com', logo: 'al_jazeera.jpg' },
-    { name: 'Mirror', url: 'mirror.co.uk', logo: 'mirror.png' },
-    { name: 'CBS News', url: 'cbsnews.com', logo: 'cbs.jpg' },
-    { name: 'CNBC', url: 'cnbc.com', logo: 'cnbc.jpg' },
+  startResources: [
+    { name: 'BBC', url: 'www.bbc.com', logo: 'bbc.jpg' },
+    { name: 'NYT', url: 'www.nytimes.com', logo: 'nyt.jpg' },
+    { name: 'Wall Street Journal', url: 'www.wsj.com', logo: 'wall_street_journal_.jpg' },
+    { name: 'Reuters', url: 'www.reuters.com', logo: 'reuters.png' },
+    { name: 'Al Jazeera', url: 'www.aljazeera.com', logo: 'al_jazeera.jpg' },
+    { name: 'Mirror', url: 'www.mirror.co.uk', logo: 'mirror.png' },
+    { name: 'CBS News', url: 'www.cbsnews.com', logo: 'cbs.jpg' },
+    { name: 'CNBC', url: 'www.cnbc.com', logo: 'cnbc.jpg' },
   ],
+  userResources: [],
   feeds: [],
   news: [],
 };
