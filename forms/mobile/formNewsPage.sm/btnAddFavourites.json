@@ -1,9 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +27,6 @@
     ],
     "_skin_": "sc2e3ad17fb24d09ab7d1c169373f440",
     "_text_": "Add to Favourites",
-    "_top_": {
-        "type": "string",
-        "value": "750dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"

@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_data_": [
         {
             "btnDelete": {
@@ -21,10 +25,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "685dp"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "number",
@@ -100,7 +100,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "00000000",
     "separatorrequired": true,

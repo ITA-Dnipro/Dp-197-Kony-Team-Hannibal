@@ -1,4 +1,5 @@
 var appStorage = {
+  linkOnShowBrowser: {},
   userProfile: {},
   startResources: [
     { name: 'BBC', url: 'www.bbc.com', logo: 'bbc.jpg' },
