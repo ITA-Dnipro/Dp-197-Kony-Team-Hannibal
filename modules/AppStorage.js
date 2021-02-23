@@ -1,4 +1,5 @@
 var appStorage = {
+  linkOnShowBrowser: {},
   userProfile: {},
   startResources: [
     { name: 'BBC', url: 'www.bbc.com', logo: 'bbc.jpg' },
@@ -14,5 +15,4 @@ var appStorage = {
   userResources: [],
   feeds: [],
   news: [],
-  linkOnShowBrowser: 'https://www.bbc.com/culture/article/20210216-the-forgotten-story-of-americas-first-black-superstars?ocid=global_culture_rss'
 };

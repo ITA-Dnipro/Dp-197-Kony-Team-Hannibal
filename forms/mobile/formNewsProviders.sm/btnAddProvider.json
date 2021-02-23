@@ -1,9 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -23,10 +27,6 @@
     ],
     "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
     "_text_": "Add new provider",
-    "_top_": {
-        "type": "string",
-        "value": "754dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
