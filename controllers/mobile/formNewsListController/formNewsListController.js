@@ -1,4 +1,10 @@
 define(['utils'], function(utils) {
+  function onBtnAddClicked(thisButton, list) {
+    var selectedRowItem = list.widgetInfo.selectedRowItems[0];
+    var newsToAdd = new NewsModel(selectedRowItem.newsTitle, selectedRowItem.logo, selectedRowItem.link, selectedRowItem.pubDate);
+    alert(newsToAdd);
+  }
+  
   return { 
     moveToProfile: function() {
       var formId = kony.application.getCurrentForm().id;
@@ -10,7 +16,14 @@ define(['utils'], function(utils) {
     },
   
     onFormShowed: function() {
-      this.view.newsList.setData(appStorage.news);
+      var dataNews = appStorage.news.map(function(item) {
+        item.btnAddNews = {
+          "text": "Add",
+          "onClick": onBtnAddClicked.bind(this)
+        };
+        return item;
+      });
+      this.view.newsList.setData(dataNews);
       this.view.userName.text = appStorage.userProfile.login;
     },
   
