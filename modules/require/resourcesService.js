@@ -1,5 +1,5 @@
-define(['storeResourcesService'], function (httpImpl) {
-  var concreteImpl = httpImpl;
+define(['storeResourcesService', 'fabricResourcesService'], function (httpImpl, fabricImpl) {
+  var concreteImpl = fabricImpl;
   return {
     addResources: concreteImpl.addResources,
     findResources: concreteImpl.findResources,

@@ -59,7 +59,7 @@
     "andminsdkkey": "5.0 (21)",
     "androidInstallLocation": "Auto",
     "androidInstallLocnPref": "false",
-    "android_allowselfsignedcertificates": "None",
+    "android_allowselfsignedcertificates": "All",
     "androidloadindicatorkey": "true",
     "androidmapkey": "",
     "androidmapkey2": "",
@@ -316,6 +316,7 @@
     "exceptionalert": "true",
     "extendBottom": "false",
     "extendTop": "false",
+    "fabric_runtime_app_version": "Linked",
     "fbxfolderpathkey": "",
     "fgcolorkey": "255,255,255",
     "generateJavaCodeForForms": "false",
@@ -370,6 +371,7 @@
     "iphonewebshrtcutkey": "",
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
+    "isEASAppUpgradable": false,
     "isI18nConfigEnabled": false,
     "isI18nLayoutConfigEnabled": false,
     "isMVC": true,
@@ -382,6 +384,14 @@
     "keyStoreFilePathandwear": "",
     "keyStorePassword": "",
     "keychainPassword": "",
+    "kfAppInfo": {
+        "02929e1c-8185-4ab7-9252-ec5df2b6538c": {
+            "appName": "HannibalNews",
+            "baseId": "6a7bb4c0-da6e-4477-a488-9156c1cce8c2",
+            "id": "6a7bb4c0-da6e-4477-a488-9156c1cce8c2",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.1.15",
     "lastmodifiedtime": "1611666197926",
     "location": "false",
@@ -688,7 +698,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "d31fb1683ef44dfc81761267f347e6e8",
+    "startupformkey": "i72b1f4b07da419d9163dd1493370adb",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support32bit": "true",
