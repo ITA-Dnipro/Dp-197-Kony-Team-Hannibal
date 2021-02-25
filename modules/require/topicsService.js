@@ -1,5 +1,6 @@
-define(["httpTopicsService"], function (service) {
+define(["httpTopicsService", "fabricTopicsService"], function (storeImpl, fabricImpl) {
+  var specific = fabricImpl;
     return {
-      getResourceTopics: service.getResourceTopics,
+      getResourceTopics: specific.getResourceTopics,
     };
 });

@@ -1,4 +1,4 @@
-define(['newsService', 'constants', 'utils'], function(service, constants, utils) { 
+define(['newsService', 'constants', 'utils'], function(newsService, constants, utils) { 
   function showNews(news) {
     appStorage.news = news;
     utils.navigateToForm('formNewsList');
@@ -27,7 +27,7 @@ define(['newsService', 'constants', 'utils'], function(service, constants, utils
       var topicUrl = widget.data[index].url;
       var feedUrl = constants.XML_CONVERTER_API + topicUrl;
       var logo = appStorage.feeds[1].logo;
-      service.getFeedData(feedUrl, showNews, renderErr, logo);
+      newsService.getFeedData(feedUrl, showNews, renderErr, logo);
     },
   
     init: function() {
