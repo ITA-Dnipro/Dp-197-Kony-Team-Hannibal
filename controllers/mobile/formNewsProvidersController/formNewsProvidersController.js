@@ -54,8 +54,8 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
   
     onRowClick: function(widget, section, index) {
       var resourceUrl = widget.data[index].url;
-      var topicsApiUrl = constants.FEEDS_API + resourceUrl;
-      topicsService.getResourceTopics(topicsApiUrl, showFeeds, renderErr);
+      // var topicsApiUrl = constants.FEEDS_API + resourceUrl; For httpIml
+      topicsService.getResourceTopics(resourceUrl, showFeeds, renderErr);
     }
   };
  });
