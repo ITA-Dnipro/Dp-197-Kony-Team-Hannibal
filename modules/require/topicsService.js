@@ -1,6 +1,6 @@
 define(["httpTopicsService", "fabricTopicsService"], function (storeImpl, fabricImpl) {
-  var concretImpl = fabricImpl;
+  var specific = fabricImpl;
     return {
-      getResourceTopics: concretImpl.getResourceTopics,
+      getResourceTopics: specific.getResourceTopics,
     };
 });

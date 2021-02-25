@@ -1,5 +1,5 @@
-define(['httpNewsService'], function (service) {
+define(['httpNewsService'], function (storeImpl) {
     return {
-      getFeedData: service.getFeedData,
+      getFeedData: storeImpl.getFeedData,
     };
 });
