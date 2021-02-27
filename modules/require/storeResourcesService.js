@@ -31,6 +31,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
   }
   
   function addStartResources(userId, successCb, errorCb) {
+    
     var startResources = [
       { name: 'BBC', url: 'https://www.bbc.com', logo: 'bbc.jpg' },
       { name: 'Wall Street Journal', url: 'https://www.wsj.com', logo: 'wall_street_journal_.jpg' },
