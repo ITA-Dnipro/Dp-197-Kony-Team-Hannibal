@@ -6,7 +6,7 @@ define(['utils'], function (utils) {
       return user.login === login && user.password === password;
     });
     if (currentUser) {
-      successCb(currentUser);
+      successCb(currentUser.id);
     } else {
       errorCb('User not found');
     }
