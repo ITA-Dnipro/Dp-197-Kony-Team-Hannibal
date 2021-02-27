@@ -18,8 +18,8 @@ define(['authenticationService', 'resourcesService', 'utils'], function(authServ
      alert(err);
    },
     
-   initializeUser: function(user) {
-     resourcesService.addStartResources(user.id, function() {
+   initializeUser: function(userId) {
+     resourcesService.addStartResources(userId, function() {
        utils.navigateToForm('formAuthentication');
      }, this.onErr);
    },
@@ -36,14 +36,8 @@ define(['authenticationService', 'resourcesService', 'utils'], function(authServ
      if (err) {
        this.onErr(err);
      } else {
-       var newUser = new UserDataModel(
-         utils.getUniqId(),
-         userData.fullName,
-         userData.email,
-         userData.login,
-         userData.password,
-       );
-       authService.registerUser(newUser, this.initializeUser, this.onErr);
+       delete userData.passwordConfirm;
+       authService.registerUser(userData, this.initializeUser, this.onErr);
      }
    }
  };
