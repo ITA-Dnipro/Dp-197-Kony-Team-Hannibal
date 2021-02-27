@@ -24,10 +24,24 @@ define(['utils', 'constants'], function (utils, appConstants) {
       userResources = userResources.concat(newResources);
       userData.resources = userResources;
       kony.store.setItem(userId, userData);
-      successCb(userResources);
+      successCb();
     } catch(e) {
       errorCb(e.message);
     }
+  }
+  
+  function addStartResources(userId, successCb, errorCb) {
+    
+    var startResources = [
+      { name: 'BBC', url: 'https://www.bbc.com', logo: 'bbc.jpg' },
+      { name: 'Wall Street Journal', url: 'https://www.wsj.com', logo: 'wall_street_journal_.jpg' },
+      { name: 'Reuters', url: 'https://www.reuters.com', logo: 'reuters.png' },
+      { name: 'Al Jazeera', url: 'https://www.aljazeera.com', logo: 'al_jazeera.jpg' },
+      { name: 'Mirror', url: 'https://www.mirror.co.uk', logo: 'mirror.png' },
+      { name: 'CBS News', url: 'https://www.cbsnews.com', logo: 'cbs.jpg' },
+      { name: 'CNBC', url: 'https://www.cnbc.com', logo: 'cnbc.jpg' },
+    ];
+    addResources(userId, startResources, successCb, errorCb);
   }
   
   function getResources(userId, successCb, errorCb) {
@@ -58,6 +72,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
     return {
       findResources: findResources,
       addResources: addResources,
+      addStartResources: addStartResources,
       getResources: getResources,
       deleteResource: deleteResource,
     };
