@@ -1,6 +1,6 @@
 var appStorage = {
   newsToShow: {},
-  userProfile: {},
+  userId: null,
   userResources: [],
   feeds: [],
   news: [],
