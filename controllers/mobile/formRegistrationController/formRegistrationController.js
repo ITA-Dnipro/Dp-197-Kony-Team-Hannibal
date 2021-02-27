@@ -19,11 +19,8 @@ define(['authenticationService', 'resourcesService', 'utils'], function(authServ
    },
     
    initializeUser: function(user) {
-     var startResources = appStorage.startResources;
-     resourcesService.addResources(user.id, startResources, function(resources) {
-       appStorage.userProfile = user;
-       appStorage.userResources = resources;
-       utils.navigateToForm('formNewsProviders');
+     resourcesService.addStartResources(user.id, function() {
+       utils.navigateToForm('formAuthentication');
      }, this.onErr);
    },
 
