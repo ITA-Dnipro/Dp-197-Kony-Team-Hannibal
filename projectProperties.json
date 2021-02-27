@@ -252,7 +252,7 @@
     "buildWarCompatability": "false",
     "build_gradle_attrs_prefix": "",
     "build_gradle_attrs_prefix_andwear": "",
-    "build_gradle_attrs_suffix": "",
+    "build_gradle_attrs_suffix": "android { defaultConfig { renderscriptSupportModeEnabled false } }",
     "build_gradle_attrs_suffix_andwear": "",
     "camerasettings": "",
     "cancelicon": "",

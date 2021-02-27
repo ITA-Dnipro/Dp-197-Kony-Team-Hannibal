@@ -1,0 +1,28 @@
+{
+    "AS_Form_b009fdb8eabf40ae8469284460cde0b2": {
+        "id": "AS_Form_b009fdb8eabf40ae8469284460cde0b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "formNewsPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g048af32fe5047e383b2093cc1514a3f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d52d34339fcc447dac105570a9617cdb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onInit",
+            "display": "onInit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

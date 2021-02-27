@@ -1,0 +1,12 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "This app is created from Studio App HannibalNews.\r\n",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "RSSFeedService",
+    "version" : "1.0",
+    "etag" : "1d4c5ad5-cc6a-4287-b39b-1ef1b1f1ef9b"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}
