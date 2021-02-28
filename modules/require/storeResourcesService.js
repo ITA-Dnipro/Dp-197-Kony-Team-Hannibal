@@ -44,7 +44,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
     addResources(userId, startResources, successCb, errorCb);
   }
   
-  function getResources(userId, successCb, errorCb) {
+  function getUserResources(userId, successCb, errorCb) {
     try {
       var userData = kony.store.getItem(userId) || {};
       var userResources = userData.resources || [];
@@ -73,7 +73,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
       findResources: findResources,
       addResources: addResources,
       addStartResources: addStartResources,
-      getResources: getResources,
+      getUserResources: getUserResources,
       deleteResource: deleteResource,
     };
 });

@@ -4,7 +4,7 @@ define(['storeResourcesService', 'fabricResourcesService'], function (httpImpl, 
     addResources: concreteImpl.addResources,
     addStartResources: concreteImpl.addStartResources,
     findResources: concreteImpl.findResources,
-    getResources: concreteImpl.getResources,
+    getUserResources: concreteImpl.getUserResources,
     deleteResource: concreteImpl.deleteResource,
   };
 });
