@@ -19,7 +19,15 @@ define(['constants'], function (appConstants) {
   
   function getUserResources(userId, successCb, errorCb) {
     sqlSvc.invokeOperation('getUserResources', null, { userId: userId }, function(resp) {
-      successCb(resp.records);
+      var renamedRecords = resp.records.map(function(rec) {
+        return {
+          resourceId: rec.resource_id,
+          logo: rec.logo,
+          url: rec.url,
+          name: rec.title,
+        };
+      });
+      successCb(renamedRecords);
     }, errorCb);
   }
   
