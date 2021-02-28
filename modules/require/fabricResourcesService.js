@@ -35,8 +35,8 @@ define(['constants'], function (appConstants) {
     
   }
   
-  function addStartResources() {
-    
+  function addStartResources(userId, successCb, errorCb) {
+    sqlSvc.invokeOperation('addStartResources', null, { user_id: userId }, successCb, errorCb);
   }
   
   function deleteResource() {
