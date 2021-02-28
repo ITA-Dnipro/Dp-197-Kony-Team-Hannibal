@@ -30,9 +30,9 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerBlock",
         "btnAddProvider",
-        "containerForChannels"
+        "containerForChannels",
+        "HeaderControl"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -1,13 +1,13 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
         6,
@@ -21,29 +21,29 @@
         0,
         0
     ],
-    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
-    "_text_": "❮",
+    "_skin_": "s5fb1c10578245daba461976bcd3643e",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s25c2caa2eb340c490076adf6f162b37",
     "id": "btnBack",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c9a31f0465264e3e8f64ff2fb906440f",
+    "kuid": "c41b0fa3e5ec4d3591f1f6b464316661",
     "name": "kony.ui.Button",
-    "parent": "headerBlock",
-    "pf": "formNewsProviders",
+    "parent": "HeaderControl",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

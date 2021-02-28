@@ -37,14 +37,20 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
       this.view.preShow = this.renderResources.bind(this);
       this.view.postShow = this.onPostShow.bind(this);
       this.view.newsChannels.onRowClick = this.onRowClick.bind(this);
-      this.view.userName.onTouchStart = this.moveToProfile.bind(this);
+      //this.view.userName.onTouchStart = this.moveToProfile.bind(this);
       this.view.btnAddProvider.onClick = function() {
         utils.navigateToForm('formAddNewResources');
       };
     },
     
+    onDrop: function() {
+      
+    },
+    
     onPostShow: function() {
-      this.view.userName.text = appStorage.userProfile.login;
+
+      
+      //this.view.userName.text = appStorage.userProfile.login;
     },
     
     moveToProfile: function() {

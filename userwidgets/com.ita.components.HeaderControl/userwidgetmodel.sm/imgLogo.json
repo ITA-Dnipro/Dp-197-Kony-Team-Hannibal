@@ -2,13 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "_base64_": null,
-    "_blur_": {
-        "enabled": false,
-        "value": 0
-    },
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "90dp"
     },
     "_margin_": [
         0,
@@ -24,35 +24,29 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "15dp"
+        "value": "90dp"
     },
     "_skin_": "s6a49ae2d13944d9a3e297a28107d2ff",
-    "_src_": "logo_60.png",
+    "_src_": "hanniballog.png",
     "_top_": {
         "type": "string",
         "value": "10dp"
     },
-    "_width_": {
-        "type": "string",
-        "value": "50dp"
-    },
     "canUpdateUI": true,
     "containerweight": 100,
-    "id": "logo",
+    "id": "imgLogo",
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a2707123796e4f5f83bd75ec5dd6736b",
+    "kuid": "cb1e1e3090134aaa8131179c5913a1fc",
     "name": "kony.ui.Image2",
-    "paddinginpixel": false,
-    "parent": "headerBlock",
-    "pf": "formNewsProviders",
+    "parent": "HeaderControl",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,
-    "zindex": 1
+    "zindex": 3
 }
