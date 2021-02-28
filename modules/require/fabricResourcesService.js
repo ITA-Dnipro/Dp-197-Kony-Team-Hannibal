@@ -41,9 +41,6 @@ define(['constants'], function (appConstants) {
   }
   
   function addResources(userId, newResources, successCb, errorCb) {
-    if (newResources.length === 0) {
-      errorCb;
-    }
     var callback = newResources.length === 1 ? successCb : function() {
       addResources(userId, newResources.slice(1), successCb, errorCb);
     };

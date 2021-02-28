@@ -56,6 +56,10 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
           return oldRes.url === newRes.url;
         });
       });
+      if (uniqResources.length === 0) {
+        this.showErr({ message: 'Choosen resources have already been added to the app' });
+        return;
+      }
       resourcesService.addResources(appStorage.userId, uniqResources, function() {
         resourcesService.getUserResources(appStorage.userId, function(newResources) {
           appStorage.userResources = newResources;
