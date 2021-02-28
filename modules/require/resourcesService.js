@@ -1,10 +1,10 @@
-define(['storeResourcesService'], function (httpImpl) {
-  var concreteImpl = httpImpl;
+define(['storeResourcesService', 'fabricResourcesService'], function (httpImpl, fabricImpl) {
+  var concreteImpl = fabricImpl;
   return {
     addResources: concreteImpl.addResources,
     addStartResources: concreteImpl.addStartResources,
     findResources: concreteImpl.findResources,
-    getResources: concreteImpl.getResources,
+    getUserResources: concreteImpl.getUserResources,
     deleteResource: concreteImpl.deleteResource,
   };
 });

@@ -23,7 +23,7 @@ define(['authenticationService', 'resourcesService', 'utils'], function (authSer
   
   return {   
     initUser: function(userId) {
-      resourcesService.getResources(userId, function (userResources) {
+      resourcesService.getUserResources(userId, function (userResources) {
         appStorage.userId = userId;
         appStorage.userResources = userResources;
         utils.navigateToForm('formNewsProviders');

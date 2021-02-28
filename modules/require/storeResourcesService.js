@@ -4,7 +4,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
      var resourcesUrl = appConstants.FEEDS_API + url;
      function extractResources(data) {
        var resources = data.filter(function(res) {
-         return res.content_type === appConstants.RSS_CONTENT_TYPE;
+         return res.content_type.includes('application/rss+xml') || res.content_type.includes('text/xml');
          })
          .reduce(function(acc, feed) {
            var isResourceRepeated = acc.some(function(addedResource) {
@@ -44,7 +44,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
     addResources(userId, startResources, successCb, errorCb);
   }
   
-  function getResources(userId, successCb, errorCb) {
+  function getUserResources(userId, successCb, errorCb) {
     try {
       var userData = kony.store.getItem(userId) || {};
       var userResources = userData.resources || [];
@@ -73,7 +73,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
       findResources: findResources,
       addResources: addResources,
       addStartResources: addStartResources,
-      getResources: getResources,
+      getUserResources: getUserResources,
       deleteResource: deleteResource,
     };
 });
