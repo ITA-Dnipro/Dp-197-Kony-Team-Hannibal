@@ -56,10 +56,12 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
           return oldRes.url === newRes.url;
         });
       });
-     /* resourcesService.addResources(appStorage.userProfile.id, uniqResources, function(newResources) {
-        appStorage.userResources = newResources;
-        utils.navigateToForm('formNewsProviders');
-      }, alert);*/
+      resourcesService.addResources(appStorage.userId, uniqResources, function() {
+        resourcesService.getUserResources(appStorage.userId, function(newResources) {
+          appStorage.userResources = newResources;
+          utils.navigateToForm('formNewsProviders');
+        }, alert);
+      }, alert);
     },
 
     init: function() {

@@ -31,8 +31,24 @@ define(['constants'], function (appConstants) {
     }, errorCb);
   }
   
-  function addResources() {
+  function addResource(userId, newResource, successCb, errorCb) {
+    sqlSvc.invokeOperation('addResource', null, {
+      curr_user_id: userId,
+      resource_title: newResource.name,
+      resource_url: newResource.url,
+      resource_logo: newResource.logo
+    }, successCb, errorCb);
+  }
+  
+  function addResources(userId, newResources, successCb, errorCb) {
+    if (newResources.length === 0) {
+      errorCb;
+    }
+    var callback = newResources.length === 1 ? successCb : function() {
+      addResources(userId, newResources.slice(1), successCb, errorCb);
+    };
     
+    addResource(userId, newResources[0], callback, errorCb);
   }
   
   function addStartResources(userId, successCb, errorCb) {
