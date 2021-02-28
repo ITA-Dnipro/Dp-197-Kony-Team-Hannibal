@@ -1,4 +1,4 @@
-define(['authenticationService', 'resourcesService', 'utils'], function (authService, resourcesService, utils) { 
+define(['authenticationService', 'resourcesService', 'articleService', 'utils'], function (authService, resourcesService, articleService, utils) { 
   function validateUserCredentials(login, password) {
     var err;
     switch (true) {
@@ -27,6 +27,10 @@ define(['authenticationService', 'resourcesService', 'utils'], function (authSer
         appStorage.userId = userId;
         appStorage.userResources = userResources;
         utils.navigateToForm('formNewsProviders');
+      }, this.onErr);
+      articleService.getUserArticles(userId, function(articles) {
+        appStorage.articles = articles;
+        alert(appStorage.articles);
       }, this.onErr);
     },
     

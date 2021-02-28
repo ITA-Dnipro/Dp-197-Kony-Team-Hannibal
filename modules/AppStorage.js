@@ -4,6 +4,7 @@ var appStorage = {
   userProfile: {
     login: 'User',
   },
+  articles: [],
   userResources: [],
   feeds: [],
   news: [],
