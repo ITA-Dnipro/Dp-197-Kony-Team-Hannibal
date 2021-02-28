@@ -4,7 +4,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
      var resourcesUrl = appConstants.FEEDS_API + url;
      function extractResources(data) {
        var resources = data.filter(function(res) {
-         return res.content_type === appConstants.RSS_CONTENT_TYPE;
+         return res.content_type.includes('application/rss+xml') || res.content_type.includes('text/xml');
          })
          .reduce(function(acc, feed) {
            var isResourceRepeated = acc.some(function(addedResource) {
