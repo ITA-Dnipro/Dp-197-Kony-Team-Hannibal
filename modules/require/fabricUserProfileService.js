@@ -43,7 +43,9 @@ define(function () {
         } else {
           errorCb(response.userUpdateResult);
         }
-     });      
+     }, function(error) {
+        errorCb(error);
+      });      
     }
   }
   
@@ -56,16 +58,17 @@ define(function () {
       newDate: article.pubDate,
       userId: appStorage.userId,
     };
-    alert(JSON.stringify(body) + "\n" + "newTitlle:" + body.newTitle.length);
-    integrationSvc.invokeOperation('createArticle', headers, body, function(response) {
-      
-      if(response.articleCreateResult === "Article successfully added") {
+    
+    integrationSvc.invokeOperation('createArticle', headers, body, function(response) {      
+      if(response.articleCreateResult === "success_add") {
+        article.id = response.createdArticleId;
         successCb(article);
       } else {
-        errorCb(JSON.stringify(response) + "==================================================" + "link length:"+ body.newLink.length + "=====" + "logo length:" + body.newLogo.length + "=====" + "title length:" + body.newTitle.length);
+        errorCb(response.articleCreateResult);
       }
-    });
-    
+    }, function(error){
+      errorCb(error);
+    });  
   }
   
     return {

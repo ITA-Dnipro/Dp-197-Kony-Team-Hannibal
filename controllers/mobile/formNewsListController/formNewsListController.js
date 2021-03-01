@@ -6,7 +6,12 @@ define(['utils', "userProfileService"], function(utils, service) {
   }
   
   function errorCb(err) {
-    alert(err);
+    if(err === "user_not_exist") {
+      alert("This user doesn't exist");
+    } else {
+      alert("This article already added");
+    }
+    
   }
 
   function onBtnAddClicked(thisButton, list) {
