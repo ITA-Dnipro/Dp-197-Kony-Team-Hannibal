@@ -2,13 +2,13 @@
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
     "_base64_": null,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "70dp"
+        "value": "5dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,

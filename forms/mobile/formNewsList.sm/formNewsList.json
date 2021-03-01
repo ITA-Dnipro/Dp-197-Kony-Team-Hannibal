@@ -30,8 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerBlock",
-        "newsList"
+        "newsList",
+        "HeaderControl"
     ],
     "containerweight": 100,
     "controllerInfo": {

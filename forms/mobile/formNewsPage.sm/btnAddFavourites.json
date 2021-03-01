@@ -3,15 +3,11 @@
     "DNDConfig": null,
     "_bottom_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_height_": {
         "type": "string",
-        "value": "70dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "45dp"
     },
     "_margin_": [
         6,
@@ -25,17 +21,21 @@
         0,
         0
     ],
-    "_skin_": "sc2e3ad17fb24d09ab7d1c169373f440",
-    "_text_": "Add to Favourites",
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
+    "_text_": "✛",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "45dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "sbc68ba6df5c4dd58ac7fa036986aafb",
     "id": "btnAddFavourites",
     "info": null,
     "iscustomlayout": false,

@@ -20,7 +20,7 @@ define(['newsService', 'constants', 'utils'], function(newsService, constants, u
   
     onFormShowed: function() {
       this.view.newsFeeds.setData(appStorage.feeds);
-      this.view.userName.text = appStorage.userProfile.login;
+      this.view.HeaderControl.onBackClicked = this.onBack.bind(this);
     },
     
     onRowCick: function(widget, section, index) {
@@ -31,10 +31,8 @@ define(['newsService', 'constants', 'utils'], function(newsService, constants, u
     },
   
     init: function() {
-      this.view.userName.onTouchStart = this.moveToProfile.bind(this);
       this.view.postShow = this.onFormShowed.bind(this);
       this.view.newsFeeds.onRowClick = this.onRowCick.bind(this);
-      this.view.btnBack.onClick = this.onBack.bind(this);
     }
   };
  });

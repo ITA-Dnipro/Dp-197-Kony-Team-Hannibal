@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "110dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -50,6 +50,7 @@
         }
     },
     "enablescrolling": true,
+    "friendlyName": "",
     "id": "news",
     "info": null,
     "isTemplate": true,

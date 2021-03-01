@@ -30,7 +30,6 @@
     },
     "canUpdateUI": true,
     "children": [
-        "btnAddProvider",
         "containerForChannels",
         "HeaderControl"
     ],

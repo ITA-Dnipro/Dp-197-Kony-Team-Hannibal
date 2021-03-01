@@ -32,7 +32,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "HelveticaNeue-Bold",
+    "font_name": "System",
     "font_size": 170,
     "isForked": false
   },
@@ -42,7 +42,7 @@
     "font_size": 170,
     "isForked": false
   },
-  "kuid": "sa9ce0fddc24412a8ec7167227106d50",
+  "kuid": "s57dd506b9fb4f2383058b258cc8e859",
   "spaan": {
     "font_name": "Helvetica",
     "font_size": 170,

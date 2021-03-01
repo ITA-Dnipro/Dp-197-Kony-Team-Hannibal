@@ -1,17 +1,21 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "Default": {
+        "contentAlignment": 5,
+        "displayText": true
+    },
+    "_blur_": {
+        "enabled": false,
+        "value": 10
+    },
     "_bottom_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_height_": {
         "type": "string",
-        "value": "70dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "45dp"
     },
     "_margin_": [
         6,
@@ -25,24 +29,31 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
     "_skin_": "sb0087780b9b462c94b97a7c8acc7536",
-    "_text_": "Add new provider",
+    "_text_": "✛",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "45dp"
     },
+    "android": {},
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {},
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "enablehapticfeedback": false,
+    "focusskin": "sbc68ba6df5c4dd58ac7fa036986aafb",
     "id": "btnAddProvider",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "id3658e9d8e84458aadb0c42378544ad",
+    "kuid": "a9098a110a15417c9459c74b7abd9493",
     "name": "kony.ui.Button",
-    "parent": "formNewsProviders",
+    "parent": "containerForChannels",
     "pf": "formNewsProviders",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
