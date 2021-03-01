@@ -61,13 +61,15 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
         utils.navigateToForm('formNewsProviders');
       }, alert);
     },
+    
+    onBack: function () {
+      utils.navigateToForm('formNewsProviders');
+    },
 
     init: function() {
       this.view.addResourcesBtn.onClick = this.addNewResources.bind(this);
       this.view.searchResourcesBtn.onClick = this.findNewResources.bind(this);
-      this.view.btnBack.onClick = function() {
-        utils.navigateToForm('formNewsProviders');
-      };
+      this.view.HeaderControl.onBackClicked = this.onBack.bind(this);
       this.view.onHide = this.clearFormState.bind(this);
     }
  };

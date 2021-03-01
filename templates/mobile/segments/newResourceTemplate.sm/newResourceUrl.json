@@ -25,11 +25,11 @@
         "type": "number",
         "value": "0"
     },
-    "_skin_": "s20773cac5d14a8f98094704365ebd06",
+    "_skin_": "s38a4e6aea1a4aa6967daad0653d8cd0",
     "_text_": "url",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",

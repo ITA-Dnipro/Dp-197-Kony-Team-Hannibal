@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -24,17 +24,13 @@
     "_placeholder_": "Login",
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_skin_": "s6634e10048745119ebf0cb34a37694f",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "100%"
+        "value": "300dp"
     },
     "android": {},
     "autocapitalize": "none",
@@ -52,10 +48,10 @@
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "eebe11a93e5049d78cb9e2878db805f6",
+    "kuid": "bcb660e76ba74d14b95b33b95d786b9f",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "loginContainer",
+    "parent": "formAuthentication",
     "pf": "formAuthentication",
     "placeholderskin": "s6634e10048745119ebf0cb34a37694f",
     "retaincontentalignment": false,

@@ -49,7 +49,9 @@
             "name": "newsController"
         }
     },
+    "disabledSkins": {},
     "enablescrolling": true,
+    "focusskin": "s21725acc2e64623939850082ac9f8db",
     "friendlyName": "",
     "id": "news",
     "info": null,

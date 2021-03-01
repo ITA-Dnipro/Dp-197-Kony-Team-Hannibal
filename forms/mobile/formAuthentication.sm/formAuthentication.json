@@ -30,8 +30,11 @@
     },
     "canUpdateUI": true,
     "children": [
-        "loginContainer",
-        "enterCredentialsRequest"
+        "imgLogoMain",
+        "btnReg",
+        "btnLogin",
+        "inputLogin",
+        "inputPassword"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_margin_": [
         0,
@@ -24,13 +24,13 @@
     "_placeholder_": "Search",
     "_right_": {
         "type": "string",
-        "value": "60dp"
+        "value": "90dp"
     },
-    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_skin_": "sf806805a36740598e281db39e276517",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "180dp"
     },
     "_width_": {
         "type": "ref",
@@ -46,16 +46,16 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "s511e67c46a4481c9902025f0e05659e",
+    "focusskin": "sf3853c8cde94056899952aba27c8319",
     "id": "resourcesSearchInput",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "fb3d7117c588451c819e203da3f3bfc0",
+    "kuid": "c70cd1c670984f96a6ba27810de45065",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "searchBox",
+    "parent": "formAddNewResources",
     "pf": "formAddNewResources",
     "placeholderskin": "s6634e10048745119ebf0cb34a37694f",
     "retaincontentalignment": false,

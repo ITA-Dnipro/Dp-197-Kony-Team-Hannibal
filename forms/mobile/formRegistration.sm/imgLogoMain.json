@@ -1,19 +1,20 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
         "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "40dp"
+        "value": "90dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,31 +22,31 @@
         0,
         0
     ],
-    "_skin_": "s3d32bf404d14da19a537fc57f445785",
-    "_text_": "Create",
+    "_right_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_skin_": "s6a49ae2d13944d9a3e297a28107d2ff",
+    "_src_": "hanniballog.png",
     "_top_": {
         "type": "string",
-        "value": "610dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "39%"
+        "value": "180dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "s198c829a97344708532e6efa61d00a0",
-    "id": "btnSuccess",
+    "id": "imgLogoMain",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "he00d17f4903433fb462ff400e0360fa",
-    "name": "kony.ui.Button",
+    "kuid": "c0904734e69a448dbb0db2c6e183f14b",
+    "name": "kony.ui.Image2",
     "parent": "formRegistration",
     "pf": "formRegistration",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
-    "zindex": 1
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 3
 }

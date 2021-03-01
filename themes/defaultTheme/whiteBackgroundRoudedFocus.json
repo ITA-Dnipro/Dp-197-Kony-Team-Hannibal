@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "default",
+    "font_name": "monospace",
     "font_size": 137,
     "isForked": false
   },
@@ -9,7 +9,7 @@
     "font_size": 137,
     "isForked": false
   },
-  "background_color": "ffffffff",
+  "background_color": "bdbdbdff",
   "bg_type": "one",
   "border_color": "4b88f1ff",
   "border_style": "rc",

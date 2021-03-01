@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3e2170b20654ab9861b6498b4255cb5",
+    "_skin_": "sc44188646bf452b9c07cd1981b0e213",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -49,7 +49,9 @@
             "name": "flxChannelController"
         }
     },
+    "disabledSkins": {},
     "enablescrolling": true,
+    "focusskin": "s21725acc2e64623939850082ac9f8db",
     "friendlyName": "",
     "id": "flxChannel",
     "info": null,
