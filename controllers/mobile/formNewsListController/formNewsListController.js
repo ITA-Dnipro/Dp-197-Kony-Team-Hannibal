@@ -1,9 +1,18 @@
-define(['utils'], function(utils) {
+define(['utils', "userProfileService"], function(utils, service) {
   
+  function successCb(article) {
+    appStorage.articles.push(article);
+    alert('Article successfully added');
+  }
+  
+  function errorCb(err) {
+    alert(err);
+  }
+
   function onBtnAddClicked(thisButton, list) {
     var selectedRowItem = list.widgetInfo.selectedRowItems[0];
-    var newsToAdd = new NewsModel(selectedRowItem.newsTitle, selectedRowItem.logo, selectedRowItem.link, selectedRowItem.pubDate);
-    alert(newsToAdd);
+    var articleToAdd = new NewsModel(selectedRowItem.newsTitle, selectedRowItem.logo, selectedRowItem.link, selectedRowItem.pubDate);
+    service.addArticle(articleToAdd, successCb, errorCb);
   }
   
   function onRowClicked(widget, sectionIdx, rowIdx) {
@@ -12,6 +21,7 @@ define(['utils'], function(utils) {
     utils.navigateToForm('formNewsPage');
     
   }
+  
   
   return { 
     moveToProfile: function() {
@@ -33,7 +43,8 @@ define(['utils'], function(utils) {
       this.view.newsList.setData(dataNews);
       this.view.userName.text = appStorage.userProfile.login;
     },
-  
+    
+
     init: function() {
       this.view.postShow = this.onFormShowed.bind(this);
       this.view.btnBack.onClick = this.onBack.bind(this);

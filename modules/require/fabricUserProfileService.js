@@ -47,7 +47,29 @@ define(function () {
     }
   }
   
+  function addArticle(article, successCb, errorCb) {
+    var headers = null;
+    var body = {
+      newTitle: article.newsTitle,
+      newLogo: article.logo,
+      newLink: article.link,
+      newDate: article.pubDate,
+      userId: appStorage.userId,
+    };
+    alert(JSON.stringify(body) + "\n" + "newTitlle:" + body.newTitle.length);
+    integrationSvc.invokeOperation('createArticle', headers, body, function(response) {
+      
+      if(response.articleCreateResult === "Article successfully added") {
+        successCb(article);
+      } else {
+        errorCb(JSON.stringify(response) + "==================================================" + "link length:"+ body.newLink.length + "=====" + "logo length:" + body.newLogo.length + "=====" + "title length:" + body.newTitle.length);
+      }
+    });
+    
+  }
+  
     return {
         editUser: editUser,
+        addArticle: addArticle,
     };
 });

@@ -9,4 +9,5 @@ var appStorage = {
   userResources: [],
   feeds: [],
   news: [],
+  articles: [],
 };
