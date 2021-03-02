@@ -53,7 +53,7 @@ define(['constants'], function (appConstants) {
   }
   
   function deleteResource(userId, resourceId, successCb, errorCb) {
-    sqlSvc.invokeOperation('deleteUserResource', null, { userId: userId, resourceId: resourceId }, successCb, errorCb);
+    sqlSvc.invokeOperation('deleteUserResource', null, { id: resourceId }, successCb, errorCb);
   }
   
   return {
