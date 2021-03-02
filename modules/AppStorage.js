@@ -6,6 +6,7 @@ var appStorage = {
     fullName: 'Marshall Mathers III',
     mail: 'rappgod@gmail.com'
   },
+  articles: [],
   userResources: [],
   feeds: [],
   news: [],
