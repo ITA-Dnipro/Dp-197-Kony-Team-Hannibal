@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "35dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "80dp"
+        "value": "200dp"
     },
     "_margin_": [
         1,
@@ -23,13 +23,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "5dp"
     },
-    "_skin_": "s604865ceb714f72bfbe84e31762dbac",
-    "_text_": "description",
+    "_skin_": "s045ad8167f848a4b5f59c4a7cad8196",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "55dp"
     },
     "_width_": {
         "type": "ref",
@@ -46,7 +46,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 1,
-    "id": "description",
+    "id": "pubDate",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,15 +60,13 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d165587fccea43758fb55f61a1ff2b6d",
-    "maxnumberoflines": 1,
+    "kuid": "j8ba1da326934bfe99acfb15b53040bf",
     "name": "kony.ui.Label",
-    "parent": "newsFeed",
-    "pf": "newsFeeds",
+    "parent": "articles",
+    "pf": "articlesList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
-    "texttruncateposition": 3,
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

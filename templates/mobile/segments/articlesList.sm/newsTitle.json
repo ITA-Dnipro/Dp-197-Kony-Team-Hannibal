@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "80dp"
+        "value": "90dp"
     },
     "_margin_": [
         1,
@@ -25,15 +25,11 @@
         "type": "string",
         "value": "10dp"
     },
-    "_skin_": "s604865ceb714f72bfbe84e31762dbac",
-    "_text_": "description",
+    "_skin_": "sa9ce0fddc24412a8ec7167227106d50",
+    "_text_": "Title",
     "_top_": {
         "type": "string",
-        "value": "15dp"
-    },
-    "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "value": "5dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -46,7 +42,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 1,
-    "id": "description",
+    "id": "newsTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,11 +56,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d165587fccea43758fb55f61a1ff2b6d",
+    "kuid": "g1a2539c56024ec2b4f20402f83cdff1",
     "maxnumberoflines": 1,
     "name": "kony.ui.Label",
-    "parent": "newsFeed",
-    "pf": "newsFeeds",
+    "parent": "articles",
+    "pf": "articlesList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
