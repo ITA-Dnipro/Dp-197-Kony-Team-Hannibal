@@ -24,6 +24,7 @@ define(['utils'], function(utils) {
       },
     
     onFormShowed: function() {
+      alert(appStorage.articles);
       var dataNews = appStorage.articles.map(function(item) {
         item.articleBtnDelete = {
           "onClick": onDelClicked.bind(this)

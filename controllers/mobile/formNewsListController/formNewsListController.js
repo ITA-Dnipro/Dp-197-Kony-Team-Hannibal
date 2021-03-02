@@ -1,4 +1,4 @@
-define(['utils', "userProfileService"], function(utils, service) {
+define(['utils', "fabricArticleService"], function(utils, service) {
   
   function successCb(article) {
     appStorage.articles.push(article);

@@ -34,6 +34,7 @@ define(['authenticationService', 'resourcesService', 'articleService', 'utils'],
       }, this.onErr);
       articleService.getUserArticles(userId, function(articles) {
         appStorage.articles = articles;
+        alert(appStorage.articles);
       }, this.onErr);
     },
     
