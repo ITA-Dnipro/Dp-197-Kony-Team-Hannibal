@@ -32,7 +32,7 @@ define(['authenticationService', 'resourcesService', 'articleService', 'utils'],
         alert(appStorage.userProfile, appStorage.userResources);
         utils.navigateToForm('formNewsProviders');
       }, this.onErr);
-      articleService.getUserArticles(userId, function(articles) {
+      articleService.getUserArticles(userData.id, function(articles) {
         appStorage.articles = articles;
         alert(appStorage.articles);
       }, this.onErr);
