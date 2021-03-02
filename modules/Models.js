@@ -7,6 +7,12 @@ function UserDataModel(id, fullName, email, login, password) {
   this.password = password || '';
 }
 
+function UserProfileDataModel(fullName, email, login) {
+  this.fullName = fullName || '';
+  this.mail = email || '';
+  this.login = login || '' ; 
+}
+
 function NewsResourceModel(name, url, logo) {
   this.name = name || '';
   this.url = url || '';

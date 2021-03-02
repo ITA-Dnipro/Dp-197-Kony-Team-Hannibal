@@ -16,10 +16,8 @@ define(["userProfileService", 'utils'], function(service, utils) {
       showUser: function() {
         this.userData = appStorage.userProfile;
 		this.view.textFieldForNameEdit.text = this.userData.fullName;
-        this.view.textFieldForMailEdit.text = this.userData.email;
+        this.view.textFieldForMailEdit.text = this.userData.mail;
         this.view.textFieldForLoginEdit.text = this.userData.login;
-        this.view.textFieldForPasswordEdit.text = this.userData.password;
-        this.view.textFieldForConfirmPswEdit.text = this.userData.password;
       },
       
       onBackBtn: function() {
@@ -28,12 +26,10 @@ define(["userProfileService", 'utils'], function(service, utils) {
       
       onSaveEditBtnClick: function() {
         var newUserData = {
-          id: this.userData.id,
+          id: appStorage.userId,
           fullName: this.view.textFieldForNameEdit.text.trim(),
-          email: this.view.textFieldForMailEdit.text.trim(),
+          mail: this.view.textFieldForMailEdit.text.trim(),
           login: this.view.textFieldForLoginEdit.text.trim(),
-          password: this.view.textFieldForPasswordEdit.text.trim(),
-          passwordConfirm: this.view.textFieldForConfirmPswEdit.text.trim(),
         };
         service.editUser(newUserData, this.succesCB, this.errorCB);
       },

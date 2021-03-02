@@ -41,9 +41,7 @@
     "children": [
         "containerForNameEdit",
         "containerForMailEdit",
-        "containerForLoginEdit",
-        "containerForPassword",
-        "containerForConfirmPassword"
+        "containerForLoginEdit"
     ],
     "clipbounds": true,
     "containerweight": 100,
