@@ -22,10 +22,14 @@ define(['authenticationService', 'resourcesService', 'articleService', 'utils'],
   }
   
   return {   
-    initUser: function(userId) {
-      resourcesService.getUserResources(userId, function (userResources) {
-        appStorage.userId = userId;
+    initUser: function(userData) {
+      resourcesService.getUserResources(userData.id, function (userResources) {
+        appStorage.userId = userData.id;
+        appStorage.userProfile.fullName = userData.fullName;
+        appStorage.userProfile.login = userData.login;
+        appStorage.userProfile.mail = userData.email;
         appStorage.userResources = userResources;
+        alert(appStorage.userProfile, appStorage.userResources);
         utils.navigateToForm('formNewsProviders');
       }, this.onErr);
       articleService.getUserArticles(userId, function(articles) {

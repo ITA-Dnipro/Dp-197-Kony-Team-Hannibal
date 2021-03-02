@@ -7,8 +7,13 @@ define(function () {
        if (response.userLoginError) {
          errorCb(response.userLoginError);
        } else {
-         alert('login success');
-         successCb(response.userId);
+         var userData = {
+           id: response.userId,
+           login: login,
+           fullName: response.userFullName,
+           email: response.userMail,
+         };
+         successCb(userData);
        }
      }, errorCb);
    }
