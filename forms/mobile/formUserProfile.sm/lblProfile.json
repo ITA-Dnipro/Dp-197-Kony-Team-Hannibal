@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "145dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s17e0f980dc547768ceee48b9c216b92",
-    "_text_": "Password:",
+    "_right_": {
+        "type": "string",
+        "value": "145dp"
+    },
+    "_skin_": "s7c7ac5a39024f9d8a21ffb705b437bc",
+    "_text_": "Profile",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,8 +44,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "labelForPassword",
+    "contentalignment": 5,
+    "id": "lblProfile",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jef44913e26d4aa9bb8d4dca4b610368",
+    "kuid": "cdc104b6b27548d9949481bc20450a69",
     "name": "kony.ui.Label",
-    "parent": "containerForPassword",
-    "pf": "formUserProfileEdit",
+    "parent": "formUserProfile",
+    "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

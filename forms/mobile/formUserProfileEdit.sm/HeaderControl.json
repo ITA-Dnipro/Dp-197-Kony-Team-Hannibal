@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "70dp"
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -22,7 +24,8 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sb397050519241278127660c35986b13",
+    "_render_": true,
+    "_skin_": "sb95f3d8c4684ebd9635011639466f5e",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -31,24 +34,27 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "btnBackToPreviousEditUser",
-        "editUserTitle",
-        "imageLogoEditUser"
-    ],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "data": {
+        "dropDownList": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut  ➩\", \"path\": \"formAuthentication\"}]",
+        "dropDownWidth": "175dp",
+        "isBackVisible": true,
+        "isDropVisible": false,
+        "separatorSize": "3dp"
+    },
     "enablescrolling": true,
-    "id": "headerForEditUser",
+    "id": "HeaderControl",
     "info": null,
     "iscustomlayout": false,
+    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "g8db498722544c0089ac0315de629b77",
+    "kuid": "ddcaebc177e74da09240988c97b7faea",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "formUserProfileEdit",
     "pf": "formUserProfileEdit",
     "retaincontentalignment": false,
@@ -56,7 +62,6 @@
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "ga92824bedfc4e4aa2641a03c8eada20",
+    "wType": "UserWidgetInstance"
 }

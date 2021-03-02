@@ -9,9 +9,9 @@
     "font_size": 110,
     "isForked": false
   },
-  "background_color": "a3a3a300",
+  "background_color": "b8b8b866",
   "bg_type": "one",
-  "border_color": "2e2e2eff",
+  "border_color": "000000ff",
   "border_style": "rc",
   "border_type": 0,
   "border_width": 1,
@@ -21,7 +21,7 @@
     "isForked": false
   },
   "fontSizeInPx": false,
-  "font_color": "757575ff",
+  "font_color": "ffffffff",
   "font_name": "iphoneSystem",
   "font_size": 110,
   "font_style": "normal",
@@ -42,7 +42,7 @@
     "font_size": 110,
     "isForked": false
   },
-  "kuid": "s6634e10048745119ebf0cb34a37694f",
+  "kuid": "s0c148daeaba41bdbf2b3cb62f9a3262",
   "spaan": {
     "font_name": "Helvetica",
     "font_size": 110,
