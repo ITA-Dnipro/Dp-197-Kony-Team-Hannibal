@@ -31,7 +31,8 @@
     "canUpdateUI": true,
     "children": [
         "containerForChannels",
-        "HeaderControl"
+        "HeaderControl",
+        "searchDesc"
     ],
     "containerweight": 100,
     "controllerInfo": {

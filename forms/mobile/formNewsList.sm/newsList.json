@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_data_": [
         {
             "btnAddNews": {
@@ -21,10 +25,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "730dp"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "string",
@@ -45,7 +45,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -73,7 +73,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e44e44a295ca4f85b608b77ac2a08b2d",
+    "kuid": "e9d3283d4cf644af8675fb714daf5747",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -82,7 +82,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "formNewsList",
+    "parent": "container",
     "pf": "formNewsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

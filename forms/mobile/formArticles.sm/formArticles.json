@@ -31,7 +31,8 @@
     "canUpdateUI": true,
     "children": [
         "HeaderControl",
-        "articlesList"
+        "searchDesc",
+        "container"
     ],
     "containerweight": 100,
     "controllerInfo": {

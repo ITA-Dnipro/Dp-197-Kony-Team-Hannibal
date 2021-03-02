@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_data_": [
         {
             "description": {
@@ -143,10 +147,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "730dp"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "string",
@@ -167,7 +167,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -195,7 +195,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c1cac8d17f424252b9dfa58a8233d9bd",
+    "kuid": "j6e76a35575a4d33bde83128f25bcad1",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -204,7 +204,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "formNewsFeeds",
+    "parent": "container",
     "pf": "formNewsFeeds",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_bottom_": {
         "type": "string",
-        "value": "90dp"
-    },
-    "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "value": "0dp"
     },
     "_left_": {
         "type": "string",
@@ -26,53 +22,39 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
-    "_skin_": "sb1b0e04f3e7469599bb40f05cc02d78",
+    "_skin_": "s960956acd9e49499bedc09056c9d7a5",
     "_top_": {
         "type": "string",
-        "value": "240dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": true,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "noNewResources",
-        "newResourcesSegment"
+        "articlesList"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "newResourcesContainer",
+    "id": "container",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf1b0335e0b24c5297b42699df645698",
+    "kuid": "dc7d46ce2ccb45f7b5c2f67bd288ceb0",
     "layouttype": 2,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "formAddNewResources",
-    "pf": "formAddNewResources",
+    "name": "kony.ui.FlexContainer",
+    "parent": "formArticles",
+    "pf": "formArticles",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": true,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1
 }
