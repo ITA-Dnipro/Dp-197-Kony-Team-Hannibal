@@ -5,6 +5,14 @@
             "linkDataArray": [],
             "nodeDataArray": [
                 {
+                    "formKUID": "i72b1f4b07da419d9163dd1493370adb",
+                    "formName": "formAddNewResources",
+                    "isStartupForm": false,
+                    "key": "i72b1f4b07da419d9163dd1493370adb",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
                     "formKUID": "d31fb1683ef44dfc81761267f347e6e8",
                     "formName": "formAuthentication",
                     "isStartupForm": true,
@@ -18,7 +26,7 @@
                     "isStartupForm": false,
                     "key": "c26c20da4f1f48348543e2acd98db85c",
                     "loc": "368 354.845263671875",
-                    "thumbnailURL": null
+                    "thumbnailURL": "/assets/Kony/forms/mobile/formNewsFeeds.sm/.thumbs/default.jpeg?"
                 },
                 {
                     "formKUID": "d127829e624146f1b54ba5cd03474c1a",

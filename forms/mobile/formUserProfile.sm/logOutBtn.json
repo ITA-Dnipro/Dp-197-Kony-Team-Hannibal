@@ -5,10 +5,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         6,
         6,
@@ -23,26 +19,30 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_skin_": "s04c7b71cde5492a82ea1e488f4da130",
     "_text_": "Log Out",
     "_top_": {
         "type": "string",
-        "value": "60dp"
+        "value": "340dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "27%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s4b882d2844c4f8da51479acdf601444",
     "id": "logOutBtn",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f7220224d8b940f58840d532cfe83dd3",
+    "kuid": "e97d3e41cb644174ad5dfd8c143c61f0",
     "name": "kony.ui.Button",
-    "parent": "containerForDataButtons",
+    "parent": "formUserProfile",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

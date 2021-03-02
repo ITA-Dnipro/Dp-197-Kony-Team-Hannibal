@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sb95f3d8c4684ebd9635011639466f5e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "dropDownList": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut  ➩\", \"path\": \"formAuthentication\"}]",
+        "dropDownWidth": "175dp",
+        "isBackVisible": true,
+        "isDropVisible": false,
+        "separatorSize": "3dp"
+    },
+    "enablescrolling": true,
+    "id": "HeaderControl",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "d9009df79e254b888181473fef436fdc",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "formUserProfile",
+    "pf": "formUserProfile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ga92824bedfc4e4aa2641a03c8eada20",
+    "wType": "UserWidgetInstance"
+}

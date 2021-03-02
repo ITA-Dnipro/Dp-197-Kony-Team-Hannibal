@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_margin_": [
         6,
@@ -19,31 +19,31 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_skin_": "s1838ad57fde41dba77931b70c557667",
     "_text_": "Cancel",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "610dp"
     },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "39%"
     },
     "activeNativeBorderCornerRadiusControl": "topRightControl",
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s63056460c674646bba342ae88cdacee",
     "id": "btnCancel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf4ac176ab774497b7041a36c0c1ad46",
+    "kuid": "c1fcbd9b861749bd9ed7622c59b9bca4",
     "name": "kony.ui.Button",
-    "parent": "buttonContainer",
+    "parent": "formRegistration",
     "pf": "formRegistration",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

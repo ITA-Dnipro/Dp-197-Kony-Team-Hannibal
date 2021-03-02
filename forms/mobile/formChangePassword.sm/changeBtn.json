@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s94a876afb4d47c185f022ac5b9f78e0",
+    "_text_": "Change",
+    "_top_": {
+        "type": "string",
+        "value": "360dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "39%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s04a0f3bfba44ca7bda2e00267e3114e",
+    "id": "changeBtn",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c4bc560fb0bf4406906443f1173c53ae",
+    "name": "kony.ui.Button",
+    "parent": "formChangePassword",
+    "pf": "formChangePassword",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

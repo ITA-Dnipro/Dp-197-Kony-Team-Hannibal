@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -55,14 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j000c14b54b74b0db34e410b4131e062",
-    "minheight": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "kuid": "f16dde73c776470195a9fab6b6dc65b5",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "containerForDataFields",
+    "parent": "flexData",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

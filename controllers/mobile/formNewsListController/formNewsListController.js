@@ -46,14 +46,12 @@ define(['utils', "userProfileService"], function(utils, service) {
         return item;
       });
       this.view.newsList.setData(dataNews);
-      this.view.userName.text = appStorage.userProfile.login;
+      this.view.HeaderControl.onBackClicked = this.onBack.bind(this);
     },
     
 
     init: function() {
       this.view.postShow = this.onFormShowed.bind(this);
-      this.view.btnBack.onClick = this.onBack.bind(this);
-      this.view.userName.onTouchStart = this.moveToProfile.bind(this);
       this.view.newsList.onRowClick = onRowClicked.bind(this);
     }
  };

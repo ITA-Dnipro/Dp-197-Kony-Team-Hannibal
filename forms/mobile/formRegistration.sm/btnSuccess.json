@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         6,
@@ -25,24 +25,24 @@
     "_text_": "Create",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "610dp"
     },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "39%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s198c829a97344708532e6efa61d00a0",
     "id": "btnSuccess",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f88b7d0aab484ae788da5fe53dc36fdf",
+    "kuid": "he00d17f4903433fb462ff400e0360fa",
     "name": "kony.ui.Button",
-    "parent": "buttonContainer",
+    "parent": "formRegistration",
     "pf": "formRegistration",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

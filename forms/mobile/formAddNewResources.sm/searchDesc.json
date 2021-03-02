@@ -29,7 +29,7 @@
     "_text_": "Please, type domain of new resource",
     "_top_": {
         "type": "string",
-        "value": "90dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "ref",

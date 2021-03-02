@@ -1,13 +1,17 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizSwitch",
     "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
         "value": "32dp"
     },
     "_left_": {
         "type": "string",
-        "value": "40dp"
+        "value": "20dp"
     },
     "_margin_": [
         0,
@@ -24,7 +28,7 @@
     "_skin_": "s4ae2795fb7a42169d3fc31ece67c3db",
     "_top_": {
         "type": "string",
-        "value": "25dp"
+        "value": "15dp"
     },
     "_width_": {
         "type": "string",

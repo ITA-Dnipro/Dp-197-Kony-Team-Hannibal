@@ -3,7 +3,7 @@ define(["userProfileService", 'utils'], function(service, utils) {
 	return {
       onInit: function() {
         this.view.postShow = this.onFormShow.bind(this);
-        this.view.btnBackToPreviousEditUser.onClick = this.onBackBtn.bind(this);
+        this.view.HeaderControl.onBackClicked = this.onBackBtn.bind(this);
         this.view.saveEditBtn.onClick = this.onSaveEditBtnClick.bind(this);
         this.succesCB = this.succesCB.bind(this);
         this.errorCB = this.errorCB.bind(this);

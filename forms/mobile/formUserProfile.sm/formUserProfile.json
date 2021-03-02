@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s9aa598de7f14c259fad23a619c4bad5",
+    "_skin_": "sc9de49e04a6466295b9ac28a744671f",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -30,8 +30,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerForUserdata",
-        "mainWrapper"
+        "HeaderControl",
+        "logOutBtn",
+        "BtnShowfavorites",
+        "editBtn",
+        "flexData",
+        "lblProfile",
+        "btnChangePassword"
     ],
     "containerweight": 100,
     "controllerInfo": {

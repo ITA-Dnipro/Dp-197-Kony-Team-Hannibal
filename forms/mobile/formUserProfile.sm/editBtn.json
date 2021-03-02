@@ -7,11 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "35dp"
     },
     "_margin_": [
         6,
@@ -25,28 +21,32 @@
         0,
         0
     ],
-    "_skin_": "sfb10097cf8e406ab156a4f188b45665",
-    "_text_": "Edit Profile",
+    "_right_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_skin_": "s90c6d00a08a4f82bf0bfe29c02d532a",
+    "_text_": "✎",
     "_top_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "35dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s411c0540731499f9e8fb6b632319dc0",
     "id": "editBtn",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fbab39fa049649f9ab7dd32624b9c259",
+    "kuid": "idd4b55006c943f1abf65cb9381c1656",
     "name": "kony.ui.Button",
-    "parent": "containerForDataButtons",
+    "parent": "formUserProfile",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

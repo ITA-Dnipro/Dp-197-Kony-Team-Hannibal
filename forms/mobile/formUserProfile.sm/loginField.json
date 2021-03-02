@@ -6,8 +6,8 @@
         "value": "0dp"
     },
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -29,7 +29,7 @@
     "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "85dp"
     },
     "_width_": {
         "type": "string",
@@ -59,14 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d0dfa03058f34cceaa9cb307aabad157",
-    "minheight": {
-        "type": "string",
-        "value": "50dp"
-    },
+    "kuid": "bcc8aca1b67e44bf917fc86a5b54daac",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "containerForDataFields",
+    "parent": "flexData",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

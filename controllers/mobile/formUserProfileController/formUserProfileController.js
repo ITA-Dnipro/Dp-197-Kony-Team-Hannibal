@@ -3,9 +3,10 @@ define(['utils'], function(utils) {
 	return {
       onInit: function() {
         this.view.postShow = this.onFormShow.bind(this);
-        this.view.btnBackToPreviousUserProfile.onClick = this.onBackBtn.bind(this);
+        this.view.HeaderControl.onBackClicked = this.onBackBtn.bind(this);
         this.view.editBtn.onClick = this.onEditBtnClick.bind(this);
         this.view.logOutBtn.onClick = this.onBtnLogOutClick.bind(this);
+        this.view.btnChangePassword.onClick = this.onChangePassword.bind(this);
       },
       
       onFormShow: function() {
@@ -31,6 +32,10 @@ define(['utils'], function(utils) {
       
       onEditBtnClick: function() {
         utils.navigateToForm("formUserProfileEdit");
+      },
+      
+      onChangePassword: function() {
+        utils.navigateToForm("formChangePassword");
       },
       
       logOut: function() {

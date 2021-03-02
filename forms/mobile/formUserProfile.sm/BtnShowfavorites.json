@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "35dp"
     },
     "_margin_": [
         6,
@@ -23,30 +23,30 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "55dp"
     },
-    "_skin_": "sfb10097cf8e406ab156a4f188b45665",
-    "_text_": "Favorites",
+    "_skin_": "s90c6d00a08a4f82bf0bfe29c02d532a",
+    "_text_": "✭",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "110dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "35dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa160ea3f08048d7aeb23b5c2fc4c093",
+    "focusskin": "s411c0540731499f9e8fb6b632319dc0",
     "id": "BtnShowfavorites",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b46dbd269b984340af722454730748de",
+    "kuid": "ab2b1505edf748afb37b73620029bb7c",
     "name": "kony.ui.Button",
-    "parent": "containerForDataButtons",
+    "parent": "formUserProfile",
     "pf": "formUserProfile",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -23,18 +23,14 @@
     ],
     "_placeholder_": "Email",
     "_right_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "40dp"
     },
     "_skin_": "s6634e10048745119ebf0cb34a37694f",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "20dp"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "100%"
+        "value": "360dp"
     },
     "android": {},
     "autocapitalize": "none",
@@ -52,10 +48,10 @@
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "b30f2ffc52c84bab88a2a59dc894d44d",
+    "kuid": "h3ac062f869b423dbe9b0d2497567fa3",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "inputContainer",
+    "parent": "formRegistration",
     "pf": "formRegistration",
     "placeholderskin": "s6634e10048745119ebf0cb34a37694f",
     "retaincontentalignment": false,

@@ -30,9 +30,9 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerBlock",
+        "browserWidget",
         "btnAddFavourites",
-        "browserWidget"
+        "HeaderControl"
     ],
     "containerweight": 100,
     "controllerInfo": {
