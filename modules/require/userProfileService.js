@@ -1,6 +1,7 @@
 define(['storeUserProfileService', 'fabricUserProfileService'], function (storeImpl, fabricImpl) {
-    var concreteImpl = storeImpl;
+    var concreteImpl = fabricImpl;
     return {
       editUser: concreteImpl.editUser,
+      addArticle: concreteImpl.addArticle,
     };
 });

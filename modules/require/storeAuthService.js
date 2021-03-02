@@ -1,10 +1,12 @@
+define(['utils'], function (utils) {
+  
   function findUser(login, password, successCb, errorCb) {
     var users = kony.store.getItem("users") || [];
     var currentUser = users.find(function(user) {
       return user.login === login && user.password === password;
     });
     if (currentUser) {
-      successCb(currentUser);
+      successCb(currentUser.id);
     } else {
       errorCb('User not found');
     }
@@ -43,7 +45,13 @@
     return error;
   }
 
-  function registerUser(newUser, successCb, errorCb) {
+  function registerUser(userData, successCb, errorCb) {
+    var newUserId = utils.getUniqId();
+    var newUser = new UserDataModel(newUserId,
+     userData.fullName,
+     userData.email,
+     userData.login,
+     userData.password);
     var users = kony.store.getItem('users') || [];
     var validationMistake = validateNewUser(users, newUser);
     if (validationMistake) {
@@ -51,13 +59,12 @@
     } else {
       users.push(newUser);
       kony.store.setItem('users', users);
-      successCb(newUser);
+      successCb(newUserId);
     }
   }
-
-define(function () {
-    return {
-      findUser: findUser,
-      registerUser: registerUser,
-    };
+  
+  return {
+    findUser: findUser,
+    registerUser: registerUser,
+  };
 });

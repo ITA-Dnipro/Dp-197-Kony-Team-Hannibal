@@ -10,11 +10,13 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
   }
   
   return {
-    deleteResource: function(url) {
+    deleteResource: function(resId) {
       var self = this;
-      resourcesService.deleteResource(appStorage.userProfile.id, url, function(newResources) {
-        appStorage.userResources = newResources;
-        self.renderResources();
+      resourcesService.deleteResource(appStorage.userId, resId, function() {
+        resourcesService.getUserResources(appStorage.userId, function(newResources) {
+          appStorage.userResources = newResources;
+          self.renderResources();
+        }, renderErr);
       }, renderErr);
     },
     
@@ -26,7 +28,7 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
           imgChannel: res.logo,
           url: res.url,
           btnDelete: {
-            onClick: self.deleteResource.bind(self, res.url),
+            onClick: self.deleteResource.bind(self, res.resourceId),
           },
         };
       });

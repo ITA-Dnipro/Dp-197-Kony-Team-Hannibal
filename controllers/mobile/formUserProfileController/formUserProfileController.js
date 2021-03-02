@@ -1,4 +1,4 @@
-define(["userProfileService", 'utils'], function(service, utils) {
+define(['utils'], function(utils) {
   
 	return {
       onInit: function() {
@@ -16,7 +16,7 @@ define(["userProfileService", 'utils'], function(service, utils) {
       showUser: function() {
         this.userData = appStorage.userProfile;
         this.view.loginField.text = "Login: " + this.userData.login;
-        this.view.emailField.text = "E-mail: " + this.userData.email;
+        this.view.emailField.text = "E-mail: " + this.userData.mail;
         this.view.nameField.text = "Full name: " + this.userData.fullName;
       },
       

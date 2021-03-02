@@ -4,7 +4,7 @@ define(['utils', 'constants'], function (utils, appConstants) {
      var resourcesUrl = appConstants.FEEDS_API + url;
      function extractResources(data) {
        var resources = data.filter(function(res) {
-         return res.content_type === appConstants.RSS_CONTENT_TYPE;
+         return res.content_type.includes('application/rss+xml') || res.content_type.includes('text/xml');
          })
          .reduce(function(acc, feed) {
            var isResourceRepeated = acc.some(function(addedResource) {
@@ -24,13 +24,27 @@ define(['utils', 'constants'], function (utils, appConstants) {
       userResources = userResources.concat(newResources);
       userData.resources = userResources;
       kony.store.setItem(userId, userData);
-      successCb(userResources);
+      successCb();
     } catch(e) {
       errorCb(e.message);
     }
   }
   
-  function getResources(userId, successCb, errorCb) {
+  function addStartResources(userId, successCb, errorCb) {
+    
+    var startResources = [
+      { name: 'BBC', url: 'https://www.bbc.com', logo: 'bbc.jpg' },
+      { name: 'Wall Street Journal', url: 'https://www.wsj.com', logo: 'wall_street_journal_.jpg' },
+      { name: 'Reuters', url: 'https://www.reuters.com', logo: 'reuters.png' },
+      { name: 'Al Jazeera', url: 'https://www.aljazeera.com', logo: 'al_jazeera.jpg' },
+      { name: 'Mirror', url: 'https://www.mirror.co.uk', logo: 'mirror.png' },
+      { name: 'CBS News', url: 'https://www.cbsnews.com', logo: 'cbs.jpg' },
+      { name: 'CNBC', url: 'https://www.cnbc.com', logo: 'cnbc.jpg' },
+    ];
+    addResources(userId, startResources, successCb, errorCb);
+  }
+  
+  function getUserResources(userId, successCb, errorCb) {
     try {
       var userData = kony.store.getItem(userId) || {};
       var userResources = userData.resources || [];
@@ -58,7 +72,8 @@ define(['utils', 'constants'], function (utils, appConstants) {
     return {
       findResources: findResources,
       addResources: addResources,
-      getResources: getResources,
+      addStartResources: addStartResources,
+      getUserResources: getUserResources,
       deleteResource: deleteResource,
     };
 });
