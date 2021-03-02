@@ -21,7 +21,7 @@ define(['constants'], function (appConstants) {
     sqlSvc.invokeOperation('getUserResources', null, { userId: userId }, function(resp) {
       var renamedRecords = resp.records.map(function(rec) {
         return {
-          resourceId: rec.resource_id,
+          resourceId: rec.user_resource_id,
           logo: rec.logo,
           url: rec.url,
           name: rec.title,
@@ -53,7 +53,7 @@ define(['constants'], function (appConstants) {
   }
   
   function deleteResource(userId, resourceId, successCb, errorCb) {
-    sqlSvc.invokeOperation('deleteUserResource', null, { userId: userId, resourceId: resourceId }, successCb, errorCb);
+    sqlSvc.invokeOperation('deleteUserResource', null, { id: resourceId }, successCb, errorCb);
   }
   
   return {

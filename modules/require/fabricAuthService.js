@@ -7,11 +7,10 @@ define(function () {
        if (response.userLoginError) {
          errorCb(response.userLoginError);
        } else {
-         successCb(response.userLoginId);
+         alert('login success');
+         successCb(response.userId);
        }
-     }, function(error) {
-       errorCb(error);
-     });
+     }, errorCb);
    }
   
    function registerUser(userData, successCb, errorCb) {
