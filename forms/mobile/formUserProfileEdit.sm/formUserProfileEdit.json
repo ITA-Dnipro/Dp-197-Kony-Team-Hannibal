@@ -34,8 +34,6 @@
         "textFieldForNameEdit",
         "textFieldForMailEdit",
         "textFieldForLoginEdit",
-        "textFieldForPasswordEdit",
-        "textFieldForConfirmPswEdit",
         "saveEditBtn"
     ],
     "containerweight": 100,

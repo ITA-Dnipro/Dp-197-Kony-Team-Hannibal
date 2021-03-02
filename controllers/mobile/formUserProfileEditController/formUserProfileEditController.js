@@ -18,8 +18,6 @@ define(["userProfileService", 'utils'], function(service, utils) {
 		this.view.textFieldForNameEdit.text = this.userData.fullName;
         this.view.textFieldForMailEdit.text = this.userData.email;
         this.view.textFieldForLoginEdit.text = this.userData.login;
-        this.view.textFieldForPasswordEdit.text = this.userData.password;
-        this.view.textFieldForConfirmPswEdit.text = this.userData.password;
       },
       
       onBackBtn: function() {
@@ -32,8 +30,6 @@ define(["userProfileService", 'utils'], function(service, utils) {
           fullName: this.view.textFieldForNameEdit.text.trim(),
           email: this.view.textFieldForMailEdit.text.trim(),
           login: this.view.textFieldForLoginEdit.text.trim(),
-          password: this.view.textFieldForPasswordEdit.text.trim(),
-          passwordConfirm: this.view.textFieldForConfirmPswEdit.text.trim(),
         };
         service.editUser(newUserData, this.succesCB, this.errorCB);
       },
