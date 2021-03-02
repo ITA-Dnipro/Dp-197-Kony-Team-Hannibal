@@ -7,6 +7,7 @@ define(['utils'], function(utils) {
         this.view.editBtn.onClick = this.onEditBtnClick.bind(this);
         this.view.logOutBtn.onClick = this.onBtnLogOutClick.bind(this);
         this.view.btnChangePassword.onClick = this.onChangePassword.bind(this);
+        this.view.BtnShowfavorites.onClick = this.onArticlesBtnClick.bind(this);
       },
       
       onFormShow: function() {
@@ -32,6 +33,10 @@ define(['utils'], function(utils) {
       
       onEditBtnClick: function() {
         utils.navigateToForm("formUserProfileEdit");
+      },
+      
+      onArticlesBtnClick: function() {
+        utils.navigateToForm("formArticles");
       },
       
       onChangePassword: function() {

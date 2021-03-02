@@ -1,16 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfa2828a-1de6-4419-ad14-8129e118f1af" name="Default Changelist" comment="" />
+    <list default="true" id="bfa2828a-1de6-4419-ad14-8129e118f1af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meta/.otherresourcesmeta/otherresources.meta-info" beforeDir="false" afterPath="$PROJECT_DIR$/.meta/.otherresourcesmeta/otherresources.meta-info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meta/.testresourcesmeta/testresources.meta-info" beforeDir="false" afterPath="$PROJECT_DIR$/.meta/.testresourcesmeta/testresources.meta-info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webmeta/localfiles.meta-info" beforeDir="false" afterPath="$PROJECT_DIR$/.webmeta/localfiles.meta-info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/mobile/formNewsListController/formNewsListController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/mobile/formNewsListController/formNewsListController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/mobile/formNewsPageController/formNewsPageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/mobile/formNewsPageController/formNewsPageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/mobile/formUserProfileController/formUserProfileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/mobile/formUserProfileController/formUserProfileController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/mobile/formUserProfileEditController/formUserProfileEditController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/mobile/formUserProfileEditController/formUserProfileEditController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nativeapi.json" beforeDir="false" afterPath="$PROJECT_DIR$/nativeapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectProperties.json" beforeDir="false" afterPath="$PROJECT_DIR$/projectProperties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsSrc/kiosk/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsSrc/kiosk/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsSrc/windows8/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsSrc/windows8/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsSrc/winmobile/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsSrc/winmobile/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsSrc/winphone8/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsSrc/winphone8/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsSrc/winphone81s/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsSrc/winphone81s/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/jsXml/SSOFFI.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/jsXml/SSOFFI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/customlibs/sdkplugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/customlibs/sdkplugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_a99be8885f914931b3e1f39e8319c586.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_a99be8885f914931b3e1f39e8319c586.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_a99be8885f914931b3e1f39e8319c586.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_a99be8885f914931b3e1f39e8319c586.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_ab5a8eb4152a41ae89487cc7e663920f.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_ab5a8eb4152a41ae89487cc7e663920f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_ab5a8eb4152a41ae89487cc7e663920f.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_ab5a8eb4152a41ae89487cc7e663920f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b009fdb8eabf40ae8469284460cde0b2.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b009fdb8eabf40ae8469284460cde0b2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b009fdb8eabf40ae8469284460cde0b2.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b009fdb8eabf40ae8469284460cde0b2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b5904a7e6a2c4853acdc24365d661959.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b5904a7e6a2c4853acdc24365d661959.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b5904a7e6a2c4853acdc24365d661959.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_b5904a7e6a2c4853acdc24365d661959.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_d6fb6adf975c4be09775d05fdd821f39.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_d6fb6adf975c4be09775d05fdd821f39.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_d6fb6adf975c4be09775d05fdd821f39.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_d6fb6adf975c4be09775d05fdd821f39.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_dc63b126b0954559bdff725047090b6f.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_dc63b126b0954559bdff725047090b6f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_dc63b126b0954559bdff725047090b6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_dc63b126b0954559bdff725047090b6f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_e00f6cf9098f402e83295a0f03f5ab10.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_e00f6cf9098f402e83295a0f03f5ab10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_e00f6cf9098f402e83295a0f03f5ab10.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_e00f6cf9098f402e83295a0f03f5ab10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_hfc36cd3038845aabc933c82d91c2eec.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_hfc36cd3038845aabc933c82d91c2eec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_hfc36cd3038845aabc933c82d91c2eec.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_hfc36cd3038845aabc933c82d91c2eec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_idc5511382e549b594d0c7f958f9ad26.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_idc5511382e549b594d0c7f958f9ad26.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_idc5511382e549b594d0c7f958f9ad26.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_idc5511382e549b594d0c7f958f9ad26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_jf9658002f55410a9fc20dc2646c93c2.js" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_jf9658002f55410a9fc20dc2646c93c2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studioactions/mobile/AS_Form_jf9658002f55410a9fc20dc2646c93c2.json" beforeDir="false" afterPath="$PROJECT_DIR$/studioactions/mobile/AS_Form_jf9658002f55410a9fc20dc2646c93c2.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pCdhfWr4gX9gz392v4a0xP9t8H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfa2828a-1de6-4419-ad14-8129e118f1af" name="Default Changelist" comment="" />
+      <created>1614691127762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614691127762</updated>
+    </task>
     <servers />
   </component>
 </project>
