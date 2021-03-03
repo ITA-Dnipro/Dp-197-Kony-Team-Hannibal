@@ -49,30 +49,22 @@ define(function () {
     }
   }
   
-  function addArticle(article, successCb, errorCb) {
-    var headers = null;
-    var body = {
-      newTitle: article.newsTitle,
-      newLogo: article.logo,
-      newLink: article.link,
-      newDate: article.pubDate,
-      userId: appStorage.userId,
-    };
-    
-    integrationSvc.invokeOperation('createArticle', headers, body, function(response) {      
-      if(response.articleCreateResult === "success_add") {
-        article.id = response.createdArticleId;
-        successCb(article);
+  function getUserProfileData(userId, successCb, errorCb) {
+    integrationSvc.invokeOperation('getUserProfile', null, {userId: userId}, function(response) {
+      if(response.userProfileError) {
+        errorCb(response);
       } else {
-        errorCb(response.articleCreateResult);
+        successCb(response);
       }
-    }, function(error){
+    }, function(error) {
       errorCb(error);
-    });  
+    });
   }
+  
+
   
     return {
         editUser: editUser,
-        addArticle: addArticle,
+        getUserProfileData: getUserProfileData,
     };
 });
