@@ -2,6 +2,6 @@ define(['storeUserProfileService', 'fabricUserProfileService'], function (storeI
     var concreteImpl = fabricImpl;
     return {
       editUser: concreteImpl.editUser,
-      addArticle: concreteImpl.addArticle,
+      getUserProfileData: concreteImpl.getUserProfileData,
     };
 });
