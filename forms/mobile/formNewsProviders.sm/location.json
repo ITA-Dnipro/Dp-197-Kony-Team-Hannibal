@@ -5,10 +5,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "40dp"
-    },
     "_margin_": [
         1,
         1,
@@ -25,8 +21,8 @@
         "type": "string",
         "value": "40dp"
     },
-    "_skin_": "s7c7ac5a39024f9d8a21ffb705b437bc",
-    "_text_": "⚑ News collection",
+    "_skin_": "sf81603ba1564e8a8dcf445a7991afd8",
+    "_text_": "PROVIDERS",
     "_top_": {
         "type": "string",
         "value": "70dp"
@@ -44,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "searchDesc",
+    "contentalignment": 6,
+    "id": "location",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j02dd750dc324fe7bc400683cb3cf270",
+    "kuid": "d2bff7d5a2ee4b539885c1ae4f5ba3cb",
     "name": "kony.ui.Label",
-    "parent": "formArticles",
-    "pf": "formArticles",
+    "parent": "formNewsProviders",
+    "pf": "formNewsProviders",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

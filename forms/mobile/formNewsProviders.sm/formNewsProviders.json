@@ -32,7 +32,8 @@
     "children": [
         "containerForChannels",
         "HeaderControl",
-        "searchDesc"
+        "location",
+        "imgLocation"
     ],
     "containerweight": 100,
     "controllerInfo": {

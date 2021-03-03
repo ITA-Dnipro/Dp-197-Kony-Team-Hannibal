@@ -5,10 +5,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "40dp"
-    },
     "_margin_": [
         1,
         1,
@@ -26,7 +22,7 @@
         "value": "40dp"
     },
     "_skin_": "sf81603ba1564e8a8dcf445a7991afd8",
-    "_text_": "⚑ Providers",
+    "_text_": "FEEDS",
     "_top_": {
         "type": "string",
         "value": "70dp"
@@ -45,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "searchDesc",
+    "id": "location",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d2bff7d5a2ee4b539885c1ae4f5ba3cb",
+    "kuid": "db3a5b574041478f849cc4f6ae3b062b",
     "name": "kony.ui.Label",
-    "parent": "formNewsProviders",
-    "pf": "formNewsProviders",
+    "parent": "formNewsFeeds",
+    "pf": "formNewsFeeds",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

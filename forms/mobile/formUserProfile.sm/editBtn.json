@@ -19,7 +19,7 @@
         0,
         0,
         0,
-        0
+        1
     ],
     "_right_": {
         "type": "string",
@@ -46,6 +46,7 @@
     "isvisible": true,
     "kuid": "idd4b55006c943f1abf65cb9381c1656",
     "name": "kony.ui.Button",
+    "paddinginpixel": false,
     "parent": "formUserProfile",
     "pf": "formUserProfile",
     "retaincontentalignment": false,

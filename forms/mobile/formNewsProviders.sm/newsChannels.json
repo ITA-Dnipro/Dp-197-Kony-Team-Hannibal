@@ -51,10 +51,19 @@
         "type": "string",
         "value": "100%"
     },
+    "android": {
+        "psp": {}
+    },
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "00",
+    "disabledSkins": {
+        "alternateRowSkin": "sa686e1e17264beda68195ebb9720423",
+        "pressedSkin": "s8d5a1e512694bf4ba5e96386afd9889",
+        "pushToRefreshSkin": "s2e73b717d4240d292780b67bf78bd5c",
+        "widgetSkin": "s0d73821b7044763b1f1fd8caeaf44b1"
+    },
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -89,8 +98,8 @@
     "retainselection": false,
     "rowTemplateId": "bc0bdf776eff434fb188e26a84f562aa",
     "rowcounter": 0,
-    "rowfocusskin": "s222f8a823a44587953a9ae30ac437af",
-    "rowskin": "sc418a9bb81d4bfc971eea689b69bcbe",
+    "rowfocusskin": "sb1366d5a6e44e3a9ced7974014a62de",
+    "rowskin": "sb1366d5a6e44e3a9ced7974014a62de",
     "rowtemplate": "flxChannel",
     "screenlevelwidget": false,
     "seccounter": 0,

@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "32%"
+        "value": "125dp"
     },
     "_margin_": [
         6,
@@ -21,6 +21,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "40dp"
+    },
     "_skin_": "s94a876afb4d47c185f022ac5b9f78e0",
     "_text_": "Change",
     "_top_": {

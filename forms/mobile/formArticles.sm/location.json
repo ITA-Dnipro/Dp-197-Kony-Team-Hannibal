@@ -5,10 +5,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "40dp"
-    },
     "_margin_": [
         1,
         1,
@@ -26,7 +22,7 @@
         "value": "40dp"
     },
     "_skin_": "sf81603ba1564e8a8dcf445a7991afd8",
-    "_text_": "⚑ Feeds",
+    "_text_": "NEWS COLLECTION",
     "_top_": {
         "type": "string",
         "value": "70dp"
@@ -45,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "searchDesc",
+    "id": "location",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db3a5b574041478f849cc4f6ae3b062b",
+    "kuid": "j02dd750dc324fe7bc400683cb3cf270",
     "name": "kony.ui.Label",
-    "parent": "formNewsFeeds",
-    "pf": "formNewsFeeds",
+    "parent": "formArticles",
+    "pf": "formArticles",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
