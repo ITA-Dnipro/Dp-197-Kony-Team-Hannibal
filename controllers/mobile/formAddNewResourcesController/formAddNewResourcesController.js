@@ -37,7 +37,8 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
     
     showErr: function (err) {
       kony.application.dismissLoadingScreen();
-      alert(err.message);
+      var message = err.errmsg ? err.errmsg : err;
+      alert(message);
     },
     
     findNewResources: function() {
@@ -57,7 +58,7 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
         });
       });
       if (uniqResources.length === 0) {
-        this.showErr({ message: 'Choosen resources have already been added to the app' });
+        this.showErr('Choosen resources have already been added to the app');
         return;
       }
       resourcesService.addResources(appStorage.userId, uniqResources, function() {
