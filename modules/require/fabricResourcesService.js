@@ -38,7 +38,13 @@ define(['constants'], function (appConstants) {
       resource_title: newResource.name,
       resource_url: newResource.url,
       resource_logo: newResource.logo
-    }, successCb, errorCb);
+    }, function (response) {
+      if (response.result_error) {
+        errorCb(response.result_error);
+        return;
+      }
+      successCb();
+    }, errorCb);
   }
 
   function addResources(userId, newResources, successCb, errorCb) {
