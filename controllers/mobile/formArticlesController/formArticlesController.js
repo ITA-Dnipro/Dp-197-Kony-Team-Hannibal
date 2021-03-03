@@ -1,21 +1,21 @@
-define(['utils'], function(utils) { 
+define(['utils', "articleService"], function(utils, service) {
   
-  function onDelClicked() {
-    alert("Hello Dima");
+  function errorCb(err) {
+     alert(err); 
   }
+
   
   function onRowClicked(widget, sectionIdx, rowIdx) {
     var newsToShow = new NewsModel(widget.data[rowIdx].newsTitle, widget.data[rowIdx].logo, widget.data[rowIdx].link, widget.data[rowIdx].pubDate);
     appStorage.newsToShow = newsToShow;
     utils.navigateToForm('formNewsPage');
-    
   }
   
 
   return {
     onInit: function() {
       this.view.HeaderControl.onBackClicked = this.onBackBtn.bind(this);
-      this.view.postShow = this.onFormShowed.bind(this);
+      this.view.preShow = this.onFormShowed.bind(this);
       this.view.articlesList.onRowClick = onRowClicked.bind(this);
     },
     
@@ -23,18 +23,28 @@ define(['utils'], function(utils) {
         utils.navigateToForm('formUserProfile');
       },
     
-    onFormShowed: function() {
-      alert(appStorage.articles);
+    deleteClick: function(thisButton, list) {
+      var selectedRowItem = list.widgetInfo.selectedRowItems[0];
+      var self = this;
+      utils.confirmAlert("Are you shore that you want delete this article 7", function() {
+        service.deleteArticle(selectedRowItem.id, self.renderList, errorCb);
+      });
+    },
+    
+    renderList: function() {
+      var self = this;
       var dataNews = appStorage.articles.map(function(item) {
         item.articleBtnDelete = {
-          "onClick": onDelClicked.bind(this)
+          "onClick": self.deleteClick.bind(this)
         };
         return item;
       });
-      this.view.articlesList.setData(dataNews);
-    },  
+      this.view.articlesList.setData(dataNews);      
+    },
+    
+    
+    onFormShowed: function() {
+       this.renderList();
+     },  
     };
-  
-
-
  });

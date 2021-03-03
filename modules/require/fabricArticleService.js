@@ -30,9 +30,32 @@ define(function () {
     }, function(error){
       errorCb(error);
     });  
-  }  
+  } 
+  
+  function deleteFromLocalStore(id) {
+    var articleIdx = appStorage.articles.findIndex(function(item) {
+      return item.id === id;
+    });
+    appStorage.articles.splice(articleIdx, 1);
+  }
+  
+  function deleteArticle(articleId, successCb, errorCb) {
+     sqlSvc.invokeOperation("deleteArticle", null, { id: articleId }, function(response) {
+       if(response.deletedRecords) {
+         deleteFromLocalStore(articleId);
+         successCb();
+       } else {
+         errorCb(response.errmsg);
+       }
+     }, function(err) {
+         errorCb(err);
+     });
+  }
+  
+  
     return {
        getUserArticles: getUserArticles,
-       addArticle: addArticle
+       addArticle: addArticle,
+       deleteArticle: deleteArticle,
     };
 });

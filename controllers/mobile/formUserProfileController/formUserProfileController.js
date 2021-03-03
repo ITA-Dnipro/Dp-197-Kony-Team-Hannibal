@@ -44,12 +44,24 @@ define(['utils'], function(utils) {
       },
       
       logOut: function() {
-        appStorage.userProfile = {};
+        appStorage = {
+          newsToShow: {},
+          userId: null,
+          userProfile: {
+            login: '',
+            fullName: '',
+            mail: ''
+          },
+          articles: [],
+          userResources: [],
+          feeds: [],
+          news: [],
+        };
         utils.navigateToForm("formAuthentication");  
       },
       
       onBtnLogOutClick: function() {
-        utils.confirmAlert("Are you sure to log out?", this.logOut);
+        utils.confirmAlert("Are you sure that you want log out ?", this.logOut);
       },
       
       
