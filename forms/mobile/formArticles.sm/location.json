@@ -2,10 +2,6 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
         "value": "40dp"
     },
@@ -25,11 +21,11 @@
         "type": "string",
         "value": "40dp"
     },
-    "_skin_": "s7c7ac5a39024f9d8a21ffb705b437bc",
-    "_text_": "Please, type domain of new resource",
+    "_skin_": "sf81603ba1564e8a8dcf445a7991afd8",
+    "_text_": "NEWS COLLECTION",
     "_top_": {
         "type": "string",
-        "value": "90dp"
+        "value": "70dp"
     },
     "_width_": {
         "type": "ref",
@@ -45,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "searchDesc",
+    "id": "location",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c6b6df132bb041248a0a9775fab401d0",
+    "kuid": "j02dd750dc324fe7bc400683cb3cf270",
     "name": "kony.ui.Label",
-    "parent": "formAddNewResources",
-    "pf": "formAddNewResources",
+    "parent": "formArticles",
+    "pf": "formArticles",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

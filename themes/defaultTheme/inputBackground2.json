@@ -92,12 +92,11 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_color": "757575ff",
     "font_name": "None",
     "font_size": 110,
-    "isForked": true
+    "isForked": false
   },
-  "kuid": "s6634e10048745119ebf0cb34a37694f",
+  "kuid": "s268c987d9c2418991357f1bc02743c8",
   "spaan": {
     "bottom_left_border_color": "2e2e2eff",
     "bottom_left_border_radius": 10,
@@ -261,15 +260,13 @@
     "isForked": false
   },
   "windows8": {
-    "font_color": "757575ff",
     "font_name": "None",
     "font_size": 110,
-    "isForked": true
+    "isForked": false
   },
   "winphone8": {
-    "font_color": "757575ff",
     "font_name": "None",
     "font_size": 110,
-    "isForked": true
+    "isForked": false
   }
 }

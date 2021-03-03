@@ -26,7 +26,7 @@ define(['utils', "articleService"], function(utils, service) {
     deleteClick: function(thisButton, list) {
       var selectedRowItem = list.widgetInfo.selectedRowItems[0];
       var self = this;
-      utils.confirmAlert("Are you shore that you want delete this article 7", function() {
+      utils.confirmAlert("Are you shore that you want delete this article ?", function() {
         service.deleteArticle(selectedRowItem.id, self.renderList, errorCb);
       });
     },

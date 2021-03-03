@@ -31,7 +31,9 @@
     "canUpdateUI": true,
     "children": [
         "HeaderControl",
-        "articlesList"
+        "location",
+        "container",
+        "imgLocation"
     ],
     "containerweight": 100,
     "controllerInfo": {

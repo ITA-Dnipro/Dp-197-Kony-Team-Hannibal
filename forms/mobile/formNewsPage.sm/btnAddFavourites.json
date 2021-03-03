@@ -19,7 +19,7 @@
         0,
         0,
         0,
-        0
+        1
     ],
     "_right_": {
         "type": "string",
@@ -42,6 +42,7 @@
     "isvisible": true,
     "kuid": "ac15dee5c0ed4cd2bead72cf42591fff",
     "name": "kony.ui.Button",
+    "paddinginpixel": false,
     "parent": "formNewsPage",
     "pf": "formNewsPage",
     "retaincontentalignment": false,

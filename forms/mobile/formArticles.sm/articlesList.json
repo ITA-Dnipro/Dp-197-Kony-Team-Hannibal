@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_data_": [
         {
             "articleBtnDelete": {
@@ -21,10 +25,6 @@
             }
         }
     ],
-    "_height_": {
-        "type": "string",
-        "value": "730dp"
-    },
     "_indicator_": "none",
     "_left_": {
         "type": "string",
@@ -45,7 +45,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -73,7 +73,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bbbb3b7a13284ebb9957a3fe04ee541c",
+    "kuid": "bebaa0dc222849e09a4198460e7fb293",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
@@ -82,15 +82,15 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "formArticles",
+    "parent": "container",
     "pf": "formArticles",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "i52f39fcc435495a8340b311a0346d1f",
     "rowcounter": 0,
-    "rowfocusskin": "s222f8a823a44587953a9ae30ac437af",
-    "rowskin": "sc418a9bb81d4bfc971eea689b69bcbe",
+    "rowfocusskin": "sb1366d5a6e44e3a9ced7974014a62de",
+    "rowskin": "sb1366d5a6e44e3a9ced7974014a62de",
     "rowtemplate": "articles",
     "screenlevelwidget": false,
     "seccounter": 0,

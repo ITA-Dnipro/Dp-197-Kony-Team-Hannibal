@@ -27,7 +27,7 @@
         0,
         0,
         0,
-        0
+        1
     ],
     "_right_": {
         "type": "string",
@@ -39,11 +39,15 @@
         "type": "string",
         "value": "45dp"
     },
-    "android": {},
+    "android": {
+        "psp": {}
+    },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "disabledSkins": {},
+    "disabledSkins": {
+        "pressedSkin": "s88e4146ced6414599942c6bc4923a17"
+    },
     "displaytext": true,
     "enablehapticfeedback": false,
     "focusskin": "sbc68ba6df5c4dd58ac7fa036986aafb",
@@ -53,6 +57,7 @@
     "isvisible": true,
     "kuid": "a9098a110a15417c9459c74b7abd9493",
     "name": "kony.ui.Button",
+    "paddinginpixel": false,
     "parent": "containerForChannels",
     "pf": "formNewsProviders",
     "retaincontentalignment": false,
