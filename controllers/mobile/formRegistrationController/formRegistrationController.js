@@ -17,12 +17,6 @@ define(['authenticationService', 'resourcesService', 'utils'], function(authServ
    onErr: function(err) {
      alert(err);
    },
-    
-   initializeUser: function(userId) {
-     resourcesService.addStartResources(userId, function() {
-       utils.navigateToForm('formAuthentication');
-     }, this.onErr);
-   },
 
    createNewUser: function createNewUser() {
      var userData = {
@@ -37,7 +31,9 @@ define(['authenticationService', 'resourcesService', 'utils'], function(authServ
        this.onErr(err);
      } else {
        delete userData.passwordConfirm;
-       authService.registerUser(userData, this.initializeUser, this.onErr);
+       authService.registerUser(userData, function() {
+         utils.navigateToForm('formAuthentication');
+       }, this.onErr);
      }
    }
  };

@@ -55,9 +55,6 @@ define(['constants'], function (appConstants) {
     addResource(userId, newResources[0], callback, errorCb);
   }
 
-  function addStartResources(userId, successCb, errorCb) {
-    sqlSvc.invokeOperation('addStartResources', null, { user_id: userId }, successCb, errorCb);
-  }
 
   function deleteResource(userId, resourceId, successCb, errorCb) {
     sqlSvc.invokeOperation('deleteUserResource', null, { id: resourceId }, successCb, errorCb);
@@ -66,7 +63,6 @@ define(['constants'], function (appConstants) {
   return {
     findResources: findResources,
     addResources: addResources,
-    addStartResources: addStartResources,
     getUserResources: getUserResources,
     deleteResource: deleteResource,
   };
