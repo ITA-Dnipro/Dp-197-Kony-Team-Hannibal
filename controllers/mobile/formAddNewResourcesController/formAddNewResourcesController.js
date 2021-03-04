@@ -37,8 +37,7 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
     
     showErr: function (err) {
       kony.application.dismissLoadingScreen();
-      var message = err.errmsg ? err.errmsg : err;
-      alert(message);
+      alert(err);
     },
     
     findNewResources: function() {

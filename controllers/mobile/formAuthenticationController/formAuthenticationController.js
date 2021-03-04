@@ -29,12 +29,10 @@ define(['authenticationService', 'resourcesService', 'articleService', 'utils'],
         appStorage.userProfile.login = userData.login;
         appStorage.userProfile.mail = userData.email;
         appStorage.userResources = userResources;
-        alert(appStorage.userProfile, appStorage.userResources);
         utils.navigateToForm('formNewsProviders');
       }, this.onErr);
       articleService.getUserArticles(userData.id, function(articles) {
         appStorage.articles = articles;
-        alert(appStorage.articles);
       }, this.onErr);
     },
     
