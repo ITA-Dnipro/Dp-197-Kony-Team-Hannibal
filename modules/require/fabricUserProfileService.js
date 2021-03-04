@@ -23,6 +23,23 @@ define(function () {
   }
   return err;
 }
+  
+ function validateUserPassword(pswData) {
+         var err;
+      switch (true) {
+        case (!/\S{6,}/.test(pswData.newPsw)): {
+          err = 'Password must include at least 6 symbols';
+          break;
+        }
+        case (pswData.newPsw !== pswData.confirmPsw): {
+          err = 'Password and password confirmation must match';
+          break;
+        }
+        default:
+          err = null;
+      }
+      return err;
+ } 
 
    
  function editUser(newData, succesCb, errorCb) {
@@ -61,10 +78,27 @@ define(function () {
     });
   }
   
+  function changePassword(pswData, successCb, errorCb) {
+    var err = validateUserPassword(pswData);
+    if(err) {
+      alert(err);
+    } else {
+      integrationSvc.invokeOperation('changePassword', null, pswData, function(response) {
+        if(response.changePswRes === "change_success") {
+          successCb();
+        } else {
+          errorCb();
+        }
+      });
+    }
+    
+  }
+  
 
   
     return {
         editUser: editUser,
         getUserProfileData: getUserProfileData,
+        changePassword: changePassword,
     };
 });

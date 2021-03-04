@@ -10,8 +10,7 @@ define(['utils', "articleService"], function(utils, service) {
       alert("This user doesn't exist");
     } else {
       alert("This article already added");
-    }
-    
+    }   
   }
 
   function onBtnAddClicked(thisButton, list) {

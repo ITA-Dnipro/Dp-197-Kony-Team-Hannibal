@@ -1,0 +1,28 @@
+{
+    "AS_Form_f10ea38ce2614217ad3f3fb35a5e077e": {
+        "id": "AS_Form_f10ea38ce2614217ad3f3fb35a5e077e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "formChangePassword",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a48422fb1c124f88bbdd17dac0f95736"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c4d3de0dc3d0414e89812269dcd3d71e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onInit",
+            "display": "onInit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
