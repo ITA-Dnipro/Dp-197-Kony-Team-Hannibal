@@ -63,7 +63,9 @@ define(['constants'], function (appConstants) {
 
 
   function deleteResource(userId, resourceId, successCb, errorCb) {
-    sqlSvc.invokeOperation('deleteUserResource', null, { id: resourceId }, successCb, errorCb);
+    sqlSvc.invokeOperation('deleteUserResource', null, { id: resourceId }, successCb, function(resp) {
+      errorCb(resp.errmsg);
+    });
   }
 
   return {
