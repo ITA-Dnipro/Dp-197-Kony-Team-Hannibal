@@ -3,5 +3,6 @@ define(['storeUserProfileService', 'fabricUserProfileService'], function (storeI
     return {
       editUser: concreteImpl.editUser,
       getUserProfileData: concreteImpl.getUserProfileData,
+      changePassword: concreteImpl.changePassword,
     };
 });
