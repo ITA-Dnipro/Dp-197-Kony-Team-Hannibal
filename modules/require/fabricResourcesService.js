@@ -15,7 +15,9 @@ define(['constants'], function (appConstants) {
     }
 
     var integrationSvc = client.getIntegrationService('RSSFeedService');
-    integrationSvc.invokeOperation('getRSSResources', null, { resDomain: url }, extractResources, errorCb);
+    integrationSvc.invokeOperation('getRSSResources', null, { resDomain: url }, extractResources, function(resp) {
+      errorCb(resp.errmsg);
+    });
   } 
 
   function getUserResources(userId, successCb, errorCb) {
