@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
     "DNDConfig": null,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
         "value": "50dp"
@@ -42,11 +46,14 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {},
     "focusskin": "sf91d7833c5f4cf39ae70a3f1ce12fb1",
     "id": "inputLogin",
     "info": null,
+    "isSensitiveText": false,
     "iscustomlayout": false,
     "isvisible": true,
+    "keyboardstyle": "emailpad",
     "keyboardtype": "A",
     "kuid": "bcb660e76ba74d14b95b33b95d786b9f",
     "mode": "A",

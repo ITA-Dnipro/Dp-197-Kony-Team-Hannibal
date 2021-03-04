@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sa985589b985438bba0a1c07e6f12e6c",
+    "_skin_": "s98b366669314431959ed8a41d1b41b7",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -47,7 +47,9 @@
             "name": "newResourceContainerController"
         }
     },
+    "disabledSkins": {},
     "enablescrolling": true,
+    "focusskin": "s98b366669314431959ed8a41d1b41b7",
     "id": "newResourceContainer",
     "info": null,
     "isTemplate": true,

@@ -31,7 +31,9 @@
     "canUpdateUI": true,
     "children": [
         "containerForChannels",
-        "HeaderControl"
+        "HeaderControl",
+        "location",
+        "imgLocation"
     ],
     "containerweight": 100,
     "controllerInfo": {

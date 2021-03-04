@@ -1,0 +1,190 @@
+{
+  "android": {
+    "background_color": "960096ff",
+    "bg_type": "one",
+    "border_color": "6e356e00",
+    "border_style": "cr",
+    "border_type": 0,
+    "font_color": "3b153bff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true,
+    "text_shadow": {
+      "br": 0,
+      "color": "9e4d9eff",
+      "nm": 0,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "androidwearos": {
+    "background_color": "960096ff",
+    "bg_type": "one",
+    "border_color": "6e356e00",
+    "border_style": "cr",
+    "border_type": 0,
+    "font_color": "3b153bff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true,
+    "text_shadow": {
+      "br": 0,
+      "color": "9e4d9eff",
+      "nm": 0,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "background_color": "262626ff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "font_color": "ffffffff",
+  "font_name": "iphoneSystem",
+  "font_size": 200,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "ffffff00",
+    "border_style": "cr",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "iphone": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "ffffff00",
+    "border_style": "cr",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "ffffff00",
+    "border_radius": 0,
+    "border_style": "custom",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "kuid": "s88e4146ced6414599942c6bc4923a17",
+  "spaan": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "spaip": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "spaipad": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "background_color": "960096ff",
+    "bg_type": "one",
+    "border_color": "6e356e00",
+    "border_style": "cr",
+    "border_type": 0,
+    "font_color": "3b153bff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true,
+    "text_shadow": {
+      "br": 0,
+      "color": "9e4d9eff",
+      "nm": 0,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wType": "Button",
+  "watchos": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "windows8": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "ffffff00",
+    "border_style": "custom",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  },
+  "winphone8": {
+    "background_color": "000000ff",
+    "bg_type": "one",
+    "border_color": "ffffff00",
+    "border_style": "custom",
+    "border_type": 0,
+    "font_color": "ffffffff",
+    "font_name": "FontAwesome",
+    "font_size": 250,
+    "isForked": true
+  }
+}

@@ -120,10 +120,7 @@ define(['utils'], function(utils) {
           utils.navigateToForm(data.path, formId);
           hideDropDown();
         }.bind(this, _dropDownList[i])
-      }, {
-        padding: [0, 0, 0, 0],
-        margin: [0, 0, 0, 0]        
-      });
+      },);
       
       flexScroll.add(button);
     }

@@ -114,7 +114,7 @@
                 },
                 {
                     "access": "Write",
-                    "defaultValue": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut  ➩\", \"path\": \"formAuthentication\"}]",
+                    "defaultValue": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut   ➩\", \"path\": \"formAuthentication\"}]",
                     "group": "General",
                     "kuid": "ide782e7ac70472d9f68b4ec250c7521",
                     "originalPropertyKey": "dropDownList",
@@ -177,7 +177,7 @@
                 },
                 {
                     "access": "Write",
-                    "defaultValue": "175dp",
+                    "defaultValue": "300dp",
                     "group": "General",
                     "kuid": "ga4d205ca75b410a8ddf4ba83348fbd8",
                     "originalPropertyKey": "dropDownWidth",
@@ -194,7 +194,7 @@
                 },
                 {
                     "access": "Write",
-                    "defaultValue": "3dp",
+                    "defaultValue": "1dp",
                     "group": "General",
                     "kuid": "je2f95a749ee44cfb5f679c7a8daf2c5",
                     "originalPropertyKey": "separatorSize",
