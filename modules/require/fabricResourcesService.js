@@ -20,15 +20,19 @@ define(['constants'], function (appConstants) {
 
   function getUserResources(userId, successCb, errorCb) {
     sqlSvc.invokeOperation('getUserResources', null, { userId: userId }, function(resp) {
-      var renamedRecords = resp.records.map(function(rec) {
-        return {
-          resourceId: rec.user_resource_id,
-          logo: rec.logo,
-          url: rec.url,
-          name: rec.title,
-        };
-      });
-      successCb(renamedRecords);
+      if (resp.procedure_err) {
+        errorCb(resp.procedure_err);
+      } else {
+        var renamedRecords = resp.records.map(function(rec) {
+          return {
+            resourceId: rec.user_resource_id,
+            logo: rec.logo,
+            url: rec.url,
+            name: rec.title,
+          };
+        });
+        successCb(renamedRecords);
+      }
     }, errorCb);
   }
 
@@ -41,9 +45,9 @@ define(['constants'], function (appConstants) {
     }, function (response) {
       if (response.result_error) {
         errorCb(response.result_error);
-        return;
+      } else {
+         successCb(response.users_resources_id);
       }
-      successCb();
     }, errorCb);
   }
 
