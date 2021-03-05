@@ -36,8 +36,10 @@ define(['utils', "articleService"], function(utils, service) {
     onBack: function () {
       utils.navigateToForm('formNewsFeeds');
     },
-  
-    onFormShowed: function() {
+    
+    renderDefList: function() {
+      this.view.lblNotFound.isVisible = false;
+      this.view.newsList.isVisible = true;
       var dataNews = appStorage.news.map(function(item) {
         item.btnAddNews = {
           "onClick": onBtnAddClicked.bind(this)
@@ -45,13 +47,48 @@ define(['utils', "articleService"], function(utils, service) {
         return item;
       });
       this.view.newsList.setData(dataNews);
-      this.view.HeaderControl.onBackClicked = this.onBack.bind(this);
+           
+    },
+  
+    onFormShowed: function() {
+      this.view.newsSearch.text = "";
+      this.renderDefList();
+      this.view.HeaderControl.onBackClicked = this.onBack.bind(this); 
+    },
+    
+    onCancelClick: function() {
+      this.view.newsSearch.text = "";
+      this.renderDefList();
+    },
+    
+    onSearchBtnClick: function() {
+      var searchValue = this.view.newsSearch.text;
+      var searchingNews = appStorage.news.filter(function(item) {
+        return item.newsTitle.includes(searchValue);
+      });
+      if (searchingNews.length < 1) {
+        this.view.lblNotFound.isVisible = true;
+        this.view.newsList.isVisible = false;
+      } else {
+        this.view.lblNotFound.isVisible = false;
+        this.view.newsList.isVisible = true;
+        var dataNews = searchingNews.map(function(item) {
+        item.btnAddNews = {
+          "onClick": onBtnAddClicked.bind(this)
+        };
+        return item;
+      });
+        this.view.newsList.setData(dataNews);
+      }
     },
     
 
     init: function() {
       this.view.postShow = this.onFormShowed.bind(this);
       this.view.newsList.onRowClick = onRowClicked.bind(this);
+      this.renderDefList = this.renderDefList.bind(this);
+      this.view.btnCancel.onClick = this.onCancelClick.bind(this);
+      this.view.searchResourcesBtn.onClick = this.onSearchBtnClick.bind(this);
     }
  };
 });
