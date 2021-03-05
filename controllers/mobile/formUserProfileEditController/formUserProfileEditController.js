@@ -1,12 +1,20 @@
 define(["userProfileService", 'utils'], function(service, utils) {
   
+  function successCb(newUser) {
+    appStorage.userProfile = newUser;
+    alert("Your changes have saved successfully");
+    utils.navigateToForm('formUserProfile');    
+  }
+  
+  function errorCb(err) {
+    alert(err);
+  }
+  
 	return {
       onInit: function() {
         this.view.postShow = this.onFormShow.bind(this);
         this.view.HeaderControl.onBackClicked = this.onBackBtn.bind(this);
         this.view.saveEditBtn.onClick = this.onSaveEditBtnClick.bind(this);
-        this.succesCB = this.succesCB.bind(this);
-        this.errorCB = this.errorCB.bind(this);
       },
     
       onFormShow: function() {
@@ -31,18 +39,10 @@ define(["userProfileService", 'utils'], function(service, utils) {
           mail: this.view.textFieldForMailEdit.text.trim(),
           login: this.view.textFieldForLoginEdit.text.trim(),
         };
-        service.editUser(newUserData, this.succesCB, this.errorCB);
+        utils.confirmAlert("Are you sure that you want change profile data ?", function() {
+          service.editUser(newUserData, successCb, errorCb);
+        }); 
       },
-      
-      succesCB: function(newUser) {
-        appStorage.userProfile = newUser;
-        alert("Your changes have saved successfully");
-        utils.navigateToForm('formUserProfile');
-      },
-      
-      errorCB: function(err) {
-        alert(err);
-      }
       
     };
  });
