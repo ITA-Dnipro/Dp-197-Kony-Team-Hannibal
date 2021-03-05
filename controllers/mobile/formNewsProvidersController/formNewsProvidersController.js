@@ -28,7 +28,7 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
           imgChannel: res.logo,
           url: res.url,
           btnDelete: {
-            onClick: self.deleteResource.bind(self, res.resourceId),
+            onClick: utils.confirmAlert.bind(null, 'Are you sure?', self.deleteResource.bind(self, res.resourceId)),
           },
         };
       });
