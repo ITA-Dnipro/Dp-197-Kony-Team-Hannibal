@@ -33,6 +33,11 @@ define(['utils', "articleService"], function(utils, service) {
     
     renderList: function() {
       var self = this;
+      if (appStorage.articles.length < 1) {
+        this.view.lblEmpty.isVisible = true;
+      } else {
+        this.view.lblEmpty.isVisible = false;
+      }
       var dataNews = appStorage.articles.map(function(item) {
         item.articleBtnDelete = {
           "onClick": self.deleteClick.bind(this)

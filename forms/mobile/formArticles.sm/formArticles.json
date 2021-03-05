@@ -33,7 +33,8 @@
         "HeaderControl",
         "location",
         "container",
-        "imgLocation"
+        "imgLocation",
+        "lblEmpty"
     ],
     "containerweight": 100,
     "controllerInfo": {
