@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "20dp"
     },
     "_margin_": [
         6,
@@ -19,32 +19,32 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "5dp"
+        "value": "125dp"
     },
-    "_skin_": "sab1a986286047e7a1d8d6ef97c77ea9",
-    "_text_": "",
+    "_skin_": "s89f89af27ea4df790b25446c32b8595",
+    "_text_": "✘",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "80dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25dp"
+        "value": "20dp"
     },
     "canUpdateUI": true,
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s2efb604f82d4d2cbc74178497049d98",
-    "id": "btnAddNews",
+    "focusskin": "sce4ca39dd06426bbde2267207e9d3e9",
+    "id": "btnCancel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db1746837a4d40858acfb113a83b969b",
+    "kuid": "bb1fd56bb1804daabf8efaaf03f43ae2",
     "name": "kony.ui.Button",
-    "parent": "news",
-    "pf": "newsList",
+    "paddinginpixel": false,
+    "parent": "formNewsList",
+    "pf": "formNewsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

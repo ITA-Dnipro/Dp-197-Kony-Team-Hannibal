@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "25dp"
+        "value": "30dp"
     },
     "_margin_": [
         6,
@@ -15,36 +15,36 @@
         0,
         0,
         0,
-        0
+        1
     ],
     "_right_": {
         "type": "string",
-        "value": "5dp"
+        "value": "95dp"
     },
-    "_skin_": "sab1a986286047e7a1d8d6ef97c77ea9",
-    "_text_": "",
+    "_skin_": "s6782e66e1e74e4db3a96f85b9bd52b2",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "75dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25dp"
+        "value": "30dp"
     },
     "canUpdateUI": true,
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s2efb604f82d4d2cbc74178497049d98",
-    "id": "btnAddNews",
+    "focusskin": "s411c0540731499f9e8fb6b632319dc0",
+    "id": "searchResourcesBtn",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db1746837a4d40858acfb113a83b969b",
+    "kuid": "g4f63628418e4a73b105ef92b2960218",
     "name": "kony.ui.Button",
-    "parent": "news",
-    "pf": "newsList",
+    "paddinginpixel": false,
+    "parent": "formNewsList",
+    "pf": "formNewsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

@@ -127,9 +127,6 @@ define(['utils'], function(utils) {
           if (i === 1) {
            return _dropDownList[1].name = appStorage.userProfile.login;
           } else { return _dropDownList[i].name; }
-//           if (i > 0) {
-//             return _dropDownList[i].name;
-//           }
         }()),
         onClick: function(data){ 
           var formId = kony.application.getCurrentForm().id;
