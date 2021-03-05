@@ -1,97 +1,98 @@
 {
   "android": {
     "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_size": 150,
     "isForked": false
   },
   "androidwearos": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "default",
+    "font_size": 150,
     "isForked": false
   },
-  "background_color": "c70404ff",
+  "background_color": "000000bf",
   "bg_type": "one",
   "border_color": "ffffffff",
-  "border_style": "rc",
+  "border_radius": 100,
+  "border_style": "custom",
   "border_type": 0,
   "border_width": 1,
   "desktopweb": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "fontSizeInPx": false,
   "font_color": "ffffffff",
   "font_name": "iphoneSystem",
-  "font_size": 120,
+  "font_size": 150,
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "System",
+    "font_size": 150,
     "isForked": false
   },
   "iphone": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "System",
+    "font_size": 150,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "None",
+    "font_size": 150,
     "isForked": false
   },
-  "kuid": "sb75b505d3dd46eb8b230be95f925695",
+  "kuid": "s4d6ed85b0ad4c8dbbda1caa59b91a85",
   "spaan": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "spaandroidtablet": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "spaip": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "spaipad": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "spawindowstablet": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "spawinphone8": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "Helvetica",
+    "font_size": 150,
     "isForked": false
   },
   "tabrcandroid": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "default",
+    "font_size": 150,
     "isForked": false
   },
   "wType": "Button",
   "watchos": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "System",
+    "font_size": 150,
     "isForked": false
   },
   "windows8": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "None",
+    "font_size": 150,
     "isForked": false
   },
   "winphone8": {
-    "font_name": "FontAwesome",
-    "font_size": 120,
+    "font_name": "None",
+    "font_size": 150,
     "isForked": false
   }
 }

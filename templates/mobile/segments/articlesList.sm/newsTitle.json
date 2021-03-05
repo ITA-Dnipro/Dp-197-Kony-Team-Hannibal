@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "30dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -29,7 +29,7 @@
     "_text_": "Title",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "35dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -57,7 +57,6 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "g1a2539c56024ec2b4f20402f83cdff1",
-    "maxnumberoflines": 1,
     "name": "kony.ui.Label",
     "parent": "articles",
     "pf": "articlesList",

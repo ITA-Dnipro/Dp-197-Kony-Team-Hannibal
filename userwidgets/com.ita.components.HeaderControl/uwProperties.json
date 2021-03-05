@@ -114,7 +114,7 @@
                 },
                 {
                     "access": "Write",
-                    "defaultValue": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut   ➩\", \"path\": \"formAuthentication\"}]",
+                    "defaultValue": "[{\"id\": \"1\",\"name\": \"Home\", \"path\": \"formNewsProviders\"},\n {\"id\": \"2\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"3\",\"name\": \"LogOut   ✈\", \"path\": \"formAuthentication\"}]",
                     "group": "General",
                     "kuid": "ide782e7ac70472d9f68b4ec250c7521",
                     "originalPropertyKey": "dropDownList",

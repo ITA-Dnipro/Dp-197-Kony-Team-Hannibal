@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
@@ -25,11 +25,11 @@
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "40dp"
+        "value": "43dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "25dp"
     },
     "canUpdateUI": true,
     "containerId": true,

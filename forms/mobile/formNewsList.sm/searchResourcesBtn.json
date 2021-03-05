@@ -1,13 +1,9 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "30dp"
     },
     "_margin_": [
         6,
@@ -23,33 +19,32 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "55dp"
+        "value": "95dp"
     },
-    "_skin_": "s90c6d00a08a4f82bf0bfe29c02d532a",
-    "_text_": "✭",
+    "_skin_": "s6782e66e1e74e4db3a96f85b9bd52b2",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "110dp"
+        "value": "75dp"
     },
     "_width_": {
         "type": "string",
-        "value": "35dp"
+        "value": "30dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s4d6ed85b0ad4c8dbbda1caa59b91a85",
-    "id": "BtnShowfavorites",
+    "focusskin": "s411c0540731499f9e8fb6b632319dc0",
+    "id": "searchResourcesBtn",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ab2b1505edf748afb37b73620029bb7c",
+    "kuid": "g4f63628418e4a73b105ef92b2960218",
     "name": "kony.ui.Button",
-    "paddingLocked": false,
     "paddinginpixel": false,
-    "parent": "formUserProfile",
-    "pf": "formUserProfile",
+    "parent": "formNewsList",
+    "pf": "formNewsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

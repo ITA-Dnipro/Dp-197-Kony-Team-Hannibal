@@ -1,13 +1,9 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_height_": {
         "type": "string",
-        "value": "35dp"
+        "value": "20dp"
     },
     "_margin_": [
         6,
@@ -19,37 +15,36 @@
         0,
         0,
         0,
-        1
+        0
     ],
     "_right_": {
         "type": "string",
-        "value": "55dp"
+        "value": "125dp"
     },
-    "_skin_": "s90c6d00a08a4f82bf0bfe29c02d532a",
-    "_text_": "✭",
+    "_skin_": "s89f89af27ea4df790b25446c32b8595",
+    "_text_": "✘",
     "_top_": {
         "type": "string",
-        "value": "110dp"
+        "value": "80dp"
     },
     "_width_": {
         "type": "string",
-        "value": "35dp"
+        "value": "20dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s4d6ed85b0ad4c8dbbda1caa59b91a85",
-    "id": "BtnShowfavorites",
+    "focusskin": "sce4ca39dd06426bbde2267207e9d3e9",
+    "id": "btnCancel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ab2b1505edf748afb37b73620029bb7c",
+    "kuid": "bb1fd56bb1804daabf8efaaf03f43ae2",
     "name": "kony.ui.Button",
-    "paddingLocked": false,
     "paddinginpixel": false,
-    "parent": "formUserProfile",
-    "pf": "formUserProfile",
+    "parent": "formNewsList",
+    "pf": "formNewsList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

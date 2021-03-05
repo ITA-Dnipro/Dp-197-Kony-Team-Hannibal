@@ -33,7 +33,10 @@
         "HeaderControl",
         "location",
         "container",
-        "imgLocation"
+        "imgLocation",
+        "newsSearch",
+        "searchResourcesBtn",
+        "btnCancel"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -103,7 +106,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "iPhone11",
+    "prevDevice": "PixelXL",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

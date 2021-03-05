@@ -25,7 +25,7 @@
         "type": "string",
         "value": "100dp"
     },
-    "_skin_": "s90c6d00a08a4f82bf0bfe29c02d532a",
+    "_skin_": "sd04e9d1108e4d829c4bfa79813e232a",
     "_text_": "✎",
     "_top_": {
         "type": "string",
@@ -39,7 +39,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s411c0540731499f9e8fb6b632319dc0",
+    "focusskin": "s52bef6cd24649db8c5973a2531f476f",
     "id": "editBtn",
     "info": null,
     "iscustomlayout": false,

@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "40dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -21,16 +21,16 @@
         0,
         0
     ],
-    "_placeholder_": "Password",
-    "_right_": {
-        "type": "number",
-        "value": "40"
-    },
-    "_skin_": "s6634e10048745119ebf0cb34a37694f",
+    "_placeholder_": "Search",
+    "_skin_": "sc8c9e8a0d6d4c3ab334474706c662f6",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "360dp"
+        "value": "75dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "235dp"
     },
     "android": {},
     "autocapitalize": "none",
@@ -41,22 +41,22 @@
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 5,
-    "focusskin": "sf91d7833c5f4cf39ae70a3f1ce12fb1",
-    "id": "inputPassword",
+    "contentalignment": 4,
+    "focusskin": "s5bbe1c5943f4509b3be0a4d6c5452d8",
+    "id": "newsSearch",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "d0345b348a2b4ab58c0b36b89c9497aa",
+    "kuid": "a0d4dce35d5d4b159335da018cf82f6c",
     "mode": "A",
     "name": "kony.ui.TextBox2",
-    "parent": "formAuthentication",
-    "pf": "formAuthentication",
-    "placeholderskin": "s6634e10048745119ebf0cb34a37694f",
+    "parent": "formNewsList",
+    "pf": "formNewsList",
+    "placeholderskin": "s809ed3ed4ad4153ac48e8630008c9f5",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "securetextentry": true,
+    "securetextentry": false,
     "textinputmode": "A",
     "tooltip": "",
     "viewtype": "default",

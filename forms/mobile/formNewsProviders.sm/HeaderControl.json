@@ -39,7 +39,7 @@
     "clipbounds": true,
     "containerweight": 0,
     "data": {
-        "dropDownList": "[{\"id\": \"1\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"2\",\"name\": \"LogOut  ➩\", \"path\": \"formAuthentication\"}]",
+        "dropDownList": "[{\"id\": \"1\",\"name\": \"Home\", \"path\": \"formNewsProviders\"},\n {\"id\": \"2\", \"name\": \"appStorage.userProfile.login\", \"path\": \"formUserProfile\"},\n {\"id\": \"3\",\"name\": \"LogOut   ✈\", \"path\": \"formAuthentication\"}]",
         "dropDownWidth": "175dp",
         "isBackVisible": false,
         "separatorSize": "3dp"

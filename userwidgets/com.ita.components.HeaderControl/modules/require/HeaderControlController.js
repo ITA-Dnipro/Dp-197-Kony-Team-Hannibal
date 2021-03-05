@@ -97,7 +97,23 @@ define(['utils'], function(utils) {
         margin: [0, 0, 0, 0]
     });
 
-
+  var logOut = function () {
+    appStorage = {
+          newsToShow: {},
+          userId: null,
+          userProfile: {
+            login: '',
+            fullName: '',
+            mail: ''
+          },
+          articles: [],
+          userResources: [],
+          feeds: [],
+          news: [],
+      };
+    utils.navigateToForm("formAuthentication");
+  };
+    
     for (var i = 0; i < _dropDownList.length; i++) {
       var button = new kony.ui.Button({
         id: "flxHeaderControlListItem" + i,
@@ -108,16 +124,14 @@ define(['utils'], function(utils) {
         top: _separatorSize,
         isVisible: true,
         text: (function () {
-          if (i === 0) {
-           return _dropDownList[0].name = appStorage.userProfile.login;
-          } 
-          if (i > 0) {
-            return _dropDownList[i].name;
-          }
+          if (i === 1) {
+           return _dropDownList[1].name = appStorage.userProfile.login;
+          } else { return _dropDownList[i].name; }
         }()),
         onClick: function(data){ 
           var formId = kony.application.getCurrentForm().id;
-          utils.navigateToForm(data.path, formId);
+          if (data.path === 'formAuthentication') utils.confirmAlert("Are you sure that you want log out ?", logOut);
+          if (!(data.path === 'formAuthentication'))utils.navigateToForm(data.path, formId);
           hideDropDown();
         }.bind(this, _dropDownList[i])
       },);

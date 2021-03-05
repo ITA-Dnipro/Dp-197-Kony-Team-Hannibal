@@ -3,11 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "90dp"
+        "value": "25dp"
     },
     "_margin_": [
         6,
@@ -21,15 +17,19 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "5dp"
+    },
     "_skin_": "sab1a986286047e7a1d8d6ef97c77ea9",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "40dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "25dp"
     },
     "canUpdateUI": true,
     "containerId": true,
