@@ -130,7 +130,7 @@ define(['utils'], function(utils) {
         }()),
         onClick: function(data){ 
           var formId = kony.application.getCurrentForm().id;
-          if (data.path === 'formAuthentication') utils.confirmAlert("Are you sure that you want log out ?", logOut);
+          if (data.path === 'formAuthentication') utils.confirmAlert("Are you sure that you want to log out ?", logOut);
           if (!(data.path === 'formAuthentication'))utils.navigateToForm(data.path, formId);
           hideDropDown();
         }.bind(this, _dropDownList[i])

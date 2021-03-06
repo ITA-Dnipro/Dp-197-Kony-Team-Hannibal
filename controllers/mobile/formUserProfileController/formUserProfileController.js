@@ -61,7 +61,7 @@ define(['utils'], function(utils) {
       },
       
       onBtnLogOutClick: function() {
-        utils.confirmAlert("Are you sure that you want log out ?", this.logOut);
+        utils.confirmAlert("Are you sure that you want to log out ?", this.logOut);
       },
       
       
