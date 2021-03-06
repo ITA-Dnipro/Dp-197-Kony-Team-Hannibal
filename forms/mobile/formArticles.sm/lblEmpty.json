@@ -21,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s20773cac5d14a8f98094704365ebd06",
-    "_text_": "Your article collection is empty",
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "sead6ef4fe484e51a2c634d527f8e7cc",
+    "_text_": "News collection is empty",
     "_top_": {
         "type": "string",
-        "value": "400dp"
+        "value": "410dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,7 +44,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblEmpty",
     "info": null,
     "ipad": {
