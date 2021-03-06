@@ -57,7 +57,7 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
         });
       });
       if (uniqResources.length === 0) {
-        this.showErr('Choosen resources have already been added to the app');
+        this.showErr('There is nothing to add. Maybe it is because you didn\'t choose any resource or choosen resources have already been added to the app');
         return;
       }
       resourcesService.addResources(appStorage.userId, uniqResources, function() {
