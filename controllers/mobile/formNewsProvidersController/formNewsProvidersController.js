@@ -22,16 +22,24 @@ define(['constants', 'topicsService', 'resourcesService', 'utils'], function(con
     
     renderResources: function() {
       var self = this;
-      var resources = appStorage.userResources.map(function(res) {
+      var resources = appStorage.userResources;
+      if (resources.length === 0) {
+        this.view.lblEmptyResources.isVisible = true;
+        this.view.newsChannels.isVisible = false;
+        return;
+      }
+      resources = appStorage.userResources.map(function(res) {
         return {
           lblTitle: res.name,
           imgChannel: res.logo,
           url: res.url,
           btnDelete: {
-            onClick: utils.confirmAlert.bind(null, 'Are you sure that you want to delete ?', self.deleteResource.bind(self, res.resourceId)),
+            onClick: utils.confirmAlert.bind(null, 'Are you sure that you want to delete this resource?', self.deleteResource.bind(self, res.resourceId)),
           },
         };
       });
+      this.view.lblEmptyResources.isVisible = false;
+      this.view.newsChannels.isVisible = true;
       this.view.newsChannels.setData(resources);
     },
     
