@@ -33,7 +33,8 @@
         "containerForChannels",
         "HeaderControl",
         "location",
-        "imgLocation"
+        "imgLocation",
+        "lblEmptyResources"
     ],
     "containerweight": 100,
     "controllerInfo": {
