@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -23,13 +23,13 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
-    "_skin_": "s3367ff2872240d09975805efa05c7aa",
-    "_text_": "You don't have any resources",
+    "_skin_": "sead6ef4fe484e51a2c634d527f8e7cc",
+    "_text_": "Providers is empty",
     "_top_": {
         "type": "string",
-        "value": "200dp"
+        "value": "410dp"
     },
     "_width_": {
         "type": "ref",
