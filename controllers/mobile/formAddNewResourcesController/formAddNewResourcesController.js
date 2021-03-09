@@ -48,8 +48,6 @@ define(['resourcesService', 'utils'], function (resourcesService, utils) {
     addNewResources: function() {
       var selectedResources = this.view.newResourcesSegment.data.filter(function(rowData) {
         return !rowData.switch || rowData.switch === '0.0';
-      }).map(function(resource) {
-        return new NewsResourceModel(resource.name, resource.url, resource.logo);
       });
       var uniqResources = selectedResources.filter(function(newRes) {
         return !appStorage.userResources.some(function(oldRes) {
